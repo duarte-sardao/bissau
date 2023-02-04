@@ -44,12 +44,7 @@ public class MouseHandler : MonoBehaviour
                 if(hit.collider.transform.CompareTag("unit"))
                 {
                     holding = hit.collider.gameObject.GetComponent<UnitLogic>();
-                    if(holding.moving) //hack
-                    {
-                        holding = null;
-                    } else {
-                        lineRenderer.enabled = true;
-                    }
+                    lineRenderer.enabled = true;
                 }
             }
         } else
@@ -80,7 +75,7 @@ public class MouseHandler : MonoBehaviour
         {
             if(holding != null && lastKnownPath != null)
             {
-                holding.Move(lastKnownPath, lastKnownSect);
+                holding.Move(calculator.CalculateDistance(holding.sector, lastKnownSect, true), lastKnownSect); //might have changed
                 lastKnownSect = null;
                 lastKnownPath = null;
             }

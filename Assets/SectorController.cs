@@ -28,17 +28,17 @@ public class SectorController : MonoBehaviour
     {
         if (foreign)
             return;
-        if(friend != null && enemy != null)
+        if(occ(friend) && occ(enemy))
         {
             //do battle GRRRR
         }
-        else if(friend != null && ControlLevel > -100)
+        else if(occ(friend) && ControlLevel > -100)
         {
             ControlLevel -= Time.deltaTime*10;
             if (ControlLevel < -100)
                 ControlLevel = -100;
             FlagUpdate();
-        } else if(enemy != null && ControlLevel < 100)
+        } else if(occ(enemy) && ControlLevel < 100)
         {
             ControlLevel += Time.deltaTime * 10;
             if (ControlLevel > 100)
@@ -60,5 +60,10 @@ public class SectorController : MonoBehaviour
         }
         float height = 2.05f + 0.4f * Mathf.Abs(ControlLevel/100);
         flags.transform.localPosition = new Vector3(flags.transform.localPosition.x, height, 0);
+    }
+
+    public bool occ(UnitLogic unit)
+    {
+        return (unit != null && !unit.moving);
     }
 }

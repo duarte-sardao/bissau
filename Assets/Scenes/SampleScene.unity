@@ -551,6 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   calculator: {fileID: 1944486209}
+  lastKnownSect: {fileID: 0}
 --- !u!4 &401556378
 Transform:
   m_ObjectHideFlags: 0
@@ -1567,7 +1568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -3558,7 +3559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -3960,7 +3961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
@@ -4201,7 +4202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6681592382883386778, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size

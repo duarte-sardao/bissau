@@ -214,7 +214,7 @@ GameObject:
   - component: {fileID: 6681592382883386778}
   m_Layer: 0
   m_Name: Sector
-  m_TagString: Untagged
+  m_TagString: sector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -250,9 +250,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ControlLevel: 100
+  friend: {fileID: 0}
+  enemy: {fileID: 0}
   flags: {fileID: 2897980845828825781}
   ptflag: {fileID: 2897980846134892894}
-  bordering: []
   foreign: 0
   center: {x: 0, y: 0, z: 0}
   centerobj: {fileID: 3975833076741947959}

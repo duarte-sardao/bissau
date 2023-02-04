@@ -19,8 +19,15 @@ public class UnitLogic : MonoBehaviour
         path = p;
         moving = true;
         sector.friend = null;
-        sector = target;
         GetNextMove();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("sector"))
+        {
+            sector = collision.GetComponent<SectorController>();
+        }
     }
 
     private void GetNextMove()
