@@ -44,7 +44,14 @@ public class MouseHandler : MonoBehaviour
                 if(hit.collider.transform.CompareTag("unit"))
                 {
                     holding = hit.collider.gameObject.GetComponent<UnitLogic>();
-                    lineRenderer.enabled = true;
+                    if (holding.moving) //hack
+                    {
+                        holding = null;
+                    }
+                    else
+                    {
+                        lineRenderer.enabled = true;
+                    }
                 }
             }
         } else

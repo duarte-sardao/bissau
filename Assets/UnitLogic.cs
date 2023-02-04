@@ -12,29 +12,50 @@ public class UnitLogic : MonoBehaviour
     public bool guinean;
     public GameObject healthin;
 
+    private void Start()
+    {
+        sector.friend = this;
+    }
+
     public void Move(Stack<Vector3> p, SectorController target)
     {
         if (p.Count < 1)
             return;
         path = p;
         moving = true;
-        sector.friend = null;
+
+        if(guinean && target.friend != null && !target.friend.moving)
+        {
+            target.friend.Move(ReversePath(), sector);
+        } else
+        {
+            sector.friend = null;
+        }
+
+        target.friend = this;
+        sector = target;
+
+
         GetNextMove();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private Stack<Vector3> ReversePath()
     {
-        if(collision.CompareTag("sector"))
+        var list = path.ToArray();
+        var reversed = new Stack<Vector3>();
+        reversed.Push(sector.center);
+        foreach(var pos in list)
         {
-            sector = collision.GetComponent<SectorController>();
+            reversed.Push(pos);
         }
+        reversed.Pop();
+        return reversed;
     }
 
     private void GetNextMove()
     {
         if(path.Count < 1)
         {
-            sector.friend = this;
             moving = false;
             return;
         }
