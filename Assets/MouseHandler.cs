@@ -12,6 +12,8 @@ public class MouseHandler : MonoBehaviour
     public SectorController lastKnownSect;
     public Stack<Vector3> lastKnownPath;
 
+    public SideMenu side;
+
     public void Start()
     {
         lineRenderer = gameObject.AddComponent<LineRenderer>();
@@ -52,6 +54,12 @@ public class MouseHandler : MonoBehaviour
                     {
                         lineRenderer.enabled = true;
                     }
+                } else if(hit.collider.transform.CompareTag("sidemenu"))
+                {
+                    side.Close();
+                } else if(hit.collider.transform.CompareTag("sector"))
+                {
+                    side.Open(hit.collider.GetComponent<SectorController>());
                 }
             }
         } else

@@ -16,9 +16,19 @@ public class SectorController : MonoBehaviour
     public Vector3 center;
     public GameObject centerobj;
 
+    public string sname;
+
+    public bool clinics;
+    public bool schools;
+    public bool farm;
+    public bool camp;
+
     private void Start()
     {
         center = centerobj.transform.position;
+        sname = this.gameObject.name;
+        char[] spearator = { '-' };
+        sname = sname.Split(spearator)[1];
         if (foreign)
             return;
         FlagUpdate();

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - unit
   - sector
+  - sidemenu
   layers:
   - Default
   - TransparentFX
