@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ResourceManager : MonoBehaviour
+public class ResourceManager : GlobalVars
 {
 
     public int politic;
@@ -46,17 +46,17 @@ public class ResourceManager : MonoBehaviour
             {
                 lastmon += 1;
                 lastpol += 1;
-                if (sect.schools)
+                if (sect.buildings["school"].built)
                 {
-                    lastpol += 4;
-                    lastmon -= 1;
+                    lastpol += g_schoolgain;
+                    lastmon -= g_buildingcost;
                 }
-                if (sect.clinics)
-                    lastmon -= 1;
-                if (sect.farm)
-                    lastmon += 4;
-                if (sect.camp)
-                    lastmon -= 10;
+                if (sect.buildings["hospital"].built)
+                    lastmon -= g_buildingcost;
+                if (sect.buildings["farm"].built)
+                    lastmon += g_farmgain;
+                if (sect.buildings["camp"].built)
+                    lastmon -= g_campcost;
             }
         }
         money = Mathf.Clamp(money+lastmon, -999, 999);

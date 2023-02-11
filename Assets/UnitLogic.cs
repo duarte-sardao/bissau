@@ -12,6 +12,22 @@ public class UnitLogic : MonoBehaviour
     public bool guinean;
     public GameObject healthin;
 
+    public int foreigncount;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        var sect = collision.GetComponent<SectorController>();
+        if (sect.foreign)
+            foreigncount++;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        var sect = collision.GetComponent<SectorController>();
+        if (sect.foreign)
+            foreigncount--;
+    }
+
     private void Start()
     {
         sector.friend = this;
@@ -69,7 +85,9 @@ public class UnitLogic : MonoBehaviour
         {
             if(Vector3.Distance(this.transform.position, next) > 0.01f)
             {
-                this.transform.position += (next - this.transform.position).normalized * Time.deltaTime;
+                var mult = 1f;
+                if (foreigncount > 0) mult = 2f;
+                this.transform.position += (next - this.transform.position).normalized * Time.deltaTime * mult;
             } else
             {
                 GetNextMove();
@@ -78,7 +96,10 @@ public class UnitLogic : MonoBehaviour
         {
             if(health < 1 && ((sector.ControlLevel == -100 && guinean) || (sector.ControlLevel == 100 && !guinean)))
             {
-                UpdateHealth(Time.deltaTime * 0.05f);
+                float bas = 0.05f;
+                if (guinean && sector.buildings["hospital"].built)
+                    bas = bas * 2;
+                UpdateHealth(Time.deltaTime * bas);
             }
         }
     }

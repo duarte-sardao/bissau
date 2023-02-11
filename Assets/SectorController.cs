@@ -2,8 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SectorController : MonoBehaviour
+public class SectorController : GlobalVars
 {
+
+    [System.Serializable]
+    public class Building
+    {
+        public Building(GameObject mapobj)
+        {
+            built = false;
+            building = false;
+            timebuilding = 0;
+            obj = mapobj;
+        }
+
+        public GameObject obj;
+        public float timebuilding { get; set; }
+        public bool built;
+        public bool building { get; set; }
+    }
 
 
     public float ControlLevel = 100f;
@@ -18,10 +35,8 @@ public class SectorController : MonoBehaviour
 
     public string sname;
 
-    public bool clinics;
-    public bool schools;
-    public bool farm;
-    public bool camp;
+    public Dictionary<string, Building> buildings = new Dictionary<string, Building>();
+    public GameObject[] buildobj;
 
     private void Start()
     {
@@ -29,6 +44,15 @@ public class SectorController : MonoBehaviour
         sname = this.gameObject.name;
         char[] spearator = { '-' };
         sname = sname.Split(spearator)[1];
+
+        foreach(var obj in buildobj)
+        {
+            var bld = new Building(obj);
+            bld.obj.SetActive(false);
+            buildings.Add(obj.name, bld);
+        }
+
+
         if (foreign)
             return;
         FlagUpdate();
@@ -54,6 +78,25 @@ public class SectorController : MonoBehaviour
             if (ControlLevel > 100)
                 ControlLevel = 100;
             FlagUpdate();
+        }
+        BuildingBuilding();
+    }
+
+    private void BuildingBuilding()
+    {
+        foreach(var key in buildings.Keys) {
+            if(buildings[key].building)
+            {
+                buildings[key].timebuilding += Time.deltaTime;
+                if(buildings[key].timebuilding > g_buildtime)
+                {
+                    buildings[key].timebuilding = 0f;
+                    buildings[key].building = false;
+                    buildings[key].built = true;
+                    buildings[key].obj.SetActive(true);
+                }
+
+            }
         }
     }
 
