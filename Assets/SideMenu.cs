@@ -88,7 +88,7 @@ public class SideMenu : GlobalVars
                     buildProg[i].gameObject.SetActive(true);
                     buildProg[i].text = Mathf.RoundToInt(buildd.timebuilding / g_buildtime * 100) + "%";
                 }
-                else
+                else if(sector.ControlLevel == -100)
                 {
                     buildButts[i].gameObject.SetActive(true);
                 }

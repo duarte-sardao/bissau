@@ -87,6 +87,12 @@ public class SectorController : GlobalVars
         foreach(var key in buildings.Keys) {
             if(buildings[key].building)
             {
+                if(ControlLevel != -100)
+                {
+                    buildings[key].timebuilding = 0f;
+                    buildings[key].building = false;
+                    return;
+                }
                 buildings[key].timebuilding += Time.deltaTime;
                 if(buildings[key].timebuilding > g_buildtime)
                 {

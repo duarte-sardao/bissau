@@ -14,6 +14,11 @@ public class ResourceManager : GlobalVars
     public float updatetime;
     private float acctime;
 
+    public TMPro.TMP_Text polval;
+    public TMPro.TMP_Text polgain;
+    public TMPro.TMP_Text monval;
+    public TMPro.TMP_Text mongain;
+
     void Start()
     {
         var all = FindObjectsOfType<SectorController>();
@@ -24,6 +29,7 @@ public class ResourceManager : GlobalVars
                 sects.Add(sect);
             }
         }
+        UpdateBoard();
     }
 
     void Update()
@@ -61,5 +67,15 @@ public class ResourceManager : GlobalVars
         }
         money = Mathf.Clamp(money+lastmon, -999, 999);
         politic = Mathf.Clamp(politic+lastpol, -999, 999);
+
+        UpdateBoard();
+    }
+
+    private void UpdateBoard()
+    {
+        monval.text = money.ToString();
+        polval.text = politic.ToString();
+        mongain.text = lastmon.ToString("+0;-#");
+        polgain.text = lastpol.ToString("+0;-#");
     }
 }
