@@ -32,6 +32,8 @@ public class SectorController : GlobalVars
 
     public Vector3 center;
     public GameObject centerobj;
+    public Vector3 enemcenter;
+    public GameObject enemcenterobj;
 
     public string sname;
 
@@ -41,6 +43,7 @@ public class SectorController : GlobalVars
     private void Start()
     {
         center = centerobj.transform.position;
+        enemcenter = enemcenterobj.transform.position;
         sname = this.gameObject.name;
         char[] spearator = { '-' };
         sname = sname.Split(spearator)[1];
@@ -124,5 +127,27 @@ public class SectorController : GlobalVars
     public bool occ(UnitLogic unit)
     {
         return (unit != null && !unit.moving);
+    }
+
+    public UnitLogic GetUnit(bool guin)
+    {
+        if (guin)
+            return friend;
+        return enemy;
+    }
+
+    public void SetUnit(bool guin, UnitLogic unit)
+    {
+        if (guin)
+            this.friend = unit;
+        else
+            this.enemy = unit;
+    }
+
+    public Vector3 GetCenter(bool guin)
+    {
+        if (guin)
+            return center;
+        return enemcenter;
     }
 }

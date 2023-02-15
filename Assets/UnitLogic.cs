@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class UnitLogic : MonoBehaviour
 {
-    private Stack<Vector3> path;
-    private Vector3 next;
+    protected Stack<Vector3> path;
+    protected Vector3 next;
     public SectorController sector;
     public bool moving = false;
     public float health = 1; //make bar
-    public bool guinean;
+    protected bool guinean;
     public GameObject healthin;
 
     public int foreigncount;
@@ -31,6 +31,7 @@ public class UnitLogic : MonoBehaviour
     private void Start()
     {
         sector.friend = this;
+        guinean = true;
     }
 
     public void Move(Stack<Vector3> p, SectorController target)
@@ -45,10 +46,10 @@ public class UnitLogic : MonoBehaviour
             target.friend.Move(ReversePath(), sector);
         } else
         {
-            sector.friend = null;
+            sector.SetUnit(guinean, null);
         }
 
-        target.friend = this;
+        target.SetUnit(guinean, this);
         sector = target;
 
 
@@ -59,7 +60,7 @@ public class UnitLogic : MonoBehaviour
     {
         var list = path.ToArray();
         var reversed = new Stack<Vector3>();
-        reversed.Push(sector.center);
+        reversed.Push(sector.GetCenter(guinean));
         foreach(var pos in list)
         {
             reversed.Push(pos);
@@ -98,7 +99,7 @@ public class UnitLogic : MonoBehaviour
             {
                 float bas = 0.05f;
                 if (guinean && sector.buildings["hospital"].built)
-                    bas = bas * 2;
+                    bas *= 2;
                 UpdateHealth(Time.deltaTime * bas);
             }
         }

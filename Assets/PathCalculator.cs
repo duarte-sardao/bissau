@@ -107,7 +107,7 @@ public class PathCalculator : MonoBehaviour
             int cur = tarpos;
             while (cur != orpos)
             {
-                pathforunit.Push(sectors[cur].sector.center);
+                pathforunit.Push(sectors[cur].sector.GetCenter(guinean));
                 cur = path[cur];
             }
         }
@@ -124,6 +124,48 @@ public class PathCalculator : MonoBehaviour
         for(int i = 0; i < sectors.Length; i++)
         {
             sectors[i].Distance = 99999;
+        }
+    }
+
+    public void GetSpotForEnemy(SectorController origin)
+    {
+        Stack<Vector3> bestpath = null;
+        SectorController targ = null;
+        float bestval = 999999;
+        foreach(Sector sectobj in sectors)
+        {
+            var sector = sectobj.sector;
+            if (sector.enemy != null && sector == origin)
+                continue;
+            var newval = sector.ControlLevel;
+            if (sector.buildings["hospital"].built)
+                newval -= 10;
+            if (sector.buildings["school"].built)
+                newval -= 10;
+            if (sector.buildings["farm"].built)
+                newval -= 10;
+            if (sector.buildings["camp"].built)
+                newval -= 50;
+            if(sector.friend != null)
+            {
+                var diff = sector.friend.health - origin.enemy.health;
+                if (diff > 0)
+                    newval += diff * 10;
+                else
+                    newval += diff;
+            }
+            if(newval > bestval) //if value is the same should pick a border one
+            {
+                var path = CalculateDistance(origin, sector, false);
+                if (path.Count < 1)
+                    continue;
+                bestpath = path;
+                targ = sector;
+            }
+        }
+        if(targ != null)
+        {
+            origin.enemy.Move(bestpath, targ);
         }
     }
 }
