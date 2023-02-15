@@ -46,7 +46,7 @@ public class MouseHandler : MonoBehaviour
                 if(hit.collider.transform.CompareTag("unit"))
                 {
                     holding = hit.collider.gameObject.GetComponent<UnitLogic>();
-                    if (holding.moving) //hack
+                    if (holding.moving || !holding.guinean) //hack
                     {
                         holding = null;
                     }

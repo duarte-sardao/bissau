@@ -80,7 +80,7 @@ public class PathCalculator : MonoBehaviour
                 //if current sector is friendly -> nochecks
                 //if current sector is hostile -> can go friendly
                 var hostile = (guinean && orlev > 0) || (!guinean && orlev < 0);
-                if((hostile && orlev*clev > 0) || clev > 100) //means target is same sign ergo unfriendly or its senegal
+                if((hostile && orlev*clev > 0) || clev > 100 || (!guinean && sectors[edg.Out].sector.foreign)) //means target is same sign ergo unfriendly or its senegal
                 {
                     continue;
                 }
@@ -135,7 +135,7 @@ public class PathCalculator : MonoBehaviour
         foreach(Sector sectobj in sectors)
         {
             var sector = sectobj.sector;
-            if (sector.enemy != null && sector == origin)
+            if (sector.enemy != null || sector == origin || sector.foreign)
                 continue;
             var newval = sector.ControlLevel;
             if (sector.buildings["hospital"].built)
@@ -148,23 +148,26 @@ public class PathCalculator : MonoBehaviour
                 newval -= 50;
             if(sector.friend != null)
             {
-                var diff = sector.friend.health - origin.enemy.health;
+                var diff = (sector.friend.health - origin.enemy.health)*100;
                 if (diff > 0)
                     newval += diff * 10;
                 else
                     newval += diff;
             }
-            if(newval > bestval) //if value is the same should pick a border one
+            if(newval < bestval) //if value is the same should pick a border one (important :))
             {
+                //Debug.Log(newval);
                 var path = CalculateDistance(origin, sector, false);
                 if (path.Count < 1)
                     continue;
                 bestpath = path;
+                bestval = newval;
                 targ = sector;
             }
         }
         if(targ != null)
         {
+            //Debug.Log(targ);
             origin.enemy.Move(bestpath, targ);
         }
     }

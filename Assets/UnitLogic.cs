@@ -9,7 +9,7 @@ public class UnitLogic : MonoBehaviour
     public SectorController sector;
     public bool moving = false;
     public float health = 1; //make bar
-    protected bool guinean;
+    public bool guinean;
     public GameObject healthin;
 
     public int foreigncount;
