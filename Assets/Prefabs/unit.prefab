@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2784350432453284931}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 0.22, z: 0}
+  m_LocalPosition: {x: 0.07, y: 0.22, z: 0.1}
   m_LocalScale: {x: 1, y: 0.45, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -332,6 +332,7 @@ MonoBehaviour:
   health: 1
   guinean: 0
   healthin: {fileID: 5392866336903023540}
+  foreigncount: 0
 --- !u!50 &7489928247315867095
 Rigidbody2D:
   serializedVersion: 4

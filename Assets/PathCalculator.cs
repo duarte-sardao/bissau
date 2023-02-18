@@ -138,6 +138,7 @@ public class PathCalculator : MonoBehaviour
             if (sector.enemy != null || sector == origin || sector.foreign)
                 continue;
             var newval = sector.ControlLevel;
+            //building
             if (sector.buildings["hospital"].built)
                 newval -= 10;
             if (sector.buildings["school"].built)
@@ -146,6 +147,7 @@ public class PathCalculator : MonoBehaviour
                 newval -= 10;
             if (sector.buildings["camp"].built)
                 newval -= 50;
+            //healthdiff if occupied
             if(sector.friend != null)
             {
                 var diff = (sector.friend.health - origin.enemy.health)*100;
@@ -154,7 +156,13 @@ public class PathCalculator : MonoBehaviour
                 else
                     newval += diff;
             }
-            if(newval < bestval) //if value is the same should pick a border one (important :))
+            //prio for borders
+            foreach(var edge in sectobj.Edges)
+            {
+                if(!sectors[edge.Out].sector.foreign)
+                    newval += (sectors[edge.Out].sector.ControlLevel / 100f);
+            }
+            if(newval < bestval)
             {
                 //Debug.Log(newval);
                 var path = CalculateDistance(origin, sector, false);
