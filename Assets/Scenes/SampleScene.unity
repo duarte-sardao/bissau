@@ -9023,7 +9023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9160240329411669207, guid: 924316a85f994cd43ba99022e6219837, type: 3}
       propertyPath: health
-      value: 0.00001
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9160240329411669207, guid: 924316a85f994cd43ba99022e6219837, type: 3}
       propertyPath: sector

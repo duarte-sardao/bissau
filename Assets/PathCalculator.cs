@@ -179,4 +179,48 @@ public class PathCalculator : MonoBehaviour
             origin.enemy.Move(bestpath, targ);
         }
     }
+
+    public void GetRetreatForEnemy(SectorController origin)
+    {
+        int orpos = 0;
+        for (int i = 0; i < sectors.Length; i++)
+        {
+            if (sectors[i].sector == origin)
+                orpos = i;
+        }
+
+        var investigate = new Queue<int>();
+        investigate.Enqueue(orpos);
+        var pathforunit = new Stack<Vector3>();
+        Sector sect = sectors[orpos];
+
+        while (investigate.Count > 0)
+        {
+            int pos = investigate.Dequeue();
+            sect = sectors[pos];
+            if(pos != orpos && sect.sector.ControlLevel == 100 && Safe(pos))
+            {
+                pathforunit = CalculateDistance(origin, sect.sector, false);
+                if (pathforunit.Count > 0)
+                    break;
+            }
+            for (int i = 0; i < sectors[pos].Edges.Length; i++)
+            {
+                investigate.Enqueue(sectors[pos].Edges[i].Out);
+            }
+        }
+
+        origin.enemy.Move(pathforunit, sect.sector);
+    }
+
+    private bool Safe(int pos)
+    {
+        bool safe = true;
+        for(int i = 0; i < sectors[pos].Edges.Length; i++)
+        {
+            if (sectors[sectors[pos].Edges[i].Out].sector.ControlLevel < 0)
+                return false;
+        }
+        return safe;
+    }
 }
