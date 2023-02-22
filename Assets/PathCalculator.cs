@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class PathCalculator : MonoBehaviour
+public class PathCalculator : GlobalVars
 {
 
     [System.Serializable]
@@ -150,8 +150,9 @@ public class PathCalculator : MonoBehaviour
             //healthdiff if occupied
             if(sector.friend != null)
             {
-                var diff = (sector.friend.health - origin.enemy.health)*100;
-                if (diff > 0)
+                var dam_imbal = pt_damage / gn_damage;
+                var diff = (sector.friend.health - origin.enemy.health*dam_imbal)*100;
+                if (diff > 0 && diff < -20)
                     newval += diff * 10;
                 else
                     newval += diff;

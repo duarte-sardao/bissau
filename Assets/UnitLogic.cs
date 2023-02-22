@@ -93,21 +93,12 @@ public class UnitLogic : MonoBehaviour
             {
                 GetNextMove();
             }
-        } else
-        {
-            if(health < 1 && ((sector.ControlLevel == -100 && guinean) || (sector.ControlLevel == 100 && !guinean)))
-            {
-                float bas = 0.05f;
-                if (guinean && sector.buildings["hospital"].built)
-                    bas *= 2;
-                UpdateHealth(Time.deltaTime * bas);
-            }
         }
     }
 
-    private void UpdateHealth(float add)
+    public void UpdateHealth(float add)
     {
-        health += add;
+        health = Mathf.Clamp(health + add, 0, 1);
         healthin.transform.localScale = new Vector3(0.15f, health, 1);
     }
 

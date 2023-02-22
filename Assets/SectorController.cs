@@ -61,26 +61,45 @@ public class SectorController : GlobalVars
         FlagUpdate();
     }
 
+    private void Battle()
+    {
+        friend.UpdateHealth( -pt_damage * Time.deltaTime);
+        enemy.UpdateHealth(-gn_damage * Time.deltaTime);
+    }
+
+    private void UpdateControl(float val)
+    {
+        if (foreign) return;
+        ControlLevel = Mathf.Clamp(ControlLevel + val, -100, 100);
+        FlagUpdate();
+    }
+
     private void Update()
     {
-        if (foreign)
-            return;
-        if(occ(friend) && occ(enemy))
+        if(Occ(friend) && Occ(enemy))
         {
-            //do battle GRRRR
+            Battle();
         }
-        else if(occ(friend) && ControlLevel > -100)
+        else if(Occ(friend))
         {
-            ControlLevel -= Time.deltaTime*10;
-            if (ControlLevel < -100)
-                ControlLevel = -100;
-            FlagUpdate();
-        } else if(occ(enemy) && ControlLevel < 100)
+            if (ControlLevel > -100)
+            {
+                UpdateControl(-Time.deltaTime * gn_cap);
+            } else
+            {
+                var mult = 1;
+                if (buildings["hospital"].built) mult *= 2;
+                friend.UpdateHealth(Time.deltaTime * gn_heal * mult);
+            }
+        } else if(Occ(enemy))
         {
-            ControlLevel += Time.deltaTime * 10;
-            if (ControlLevel > 100)
-                ControlLevel = 100;
-            FlagUpdate();
+            if (ControlLevel < 100)
+            {
+                UpdateControl(Time.deltaTime * pt_cap);
+            } else
+            {
+                enemy.UpdateHealth(Time.deltaTime * pt_heal);
+            }
         }
         BuildingBuilding();
     }
@@ -124,7 +143,7 @@ public class SectorController : GlobalVars
         flags.transform.localPosition = new Vector3(flags.transform.localPosition.x, height, 0);
     }
 
-    public bool occ(UnitLogic unit)
+    public bool Occ(UnitLogic unit)
     {
         return (unit != null && !unit.moving);
     }
