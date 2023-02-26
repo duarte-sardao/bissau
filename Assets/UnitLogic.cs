@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UnitLogic : MonoBehaviour
+public class UnitLogic : GlobalVars
 {
     protected Stack<Vector3> path;
     protected Vector3 next;
@@ -13,6 +13,8 @@ public class UnitLogic : MonoBehaviour
     public GameObject healthin;
 
     public int foreigncount;
+
+    public CampLogic camp;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -100,6 +102,15 @@ public class UnitLogic : MonoBehaviour
     {
         health = Mathf.Clamp(health + add, 0, 1);
         healthin.transform.localScale = new Vector3(0.15f, health, 1);
+        if (health == 0)
+            Die();
+    }
+
+    private void Die()
+    {
+        if (camp != null)
+            camp.queued++;
+        Destroy(this.gameObject);
     }
 
 

@@ -40,6 +40,8 @@ public class SectorController : GlobalVars
     public Dictionary<string, Building> buildings = new Dictionary<string, Building>();
     public GameObject[] buildobj;
 
+    public bool starter = false;
+
     private void Start()
     {
         center = centerobj.transform.position;
@@ -55,6 +57,15 @@ public class SectorController : GlobalVars
             buildings.Add(obj.name, bld);
         }
 
+        if(starter)
+        {
+            ControlLevel = -100;
+            buildings["camp"].built = true;
+            buildings["camp"].obj.SetActive(true);
+            var cmp = transform.GetChild(4).GetChild(0).GetComponent<CampLogic>();
+            cmp.queued = 1;
+            cmp.accTime = g_unittime;
+        }
 
         if (foreign)
             return;
