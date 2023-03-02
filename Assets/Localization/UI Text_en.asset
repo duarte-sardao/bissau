@@ -42,6 +42,10 @@ MonoBehaviour:
     m_Localized: Increased heal rate
     m_Metadata:
       m_Items: []
+  - m_Id: 7281775025778688
+    m_Localized: Build Cost
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

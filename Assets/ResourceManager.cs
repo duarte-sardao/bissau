@@ -19,6 +19,8 @@ public class ResourceManager : GlobalVars
     public TMPro.TMP_Text monval;
     public TMPro.TMP_Text mongain;
 
+    public PathCalculator path;
+
     void Start()
     {
         var all = FindObjectsOfType<SectorController>();
@@ -64,6 +66,11 @@ public class ResourceManager : GlobalVars
                 if (sect.buildings["camp"].built)
                     lastmon -= g_campcost;
             }
+        }
+        if (path.NeighboursForeign())
+        {
+            lastmon += 5;
+            lastpol += 5;
         }
         money = Mathf.Clamp(money+lastmon, -999, 999);
         politic = Mathf.Clamp(politic+lastpol, -999, 999);

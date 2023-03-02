@@ -39,6 +39,10 @@ MonoBehaviour:
     m_Key: SIDE_HOSP_DESC
     m_Metadata:
       m_Items: []
+  - m_Id: 7281775025778688
+    m_Key: BUILD_COST
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

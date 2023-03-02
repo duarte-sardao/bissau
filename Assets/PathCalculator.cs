@@ -224,4 +224,21 @@ public class PathCalculator : GlobalVars
         }
         return safe;
     }
+
+    public bool NeighboursForeign()
+    {
+        for (int i = 0; i < sectors.Length; i++)
+        {
+            if (sectors[i].sector.ControlLevel < 0 && !sectors[i].sector.foreign)
+            {
+                for (int j = 0; j < sectors[i].Edges.Length; j++)
+                {
+                    var bord = sectors[sectors[i].Edges[j].Out].sector;
+                    if (bord.foreign && bord.ControlLevel == -100)
+                        return true;
+                }
+            }
+        }
+        return false;
+    }
 }

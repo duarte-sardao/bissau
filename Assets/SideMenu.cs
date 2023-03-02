@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SideMenu : GlobalVars
+public class SideMenu : ResourceManager
 {
     public bool open;
     public SectorController sector;
@@ -15,6 +15,7 @@ public class SideMenu : GlobalVars
     public TMPro.TMP_Text schoolgain;
     public TMPro.TMP_Text schoolcost;
     public TMPro.TMP_Text farmgain;
+    public TMPro.TMP_Text cost;
 
     private readonly string[] builds = { "camp", "hospital", "school", "farm" };
     public Button[] buildButts;
@@ -34,6 +35,7 @@ public class SideMenu : GlobalVars
         schoolcost.text = "-" + g_buildingcost;
         schoolgain.text = "+" + g_schoolgain;
         farmgain.text = "+" + g_farmgain;
+        cost.text = g_costtobuild.ToString();
     }
 
     public void Open(SectorController sector)
@@ -88,7 +90,7 @@ public class SideMenu : GlobalVars
                     buildProg[i].gameObject.SetActive(true);
                     buildProg[i].text = Mathf.RoundToInt(buildd.timebuilding / g_buildtime * 100) + "%";
                 }
-                else if(sector.ControlLevel == -100)
+                else if(sector.ControlLevel == -100 && money >= 50)
                 {
                     buildButts[i].gameObject.SetActive(true);
                 }
@@ -97,8 +99,9 @@ public class SideMenu : GlobalVars
         catch (System.NullReferenceException) { };
     }
 
-    public void build(string building)
+    public void Build(string building)
     {
+        money -= 50;
         sector.buildings[building].building = true;
     }
 }
