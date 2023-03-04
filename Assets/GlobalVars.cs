@@ -19,4 +19,7 @@ public class GlobalVars : MonoBehaviour
     static public float gn_cap = 11;
 
     static public float g_unittime = 30f;
+    static public float g_ptunittime = 60f;
+
+    static public float g_liberationlevel = 0f;
 }

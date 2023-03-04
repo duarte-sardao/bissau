@@ -46,7 +46,7 @@ public class PathCalculator : GlobalVars
                 sectors[j].Edges[i].Distance = Vector3.Distance(sectors[j].sector.center, sectors[edges[i].Out].sector.center);
             }
         }
-
+        InvokeRepeating(nameof(CalcOccLevel), 0.01f, 1.0f);
         ResetDist();
     }
 
@@ -240,5 +240,21 @@ public class PathCalculator : GlobalVars
             }
         }
         return false;
+    }
+
+    private void CalcOccLevel()
+    {
+        float level = 0;
+        float sects = 0;
+        for (int i = 0; i < sectors.Length; i++)
+        {
+            if (!sectors[i].sector.foreign)
+            {
+                sects++;
+                level += sectors[i].sector.ControlLevel * (-0.5f) + 50;
+            }
+        }
+        g_liberationlevel = level / sects;
+        //Debug.Log(g_liberationlevel);
     }
 }
