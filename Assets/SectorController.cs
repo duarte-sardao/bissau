@@ -28,6 +28,7 @@ public class SectorController : GlobalVars
     public UnitLogic enemy = null;
     public GameObject flags;
     public GameObject ptflag;
+    public SpriteRenderer pole;
     public bool foreign = false;
 
     public Vector3 center;
@@ -152,6 +153,10 @@ public class SectorController : GlobalVars
         }
         float height = 2.05f + 0.4f * Mathf.Abs(ControlLevel/100);
         flags.transform.localPosition = new Vector3(flags.transform.localPosition.x, height, 0);
+        if (ControlLevel == -100)
+            pole.color = new Color32(240, 180, 21, 255);
+        else
+            pole.color = new Color32(133, 133, 133, 255);
     }
 
     public bool Occ(UnitLogic unit)

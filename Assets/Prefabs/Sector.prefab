@@ -455,6 +455,7 @@ MonoBehaviour:
   enemy: {fileID: 0}
   flags: {fileID: 2897980845828825781}
   ptflag: {fileID: 2897980846134892894}
+  pole: {fileID: 2897980845512398328}
   foreign: 0
   center: {x: 0, y: 0, z: 0}
   centerobj: {fileID: 3975833076741947959}
@@ -466,6 +467,7 @@ MonoBehaviour:
   - {fileID: 2437406097799736947}
   - {fileID: 4612122993028333713}
   - {fileID: 3962046515375070276}
+  starter: 0
 --- !u!60 &6681592382883386778
 PolygonCollider2D:
   m_ObjectHideFlags: 0
