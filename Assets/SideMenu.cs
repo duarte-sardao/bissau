@@ -90,7 +90,7 @@ public class SideMenu : ResourceManager
                     buildProg[i].gameObject.SetActive(true);
                     buildProg[i].text = Mathf.RoundToInt(buildd.timebuilding / g_buildtime * 100) + "%";
                 }
-                else if(sector.ControlLevel == -100 && money >= 50)
+                else if(sector.ControlLevel <= g_fullcontrolg && money >= 50)
                 {
                     buildButts[i].gameObject.SetActive(true);
                 }

@@ -42,6 +42,7 @@ public class SectorController : GlobalVars
     public GameObject[] buildobj;
 
     public bool starter = false;
+    public bool bissau = false;
 
     private void Start()
     {
@@ -113,6 +114,8 @@ public class SectorController : GlobalVars
                 enemy.UpdateHealth(Time.deltaTime * pt_heal);
             }
         }
+        if(bissau && Occ(friend) && ControlLevel > g_fullcontrolg)
+            friend.UpdateHealth(-pt_damage * 10 * Time.deltaTime);
         BuildingBuilding();
     }
 
@@ -121,7 +124,7 @@ public class SectorController : GlobalVars
         foreach(var key in buildings.Keys) {
             if(buildings[key].building)
             {
-                if(ControlLevel != -100)
+                if(ControlLevel > g_fullcontrolg)
                 {
                     buildings[key].timebuilding = 0f;
                     buildings[key].building = false;
@@ -153,7 +156,7 @@ public class SectorController : GlobalVars
         }
         float height = 2.05f + 0.4f * Mathf.Abs(ControlLevel/100);
         flags.transform.localPosition = new Vector3(flags.transform.localPosition.x, height, 0);
-        if (ControlLevel == -100)
+        if (ControlLevel <= g_fullcontrolg)
             pole.color = new Color32(240, 180, 21, 255);
         else
             pole.color = new Color32(133, 133, 133, 255);

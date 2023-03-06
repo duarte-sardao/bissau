@@ -51,7 +51,7 @@ public class CampLogic : GlobalVars
         } else
         {
             bar.transform.localScale = new Vector3((g_unittime - accTime) / g_unittime, 1, 1);
-            if (sector.ControlLevel == -100)
+            if (sector.ControlLevel == g_fullcontrolg)
                 spr.color = Color.white;
             else
                 spr.color = Color.red;

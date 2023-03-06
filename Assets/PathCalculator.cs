@@ -199,7 +199,7 @@ public class PathCalculator : GlobalVars
         {
             int pos = investigate.Dequeue();
             sect = sectors[pos];
-            if(pos != orpos && sect.sector.ControlLevel == 100 && Safe(pos))
+            if(pos != orpos && sect.sector.ControlLevel >= g_fullcontrolp && Safe(pos))
             {
                 pathforunit = CalculateDistance(origin, sect.sector, false);
                 if (pathforunit.Count > 0)
@@ -234,7 +234,7 @@ public class PathCalculator : GlobalVars
                 for (int j = 0; j < sectors[i].Edges.Length; j++)
                 {
                     var bord = sectors[sectors[i].Edges[j].Out].sector;
-                    if (bord.foreign && bord.ControlLevel == -100)
+                    if (bord.foreign && bord.ControlLevel <= g_fullcontrolp)
                         return true;
                 }
             }

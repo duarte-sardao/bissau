@@ -50,7 +50,7 @@ public class ResourceManager : GlobalVars
         lastpol = 5;
         foreach(var sect in sects)
         {
-            if(sect.ControlLevel == -100)
+            if(sect.ControlLevel <= g_fullcontrolg)
             {
                 lastmon += 1;
                 lastpol += 1;

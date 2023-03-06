@@ -10314,6 +10314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 21-Bissau
       objectReference: {fileID: 0}
+    - target: {fileID: 2897980846231669731, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
+      propertyPath: bissau
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2897980846231669733, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
       propertyPath: m_RootOrder
       value: 21

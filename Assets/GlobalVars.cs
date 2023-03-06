@@ -22,4 +22,7 @@ public class GlobalVars : MonoBehaviour
     static public float g_ptunittime = 60f;
 
     static public float g_liberationlevel = 0f;
+
+    static public float g_fullcontrolg = -100f;
+    static public float g_fullcontrolp = 100f;
 }
