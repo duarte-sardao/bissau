@@ -54,9 +54,6 @@ public class MouseHandler : MonoBehaviour
                     {
                         lineRenderer.enabled = true;
                     }
-                } else if(hit.collider.transform.CompareTag("sidemenu"))
-                {
-                    side.Close();
                 } else if(hit.collider.transform.CompareTag("sector"))
                 {
                     side.Open(hit.collider.GetComponent<SectorController>());

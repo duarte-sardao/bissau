@@ -44,6 +44,8 @@ public class SectorController : GlobalVars
     public bool starter = false;
     public bool bissau = false;
 
+    private GameObject overlay;
+
     private void Start()
     {
         center = centerobj.transform.position;
@@ -51,6 +53,12 @@ public class SectorController : GlobalVars
         sname = this.gameObject.name;
         char[] spearator = { '-' };
         sname = sname.Split(spearator)[1];
+        try
+        {
+            overlay = GameObject.Find("mapoverlays/" + sname);
+            overlay.SetActive(false);
+        }
+        catch (System.Exception) { };
 
         foreach(var obj in buildobj)
         {
@@ -187,5 +195,10 @@ public class SectorController : GlobalVars
         if (guin)
             return center;
         return enemcenter;
+    }
+
+    public void SetOverlay(bool set)
+    {
+        overlay.SetActive(set);
     }
 }

@@ -42,15 +42,19 @@ public class SideMenu : ResourceManager
     {
         if (sector.foreign)
             return;
+        if(this.sector != null)
+            this.sector.SetOverlay(false);
         this.sector = sector;
         open = true;
         SetupUI();
+        sector.SetOverlay(true);
     }
 
     public void Close()
     {
         open = false;
         sidecanvas.enabled = false;
+        sector.SetOverlay(false);
     }
 
     private void Update()
