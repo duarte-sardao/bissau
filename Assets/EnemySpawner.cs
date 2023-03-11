@@ -8,7 +8,6 @@ public class EnemySpawner : GlobalVars
     public SectorController bissau;
     public GameObject enemyUnit;
     public List<GameObject> units;
-    public int capacity = 0;
     private bool spawning = false;
 
     private void Start()
@@ -20,17 +19,17 @@ public class EnemySpawner : GlobalVars
         if (spawning)
             return;
         var curcap = Mathf.FloorToInt(g_liberationlevel / 15);
-        if(curcap > capacity)
+        if(curcap > g_enemycapacity)
         {
-            capacity = curcap;
-            events.Spawn("new_unit_cap").intval = curcap;
+            g_enemycapacity = curcap;
+            events.Spawn("new_unit_cap");
         }
         for(int i = 0; i < units.Count; i++)
         {
             if (units[i] == null)
                 units.RemoveAt(i);
         }
-        if (units.Count < capacity)
+        if (units.Count < g_enemycapacity)
             Invoke(nameof(Spawn), g_ptunittime);
     }
 
@@ -46,6 +45,8 @@ public class EnemySpawner : GlobalVars
             sp.sector = bissau;
             bissau.enemy = sp;
             units.Add(sp.gameObject);
+            g_enemylastspawn = sp.sector.sname;
+            events.Spawn("new_unit");
         }
     }
 }

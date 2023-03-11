@@ -842,8 +842,10 @@ MonoBehaviour:
   events:
     m_keys:
     - new_unit_cap
+    - new_unit
     m_values:
     - {fileID: 5207441783851843986, guid: 3c7e912009fa9db4cb7af495324a8245, type: 3}
+    - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11253,7 +11255,6 @@ MonoBehaviour:
   bissau: {fileID: 1366709412}
   enemyUnit: {fileID: 7489928247315867098, guid: 924316a85f994cd43ba99022e6219837, type: 3}
   units: []
-  capacity: 0
 --- !u!4 &1438186405
 Transform:
   m_ObjectHideFlags: 0

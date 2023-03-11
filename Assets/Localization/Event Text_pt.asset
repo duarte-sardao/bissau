@@ -26,12 +26,13 @@ MonoBehaviour:
   - m_Id: 656138801152
     m_Localized: "Devido \xE0 deteriora\xE7\xE3o da situa\xE7\xE3o no terreno, o
       governo portugu\xEAs autorizou um aumento da presen\xE7a militar na Guin\xE9.
-      Agora conseguem suportar {script-component.intval} unidades."
+      Agora conseguem suportar {script-component.g_enemycapacity:plural: 1 unidade.|{}
+      unidades.}"
     m_Metadata:
       m_Items:
       - rid: 5248913740959318020
   - m_Id: 10344679051264
-    m_Localized: "Uma nova unidade do ex\xE9rcito portugu\xEAs chegou a {script-component.stringval}"
+    m_Localized: "Uma nova unidade do ex\xE9rcito portugu\xEAs chegou a {script-component.g_enemylastspawn}"
     m_Metadata:
       m_Items:
       - rid: 5248913740959318020

@@ -25,4 +25,7 @@ public class GlobalVars : MonoBehaviour
 
     static public float g_fullcontrolg = -100f;
     static public float g_fullcontrolp = 100f;
+
+    static public int g_enemycapacity = 0;
+    static public string g_enemylastspawn;
 }

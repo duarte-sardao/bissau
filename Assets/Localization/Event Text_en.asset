@@ -26,14 +26,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 656138801152
-    m_Localized: Due to the deteriorating situation in the ground, the Portuguese
+    m_Localized: 'Due to the deteriorating situation in the ground, the Portuguese
       government has authorized an increase of military presence in Guinea. They
-      can now supply {script-component.intval} units.
+      can now supply  {script-component.g_enemycapacity:plural: 1 unit.|{} units.}'
     m_Metadata:
       m_Items:
       - rid: 5248913740959318019
   - m_Id: 10344679051264
-    m_Localized: A fresh unit of the Portuguese army has arrived in {script-component.stringval}.
+    m_Localized: A fresh unit of the Portuguese army has arrived in {script-component.g_enemylastspawn}.
     m_Metadata:
       m_Items:
       - rid: 5248913740959318019
