@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : GlobalVars
 {
+    public EventSpawner events;
     public SectorController bissau;
     public GameObject enemyUnit;
     public List<GameObject> units;
@@ -18,7 +19,12 @@ public class EnemySpawner : GlobalVars
     {
         if (spawning)
             return;
-        capacity = Mathf.Max(capacity, Mathf.FloorToInt(g_liberationlevel / 15));
+        var curcap = Mathf.FloorToInt(g_liberationlevel / 15);
+        if(curcap > capacity)
+        {
+            capacity = curcap;
+            events.Spawn("new_unit_cap").intval = curcap;
+        }
         for(int i = 0; i < units.Count; i++)
         {
             if (units[i] == null)
