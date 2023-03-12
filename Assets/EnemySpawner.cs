@@ -16,6 +16,7 @@ public class EnemySpawner : GlobalVars
     }
     private void CheckSpawns()
     {
+        var increase = false;
         if (spawning)
             return;
         var curcap = Mathf.FloorToInt(g_liberationlevel / 15);
@@ -23,14 +24,16 @@ public class EnemySpawner : GlobalVars
         {
             g_enemycapacity = curcap;
             events.Spawn("new_unit_cap");
+            increase = true;
         }
         for(int i = 0; i < units.Count; i++)
         {
             if (units[i] == null)
                 units.RemoveAt(i);
         }
+        //Debug.Log(units.Count < g_enemycapacity);
         if (units.Count < g_enemycapacity)
-            Invoke(nameof(Spawn), g_ptunittime);
+            Invoke(nameof(Spawn), increase? 5f: g_ptunittime);
     }
 
     private void Spawn()
