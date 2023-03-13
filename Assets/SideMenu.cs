@@ -60,7 +60,7 @@ public class SideMenu : ResourceManager
     private void Update()
     {
         var newx = this.transform.position.x;
-        if (open && this.transform.position.x > -1.35f)
+        if (open && this.transform.position.x > -1.34f)
         {
             newx -= Time.deltaTime * 50;
             if(newx <= -1.35f)
