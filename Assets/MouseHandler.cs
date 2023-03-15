@@ -40,8 +40,9 @@ public class MouseHandler : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.GetRayIntersection(ray, Mathf.Infinity);
+            bool isOverUI = UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject();
 
-            if (hit.collider != null &&  hit.collider.transform != this.transform)
+            if (!isOverUI && hit.collider != null &&  hit.collider.transform != this.transform)
             {
                 if(hit.collider.transform.CompareTag("unit"))
                 {

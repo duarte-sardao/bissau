@@ -16,7 +16,7 @@ public class GlobalVars : MonoBehaviour
     static public float pt_heal = 0.05f;
     static public float gn_heal = 0.05f;
     static public float pt_cap = 10;
-    static public float gn_cap = 11;
+    static public float gn_cap = 1100;
 
     static public float g_unittime = 30f;
     static public float g_ptunittime = 60f;
