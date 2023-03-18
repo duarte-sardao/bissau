@@ -48,8 +48,8 @@ public class SectorController : GlobalVars
 
     private void Start()
     {
-        center = centerobj.transform.position;
-        enemcenter = enemcenterobj.transform.position;
+        center = new Vector3(centerobj.transform.position.x, centerobj.transform.position.y, 1);
+        enemcenter = new Vector3(enemcenterobj.transform.position.x, enemcenterobj.transform.position.y, 1);
         sname = this.gameObject.name;
         char[] spearator = { '-' };
         sname = sname.Split(spearator)[1];
