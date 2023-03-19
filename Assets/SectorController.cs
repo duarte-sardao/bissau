@@ -45,6 +45,9 @@ public class SectorController : GlobalVars
     public bool bissau = false;
 
     private GameObject overlay;
+    private Bounds bounds;
+    private float timeToExplode = 0;
+    public GameObject explosion;
 
     private void Start()
     {
@@ -59,6 +62,7 @@ public class SectorController : GlobalVars
             overlay.SetActive(false);
         }
         catch (System.Exception) { };
+        bounds = GetComponent<PolygonCollider2D>().bounds;
 
         foreach(var obj in buildobj)
         {
@@ -86,6 +90,21 @@ public class SectorController : GlobalVars
     {
         friend.UpdateHealth( -pt_damage * Time.deltaTime);
         enemy.UpdateHealth(-gn_damage * Time.deltaTime);
+        if((timeToExplode -= Time.deltaTime) < 0)
+        {
+            DrawExplosions();
+            timeToExplode = Random.Range(3, 5);
+        }
+    }
+
+    private void DrawExplosions()
+    {
+        Vector3 pos;
+        do
+        {
+            pos = new Vector3(Random.Range(bounds.min.x, bounds.max.x), Random.Range(bounds.min.y, bounds.max.y), 0);
+        } while (false);
+        Instantiate(explosion, pos, Quaternion.identity);
     }
 
     private void UpdateControl(float val)

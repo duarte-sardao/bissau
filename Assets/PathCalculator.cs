@@ -191,6 +191,7 @@ public class PathCalculator : GlobalVars
         }
 
         var investigate = new Queue<int>();
+        var investigated = new List<int>();
         investigate.Enqueue(orpos);
         var pathforunit = new Stack<Vector3>();
         Sector sect = sectors[orpos];
@@ -198,16 +199,22 @@ public class PathCalculator : GlobalVars
         while (investigate.Count > 0)
         {
             int pos = investigate.Dequeue();
+            investigated.Add(pos);
             sect = sectors[pos];
-            if(pos != orpos && sect.sector.ControlLevel >= g_fullcontrolp && Safe(pos))
+            if(pos != orpos && sect.sector.ControlLevel >= g_fullcontrolp)
             {
-                pathforunit = CalculateDistance(origin, sect.sector, false);
-                if (pathforunit.Count > 0)
-                    break;
+                var possible = CalculateDistance(origin, sect.sector, false);
+                if (possible.Count > 0)
+                {
+                    pathforunit = possible;
+                    if (Safe(pos))
+                        break;
+                }
             }
             for (int i = 0; i < sectors[pos].Edges.Length; i++)
             {
-                investigate.Enqueue(sectors[pos].Edges[i].Out);
+                if(!investigated.Contains(sectors[pos].Edges[i].Out))
+                    investigate.Enqueue(sectors[pos].Edges[i].Out);
             }
         }
 
