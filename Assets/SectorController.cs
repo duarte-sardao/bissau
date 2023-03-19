@@ -100,11 +100,14 @@ public class SectorController : GlobalVars
     private void DrawExplosions()
     {
         Vector3 pos;
+        int count = 0;
         do
         {
-            pos = new Vector3(Random.Range(bounds.min.x, bounds.max.x), Random.Range(bounds.min.y, bounds.max.y), 0);
-        } while (false);
-        Instantiate(explosion, pos, Quaternion.identity);
+            pos = new Vector3(Random.Range(bounds.min.x, bounds.max.x), Random.Range(bounds.min.y, bounds.max.y), bounds.center.z);
+            count++;
+        } while (!bounds.Contains(pos) && count < 6);
+        pos = bounds.ClosestPoint(pos);
+        Instantiate(explosion, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
     }
 
     private void UpdateControl(float val)

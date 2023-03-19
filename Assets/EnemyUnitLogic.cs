@@ -17,14 +17,14 @@ public class EnemyUnitLogic : UnitLogic
 
     private void CheckMove()
     {
-        if(this.health < 0.15f && (this.sector.ControlLevel < 100 || this.sector.friend != null))
+        if(this.health < 0.15f && (this.sector.ControlLevel <= g_fullcontrolp || this.sector.friend != null))
         {
             calc.GetRetreatForEnemy(this.sector);
             healthTarget = Random.Range(0.7f, 1);
-        } else if(this.health >= healthTarget)
+        } else if(this.health >= healthTarget && this.sector.ControlLevel >= g_fullcontrolp)
         {
             calc.GetSpotForEnemy(this.sector);
-            healthTarget = 100;
+            healthTarget = 0f;
         }
     }
 }
