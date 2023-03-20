@@ -12,6 +12,7 @@ public class SectorController : GlobalVars
         {
             built = false;
             building = false;
+            repairable = false;
             timebuilding = 0;
             obj = mapobj;
         }
@@ -19,6 +20,7 @@ public class SectorController : GlobalVars
         public GameObject obj;
         public float timebuilding { get; set; }
         public bool built;
+        public bool repairable;
         public bool building { get; set; }
     }
 
@@ -166,10 +168,27 @@ public class SectorController : GlobalVars
                     buildings[key].timebuilding = 0f;
                     buildings[key].building = false;
                     buildings[key].built = true;
+                    buildings[key].repairable = false;
+                    buildings[key].obj.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
                     buildings[key].obj.SetActive(true);
                 }
 
             }
+        }
+    }
+
+    public void DestroyBuilding(string key, int level)
+    {
+        buildings[key].built = false;
+        if(level >= 1)
+        {
+            buildings[key].repairable = true;
+            buildings[key].obj.GetComponent<SpriteRenderer>().color = new Color(0.25f, 0.25f, 0.25f, 1);
+            if (level >= 2)
+                buildings[key].building = true;
+        } else
+        {
+            buildings[key].obj.SetActive(false);
         }
     }
 

@@ -85,6 +85,8 @@ public class SideMenu : ResourceManager
                 buildButts[i].gameObject.SetActive(false);
                 buildProg[i].gameObject.SetActive(false);
                 buildCheck[i].gameObject.SetActive(false);
+                //some text saying its repairable here
+                //and mention repair cost (fixed, just say its half)
                 if (buildd.built)
                 {
                     buildCheck[i].gameObject.SetActive(true);
@@ -94,7 +96,7 @@ public class SideMenu : ResourceManager
                     buildProg[i].gameObject.SetActive(true);
                     buildProg[i].text = Mathf.RoundToInt(buildd.timebuilding / g_buildtime * 100) + "%";
                 }
-                else if(sector.ControlLevel <= g_fullcontrolg && money >= 50)
+                else if(sector.ControlLevel <= g_fullcontrolg && money >= (buildd.repairable ? g_costtobuild / 2 : g_costtobuild))
                 {
                     buildButts[i].gameObject.SetActive(true);
                 }
@@ -105,7 +107,7 @@ public class SideMenu : ResourceManager
 
     public void Build(string building)
     {
-        money -= 50;
+        money -= (sector.buildings[building].repairable ? g_costtobuild / 2 : g_costtobuild);
         sector.buildings[building].building = true;
     }
 }
