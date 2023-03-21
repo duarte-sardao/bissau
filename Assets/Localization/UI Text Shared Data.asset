@@ -43,6 +43,14 @@ MonoBehaviour:
     m_Key: BUILD_COST
     m_Metadata:
       m_Items: []
+  - m_Id: 14156979004739584
+    m_Key: REP_COST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14157057450807296
+    m_Key: SIDE_DAM
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

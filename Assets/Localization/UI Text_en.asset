@@ -43,7 +43,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7281775025778688
-    m_Localized: Build Cost
+    m_Localized: Build
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14156979004739584
+    m_Localized: Repair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14157057450807296
+    m_Localized: (Damaged)
     m_Metadata:
       m_Items: []
   references:

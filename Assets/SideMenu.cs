@@ -16,11 +16,13 @@ public class SideMenu : ResourceManager
     public TMPro.TMP_Text schoolcost;
     public TMPro.TMP_Text farmgain;
     public TMPro.TMP_Text cost;
+    public TMPro.TMP_Text rcost;
 
     private readonly string[] builds = { "camp", "hospital", "school", "farm" };
     public Button[] buildButts;
     public TMPro.TMP_Text[] buildProg;
     public Image[] buildCheck;
+    public GameObject[] buildDamage;
 
     public void Start()
     {
@@ -36,6 +38,7 @@ public class SideMenu : ResourceManager
         schoolgain.text = "+" + g_schoolgain;
         farmgain.text = "+" + g_farmgain;
         cost.text = g_costtobuild.ToString();
+        rcost.text = gf_buildcost(true).ToString();
     }
 
     public void Open(SectorController sector)
@@ -85,6 +88,7 @@ public class SideMenu : ResourceManager
                 buildButts[i].gameObject.SetActive(false);
                 buildProg[i].gameObject.SetActive(false);
                 buildCheck[i].gameObject.SetActive(false);
+                buildDamage[i].SetActive(false);
                 //some text saying its repairable here
                 //and mention repair cost (fixed, just say its half)
                 if (buildd.built)
@@ -96,9 +100,14 @@ public class SideMenu : ResourceManager
                     buildProg[i].gameObject.SetActive(true);
                     buildProg[i].text = Mathf.RoundToInt(buildd.timebuilding / g_buildtime * 100) + "%";
                 }
-                else if(sector.ControlLevel <= g_fullcontrolg && money >= gf_buildcost(buildd.repairable))
+                else
                 {
-                    buildButts[i].gameObject.SetActive(true);
+                    if (sector.ControlLevel <= g_fullcontrolg && money >= gf_buildcost(buildd.repairable))
+                    {
+                        buildButts[i].gameObject.SetActive(true);
+                    }
+                    if (buildd.repairable)
+                        buildDamage[i].SetActive(true);
                 }
             }
         }
