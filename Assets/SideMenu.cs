@@ -96,7 +96,7 @@ public class SideMenu : ResourceManager
                     buildProg[i].gameObject.SetActive(true);
                     buildProg[i].text = Mathf.RoundToInt(buildd.timebuilding / g_buildtime * 100) + "%";
                 }
-                else if(sector.ControlLevel <= g_fullcontrolg && money >= (buildd.repairable ? g_costtobuild / 2 : g_costtobuild))
+                else if(sector.ControlLevel <= g_fullcontrolg && money >= gf_buildcost(buildd.repairable))
                 {
                     buildButts[i].gameObject.SetActive(true);
                 }
@@ -107,7 +107,7 @@ public class SideMenu : ResourceManager
 
     public void Build(string building)
     {
-        money -= (sector.buildings[building].repairable ? g_costtobuild / 2 : g_costtobuild);
+        money -= gf_buildcost(sector.buildings[building].repairable);
         sector.buildings[building].building = true;
     }
 }

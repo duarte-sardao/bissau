@@ -28,4 +28,9 @@ public class GlobalVars : MonoBehaviour
 
     static public int g_enemycapacity = 0;
     static public string g_enemylastspawn;
+
+    public int gf_buildcost(bool repair)
+    {
+        return repair ? g_costtobuild / 2 : g_costtobuild;
+    }
 }
