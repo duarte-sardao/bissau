@@ -45,6 +45,11 @@ public class PathCalculator : GlobalVars
             {
                 sectors[j].Edges[i].Distance = Vector3.Distance(sectors[j].sector.center, sectors[edges[i].Out].sector.center);
             }
+
+            if(!sectors[j].sector.foreign)
+            {
+                g_sects.Add(sectors[j].sector);
+            }
         }
         InvokeRepeating(nameof(CalcOccLevel), 0.01f, 1.0f);
         ResetDist();

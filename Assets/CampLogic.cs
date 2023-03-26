@@ -6,6 +6,7 @@ public class CampLogic : GlobalVars
 {
     public GameObject bar;
     private SpriteRenderer spr;
+    private SpriteRenderer cmp;
     public float accTime;
     public int queued;
     public GameObject unit;
@@ -15,12 +16,15 @@ public class CampLogic : GlobalVars
     {
         sector = transform.parent.parent.GetComponent<SectorController>();
         spr = bar.GetComponentInChildren<SpriteRenderer>();
+        cmp = GetComponent<SpriteRenderer>();
         queued = 1;
     }
 
     private void Update()
     {
-        if(queued > 0 && sector.ControlLevel == -100)
+        if (cmp.color.a < 1)
+            accTime = 0;
+        else if(queued > 0 && sector.ControlLevel == -100)
         {
             accTime = Mathf.Clamp(accTime + Time.deltaTime, 0, g_unittime);
             if (accTime >= g_unittime && sector.friend == null)
@@ -56,5 +60,10 @@ public class CampLogic : GlobalVars
             else
                 spr.color = Color.red;
         }
+    }
+
+    private void OnDisable()
+    {
+        accTime = 0;
     }
 }

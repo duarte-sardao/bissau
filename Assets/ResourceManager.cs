@@ -9,7 +9,6 @@ public class ResourceManager : GlobalVars
     public int money;
     public int lastpol;
     public int lastmon;
-    public List<SectorController> sects = new List<SectorController>();
 
     public float updatetime;
     private float acctime;
@@ -23,14 +22,6 @@ public class ResourceManager : GlobalVars
 
     void Start()
     {
-        var all = FindObjectsOfType<SectorController>();
-        foreach(var sect in all)
-        {
-            if(!sect.foreign)
-            {
-                sects.Add(sect);
-            }
-        }
         UpdateBoard();
     }
 
@@ -48,7 +39,7 @@ public class ResourceManager : GlobalVars
     {
         lastmon = 5;
         lastpol = 5;
-        foreach(var sect in sects)
+        foreach(var sect in g_sects)
         {
             if(sect.ControlLevel <= g_fullcontrolg)
             {

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GlobalVars : MonoBehaviour
 {
+
+    static public List<SectorController> g_sects = new List<SectorController>();
+
     static public int g_buildingcost = 1;
     static public int g_schoolgain = 4;
     static public int g_farmgain = 5;
