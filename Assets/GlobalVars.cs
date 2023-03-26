@@ -32,6 +32,12 @@ public class GlobalVars : MonoBehaviour
     static public int g_enemycapacity = 0;
     static public string g_enemylastspawn;
 
+    static public float g_bombrate = 30f;
+    static public int g_bombterrormult = 5;
+    static public int g_bombunitmult = 2;
+    static public int g_bombbuildingmult = 1;
+    static public int g_bombcampmult = 1;
+
     public int gf_buildcost(bool repair)
     {
         return repair ? g_costtobuild / 2 : g_costtobuild;

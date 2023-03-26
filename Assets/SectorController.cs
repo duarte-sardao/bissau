@@ -192,6 +192,11 @@ public class SectorController : GlobalVars
         }
     }
 
+    public void Bomb(string target)
+    {
+        Debug.Log("Bombed " + target + " in sector " + sname);
+    }
+
     private void FlagUpdate()
     {
         if (foreign)
