@@ -50,6 +50,7 @@ public class SectorController : GlobalVars
     private Bounds bounds;
     private float timeToExplode = 0;
     public GameObject explosion;
+    public GameObject bombAnim;
 
     private void Start()
     {
@@ -195,6 +196,14 @@ public class SectorController : GlobalVars
     public void Bomb(string target)
     {
         Debug.Log("Bombed " + target + " in sector " + sname);
+        var pos = new Vector3();
+        if (target == "terror")
+            pos = this.pole.transform.position;
+        else if (target == "unit")
+            pos = this.friend.transform.position;
+        else
+            pos = this.buildings[target].obj.transform.position;
+        Instantiate(bombAnim, pos, Quaternion.identity);
     }
 
     private void FlagUpdate()

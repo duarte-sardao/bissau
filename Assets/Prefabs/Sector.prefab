@@ -470,6 +470,7 @@ MonoBehaviour:
   starter: 0
   bissau: 0
   explosion: {fileID: 1302379053275657681, guid: 1bad705716f95e44caaf93bb289aa7ea, type: 3}
+  bombAnim: {fileID: 8476210484125092518, guid: 4c318a3715c803644bf75b377414106f, type: 3}
 --- !u!60 &6681592382883386778
 PolygonCollider2D:
   m_ObjectHideFlags: 0
