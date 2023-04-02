@@ -33,6 +33,7 @@ public class GlobalVars : MonoBehaviour
     static public string g_enemylastspawn;
 
     static public float g_bombrate = 30f;
+    static public int g_bombintensity = 3;
     static public int g_bombterrormult = 5;
     static public int g_bombunitmult = 2;
     static public int g_bombbuildingmult = 1;

@@ -178,32 +178,54 @@ public class SectorController : GlobalVars
         }
     }
 
-    public void DestroyBuilding(string key, int level)
-    {
-        buildings[key].built = false;
-        if(level >= 1)
-        {
-            buildings[key].repairable = true;
-            buildings[key].obj.GetComponent<SpriteRenderer>().color = new Color(0.25f, 0.25f, 0.25f, 1);
-            if (level >= 2)
-                buildings[key].building = true;
-        } else
-        {
-            buildings[key].obj.SetActive(false);
-        }
-    }
-
     public void Bomb(string target)
     {
         Debug.Log("Bombed " + target + " in sector " + sname);
-        var pos = new Vector3();
+        const float delay = 1f;
+        Vector3 pos;
         if (target == "terror")
+        {
             pos = this.pole.transform.position;
+            Invoke(nameof(Terror), delay);
+        }
         else if (target == "unit")
+        {
             pos = this.friend.transform.position;
+            Invoke(nameof(BombUnit), delay);
+        }
         else
+        {
             pos = this.buildings[target].obj.transform.position;
+            StartCoroutine(DestroyBuilding(target, delay));
+        }
         Instantiate(bombAnim, pos, Quaternion.identity);
+    }
+
+    private void Terror()
+    {
+        this.ControlLevel = Mathf.Min(this.ControlLevel + 15 * g_bombintensity, 0f);
+        FlagUpdate();
+    }
+
+    private void BombUnit()
+    {
+        this.friend.UpdateHealth(-0.1f * g_bombintensity);
+    }
+    IEnumerator DestroyBuilding(string key, float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        buildings[key].built = false;
+        if (g_bombintensity <= 2)
+        {
+            buildings[key].repairable = true;
+            buildings[key].obj.GetComponent<SpriteRenderer>().color = new Color(0.25f, 0.25f, 0.25f, 1);
+            if (g_bombintensity <= 1)
+                buildings[key].building = true;
+        }
+        else
+        {
+            buildings[key].obj.SetActive(false);
+        }
     }
 
     private void FlagUpdate()
