@@ -18,6 +18,7 @@ public class BombingLogic : GlobalVars
         public string name;
     }
 
+    public EventSpawner events;
     void Start()
     {
         Invoke(nameof(CheckStart), 10f);
@@ -26,7 +27,10 @@ public class BombingLogic : GlobalVars
     void CheckStart()
     {
         if (g_liberationlevel >= 25f)
+        {
             Invoke(nameof(CalcBomb), 30f);
+            events.Spawn("bombing");
+        }
         else
             Invoke(nameof(CheckStart), 10f);
     }

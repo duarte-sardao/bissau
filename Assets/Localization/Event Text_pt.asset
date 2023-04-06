@@ -36,10 +36,37 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5248913740959318020
+  - m_Id: 9539166545874944
+    m_Localized: "Devido \xE0 deteriora\xE7\xE3o da situa\xE7\xE3o no terreno, o
+      governo portugu\xEAs autorizou o in\xEDcio de ataques a\xE9reos da FAP."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9539534113705984
+    m_Localized: "A for\xE7a a\xEArea inimiga bombardeou a nossa unidade em {script-component.g_lastbomb}.\nVamos
+      preparar um honroso funeral para aquelas perdidos na luta."
+    m_Metadata:
+      m_Items:
+      - rid: 5248913740959318020
+  - m_Id: 9541476739158016
+    m_Localized: "A covarde for\xE7a a\xE9rea portuguesa sistematicamente bombardeous
+      v\xE1rias aldeias em {script-component.g_lastbomb}. Este ataque despic\xE1vel
+      erodiu moral e apoio para a nossa luta."
+    m_Metadata:
+      m_Items:
+      - rid: 5248913740959318020
+  - m_Id: 9542850835091456
+    m_Localized: "{script-component.g_lastbombtype:choose(camp|farm|hospital|school):O
+      nosso encampamento foi bombardeado em|A nossa quinta foi bombardeada em|O nosso
+      hospital foi bombarbeado em|A nossa escola foi bombardeada em} {script-component.g_lastbomb}.\n{script-component.g_bombintensity:choose(3|2|1):A
+      constru\xE7\xE3o foi totalmente destru\xEDda.|A constru\xE7\xE3o est\xE1 danificada.|Reparos
+      come\xE7aram imediamente.}"
+    m_Metadata:
+      m_Items:
+      - rid: 5248913740959318020
   references:
     version: 2
     RefIds:
     - rid: 5248913740959318020
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0090ebc4980000000090eb8e68090000
+        m_Entries: 0090ebc4980000000090eb8e6809000000902bde27e421000090ab2bece5210000902b1a2ce72100

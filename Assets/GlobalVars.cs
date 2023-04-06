@@ -38,6 +38,8 @@ public class GlobalVars : MonoBehaviour
     static public int g_bombunitmult = 2;
     static public int g_bombbuildingmult = 1;
     static public int g_bombcampmult = 1;
+    static public string g_lastbomb = "";
+    static public string g_lastbombtype = "";
 
     public int gf_buildcost(bool repair)
     {

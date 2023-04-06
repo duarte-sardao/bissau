@@ -37,10 +37,39 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5248913740959318019
+  - m_Id: 9539166545874944
+    m_Localized: Due to the deteriorating situation in the ground, the Portuguese
+      government has authorized the commencement of airstrikes by the FAP.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9539534113705984
+    m_Localized: 'The enemy airforce has strafed and attacked our unit stationed
+      in {script-component.g_lastbomb}.
+
+      We will prepare a honourable funeral
+      for those lost in duty.'
+    m_Metadata:
+      m_Items:
+      - rid: 5248913740959318019
+  - m_Id: 9541476739158016
+    m_Localized: The cowardly Portuguese airforce has systematically bombed several
+      villages in {script-component.g_lastbomb}. This despicable act against civilian
+      targets has eroded morale and support for our struggle.
+    m_Metadata:
+      m_Items:
+      - rid: 5248913740959318019
+  - m_Id: 9542850835091456
+    m_Localized: Our {script-component.g_lastbombtype} in {script-component.g_lastbomb}
+      has been bombarded. {script-component.g_bombintensity:choose(3|2|1):The building
+      has been totally destroyed|The building has been damaged|Repairs have been
+      started already}
+    m_Metadata:
+      m_Items:
+      - rid: 5248913740959318019
   references:
     version: 2
     RefIds:
     - rid: 5248913740959318019
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0090ebc4980000000090eb8e68090000
+        m_Entries: 0090ebc4980000000090eb8e6809000000902bde27e421000090ab2bece5210000902b1a2ce72100

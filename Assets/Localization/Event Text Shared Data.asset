@@ -27,6 +27,22 @@ MonoBehaviour:
     m_Key: NEW_UNIT
     m_Metadata:
       m_Items: []
+  - m_Id: 9539166545874944
+    m_Key: AIR_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9539534113705984
+    m_Key: AIR_UNIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9541476739158016
+    m_Key: AIR_TERROR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9542850835091456
+    m_Key: AIR_BUILDING
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

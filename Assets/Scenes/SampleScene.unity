@@ -843,9 +843,11 @@ MonoBehaviour:
     m_keys:
     - new_unit_cap
     - new_unit
+    - bombing
     m_values:
     - {fileID: 5207441783851843986, guid: 3c7e912009fa9db4cb7af495324a8245, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
+    - {fileID: 5207441783851843986, guid: b5aaf4c207b910e4183b1b2ec6780e89, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3004,6 +3006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b73705ee56a5f434fa612443e420ba3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  events: {fileID: 158689813}
 --- !u!4 &588327105
 Transform:
   m_ObjectHideFlags: 0
