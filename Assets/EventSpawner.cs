@@ -7,7 +7,7 @@ public class StringObjDic : SerializableDictionary<string, GameObject> { }
 
 public class EventSpawner : MonoBehaviour
 {
-    public StringObjDic events;
+    [SerializeField] private StringObjDic events;
 
     public EventLogic Spawn(string name)
     {

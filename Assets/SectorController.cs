@@ -28,20 +28,20 @@ public class SectorController : GlobalVars
     public float ControlLevel = 100f;
     public UnitLogic friend = null;
     public UnitLogic enemy = null;
-    public GameObject flags;
-    public GameObject ptflag;
-    public SpriteRenderer pole;
+    [SerializeField] private GameObject flags;
+    [SerializeField] private GameObject ptflag;
+    [SerializeField] private SpriteRenderer pole;
     public bool foreign = false;
 
-    public Vector3 center;
-    public GameObject centerobj;
-    public Vector3 enemcenter;
-    public GameObject enemcenterobj;
+    [HideInInspector] public Vector3 center;
+    [SerializeField] private GameObject centerobj;
+    [HideInInspector] public Vector3 enemcenter;
+    [SerializeField] private GameObject enemcenterobj;
 
-    public string sname;
+    [HideInInspector] public string sname;
 
     public Dictionary<string, Building> buildings = new Dictionary<string, Building>();
-    public GameObject[] buildobj;
+    [SerializeField] private GameObject[] buildobj;
 
     public bool starter = false;
     public bool bissau = false;
@@ -49,8 +49,8 @@ public class SectorController : GlobalVars
     private GameObject overlay;
     private Bounds bounds;
     private float timeToExplode = 0;
-    public GameObject explosion;
-    public GameObject bombAnim;
+    [SerializeField] private GameObject explosion;
+    [SerializeField] private GameObject bombAnim;
 
     private void Start()
     {

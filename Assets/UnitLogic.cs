@@ -10,9 +10,9 @@ public class UnitLogic : GlobalVars
     public bool moving = false;
     public float health = 1; //make bar
     public bool guinean;
-    public GameObject healthin;
+    [SerializeField] private GameObject healthin;
 
-    public int foreigncount;
+    [SerializeField] private int foreigncount;
 
     public CampLogic camp;
 

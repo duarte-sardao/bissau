@@ -34,7 +34,7 @@ public class PathCalculator : GlobalVars
         public float Distance { get; set; }
     }
 
-    public Sector[] sectors;
+    [SerializeField] private Sector[] sectors;
 
     private void Start()
     {

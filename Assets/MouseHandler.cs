@@ -6,13 +6,13 @@ public class MouseHandler : MonoBehaviour
 {
 
     private UnitLogic holding;
-    public PathCalculator calculator;
+    [SerializeField] private PathCalculator calculator;
     private LineRenderer lineRenderer;
 
-    public SectorController lastKnownSect;
-    public Stack<Vector3> lastKnownPath;
+    [SerializeField] private SectorController lastKnownSect;
+    [SerializeField] private Stack<Vector3> lastKnownPath;
 
-    public SideMenu side;
+    [SerializeField] private SideMenu side;
 
     public void Start()
     {

@@ -7,18 +7,18 @@ public class ResourceManager : GlobalVars
 
     public int politic;
     public int money;
-    public int lastpol;
-    public int lastmon;
+    [SerializeField] private int lastpol;
+    [SerializeField] private int lastmon;
 
-    public float updatetime;
+    [SerializeField] private float updatetime;
     private float acctime;
 
-    public TMPro.TMP_Text polval;
-    public TMPro.TMP_Text polgain;
-    public TMPro.TMP_Text monval;
-    public TMPro.TMP_Text mongain;
+    [SerializeField] private TMPro.TMP_Text polval;
+    [SerializeField] private TMPro.TMP_Text polgain;
+    [SerializeField] private TMPro.TMP_Text monval;
+    [SerializeField] private TMPro.TMP_Text mongain;
 
-    public PathCalculator path;
+    [SerializeField] private PathCalculator path;
 
     void Start()
     {

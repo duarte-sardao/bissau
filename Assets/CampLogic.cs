@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CampLogic : GlobalVars
 {
-    public GameObject bar;
+    [SerializeField] private GameObject bar;
     private SpriteRenderer spr;
     private SpriteRenderer cmp;
     public float accTime;
     public int queued;
-    public GameObject unit;
+    [SerializeField] private GameObject unit;
     private SectorController sector;
 
     private void Start()

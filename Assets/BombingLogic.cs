@@ -18,7 +18,7 @@ public class BombingLogic : GlobalVars
         public string name;
     }
 
-    public EventSpawner events;
+    [SerializeField] private EventSpawner events;
     void Start()
     {
         Invoke(nameof(CheckStart), 10f);

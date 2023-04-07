@@ -5,24 +5,24 @@ using UnityEngine.UI;
 
 public class SideMenu : ResourceManager
 {
-    public bool open;
-    public SectorController sector;
-    public Canvas sidecanvas;
-    public TMPro.TMP_Text nametext;
+    [SerializeField] private bool open;
+    [SerializeField] private SectorController sector;
+    [SerializeField] private Canvas sidecanvas;
+    [SerializeField] private TMPro.TMP_Text nametext;
 
-    public TMPro.TMP_Text campcost;
-    public TMPro.TMP_Text hospcost;
-    public TMPro.TMP_Text schoolgain;
-    public TMPro.TMP_Text schoolcost;
-    public TMPro.TMP_Text farmgain;
-    public TMPro.TMP_Text cost;
-    public TMPro.TMP_Text rcost;
+    [SerializeField] private TMPro.TMP_Text campcost;
+    [SerializeField] private TMPro.TMP_Text hospcost;
+    [SerializeField] private TMPro.TMP_Text schoolgain;
+    [SerializeField] private TMPro.TMP_Text schoolcost;
+    [SerializeField] private TMPro.TMP_Text farmgain;
+    [SerializeField] private TMPro.TMP_Text cost;
+    [SerializeField] private TMPro.TMP_Text rcost;
 
     private readonly string[] builds = { "camp", "hospital", "school", "farm" };
-    public Button[] buildButts;
-    public TMPro.TMP_Text[] buildProg;
-    public Image[] buildCheck;
-    public GameObject[] buildDamage;
+    [SerializeField] private Button[] buildButts;
+    [SerializeField] private TMPro.TMP_Text[] buildProg;
+    [SerializeField] private Image[] buildCheck;
+    [SerializeField] private GameObject[] buildDamage;
 
     public void Start()
     {

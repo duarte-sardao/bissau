@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EnemySpawner : GlobalVars
 {
-    public EventSpawner events;
-    public SectorController bissau;
-    public GameObject enemyUnit;
-    public List<GameObject> units;
+    [SerializeField] private EventSpawner events;
+    [SerializeField] private SectorController bissau;
+    [SerializeField] private GameObject enemyUnit;
+    [SerializeField] private List<GameObject> units;
     private bool spawning = false;
 
     private void Start()
