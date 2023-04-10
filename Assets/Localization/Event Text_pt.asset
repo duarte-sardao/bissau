@@ -50,7 +50,7 @@ MonoBehaviour:
   - m_Id: 9541476739158016
     m_Localized: "A covarde for\xE7a a\xE9rea portuguesa sistematicamente bombardeous
       v\xE1rias aldeias em {script-component.g_lastbomb}. Este ataque despic\xE1vel
-      erodiu moral e apoio para a nossa luta."
+      contra civis erodiu moral e apoio para a nossa luta."
     m_Metadata:
       m_Items:
       - rid: 5248913740959318020
@@ -63,6 +63,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5248913740959318020
+  - m_Id: 10928245984579584
+    m_Localized: BOMBARDEAMENTO!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

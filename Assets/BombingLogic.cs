@@ -68,24 +68,43 @@ public class BombingLogic : GlobalVars
         int buildingtarget = buildings.Count * g_bombbuildingmult + camptarget;
 
         int roll = Random.Range(0, buildingtarget+1);
+        SectorController target;
+        string type;
+        string evt = "air_building";
         if(roll <= terrtarget)
         {
-            terror[Random.Range(0, terror.Count)].Bomb("terror");
+            target = terror[Random.Range(0, terror.Count)];
+            type = "terror";
+            evt = "air_terror";
         }
         else if(roll <= unittarget)
         {
-            units[Random.Range(0, units.Count)].Bomb("unit");
+            target = units[Random.Range(0, units.Count)];
+            type = "unit";
+            evt = "air_unit";
         }
         else if (roll <= camptarget)
         {
-            camps[Random.Range(0, camps.Count)].Bomb("camp");
+            target = camps[Random.Range(0, camps.Count)];
+            type = "camp";
         } else
         {
             var targ = buildings[Random.Range(0, buildings.Count)];
-            targ.sect.Bomb(targ.name);
+            target = targ.sect;
+            type = targ.name;
         }
+        target.Bomb(type);
+        g_lastbomb = target.sname;
+        g_lastbombtype = type;
+        StartCoroutine(BombEvent(evt, 1.3f));
 
 
-        Invoke(nameof(CalcBomb), Random.Range(g_bombrate - 10f, g_bombrate + 10f));
+
+        Invoke(nameof(CalcBomb), Mathf.Max(10f, Random.Range(g_bombrate - 10f, g_bombrate + 10f)));
+    }
+
+    IEnumerator BombEvent(string evt, float delay) {
+        yield return new WaitForSeconds(delay);
+        events.Spawn(evt);
     }
 }

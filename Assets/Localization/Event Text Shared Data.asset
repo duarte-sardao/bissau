@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: AIR_BUILDING
     m_Metadata:
       m_Items: []
+  - m_Id: 10928245984579584
+    m_Key: AIR_BOMBING
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

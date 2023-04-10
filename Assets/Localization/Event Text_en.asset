@@ -66,6 +66,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items:
       - rid: 5248913740959318019
+  - m_Id: 10928245984579584
+    m_Localized: BOMBING!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

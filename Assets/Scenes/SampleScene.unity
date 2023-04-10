@@ -844,10 +844,16 @@ MonoBehaviour:
     - new_unit_cap
     - new_unit
     - bombing
+    - air_terror
+    - air_building
+    - air_unit
     m_values:
     - {fileID: 5207441783851843986, guid: 3c7e912009fa9db4cb7af495324a8245, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
     - {fileID: 5207441783851843986, guid: b5aaf4c207b910e4183b1b2ec6780e89, type: 3}
+    - {fileID: 6320680104526222103, guid: 0508d2d6541505c44a99129905af4b82, type: 3}
+    - {fileID: 6320680104526222103, guid: 634347a7b4db2e0468d5a0a8b558fa3c, type: 3}
+    - {fileID: 6320680104526222103, guid: dfca9a7c53cfaeb41a05772abda13230, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
