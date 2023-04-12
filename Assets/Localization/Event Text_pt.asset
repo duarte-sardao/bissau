@@ -64,7 +64,7 @@ MonoBehaviour:
       m_Items:
       - rid: 5248913740959318020
   - m_Id: 10928245984579584
-    m_Localized: BOMBARDEAMENTO!
+    m_Localized: <color=red>BOMBARDEAMENTO!</color>
     m_Metadata:
       m_Items: []
   references:
