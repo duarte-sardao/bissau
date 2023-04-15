@@ -25,6 +25,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Event Text Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 716bdc2a52d0578428bf1d8f97e66785
+    m_Address: Assets/Localization/MoneySources Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e824003488873441b6a0ee18ceb7763, type: 2}
   m_SchemaSet:
