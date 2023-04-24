@@ -54,6 +54,49 @@ MonoBehaviour:
     m_Localized: (Damaged)
     m_Metadata:
       m_Items: []
+  - m_Id: 26443933902258176
+    m_Localized: "The agriculture of Bissau has seen some serious shocks in the last
+      century:\r\nfirst the penetration of the colonial authorities, who sought to
+      monopolize\r\nexports and move peasants from their traditional lifestyle of
+      subsistence and \r\nsmall-scale trade to forced labour plantations. Secondly,
+      the revolutionary war\r\nhas brought further ruin and chaos to cultivation.
+      Cabral, an agronomist who\r\nattentively studied Guinean agriculture, was particularly
+      concerned by the state\r\nof the Guinean peasantry: we must ensure the safety
+      and provide the\r\ninfrastructure for plantations of crops such as the traditional
+      groundnut and the\r\ncoveted rice, providing a lifeline both for our peasants
+      and our revolution,\r\nwho direly needs the funding from their export."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26443902491115520
+    m_Localized: "Portugal was always backwards when it come to illiteracy compared
+      to its'\r\nEuropean neighbors: only in the 1940's did literacy even surpass
+      50% and\r\nwhile the regime made strides in combating illiteracy among schoolchildren,
+      \r\nit remains rampant in adults. In Africa the situation is incomparably worse:
+      \r\nilliteracy is well over the 90's and the few educational institutions that
+      exist \r\nare mostly targeted towards whites. A comprehensive education initiative
+      \r\nmust be undertake when the war is over, but we should still focus our \r\nmeager
+      resources in beginning education now, especially as literacy is vital\r\n for
+      the training of educated, learned political cadres."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26443893943123968
+    m_Localized: "Scarce attention has been paid to welfare of the citizens of Guinea-Bissau\r\nby
+      the Portuguese government. Indeed, even many attempts at expansion\r\nof colonial
+      settlement failed due to the inability to deal with such problems\r\nas tropical
+      diseases. Not only disease afflicts us, but also the wounds \r\ninflicted on
+      us by our opressors both among fighters and civilians: we can't\r\n only really
+      on humanitarian aid, we must provide for our people where they live!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26443893720825856
+    m_Localized: "Our people do not want war, but years of untold cruelty and oppression
+      \r\nforced it onto us. But wars are not won by mere devotion and ideals: they\r\nare
+      won by people. Our foremost efforts must be guided towards the \r\npromotion
+      of a people's army, with a rifle by their side, the love of their \r\nneighbor's
+      in the heart and a committed desire to fighting for a egalitarian\r\nfree society,
+      where no man opresses man."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

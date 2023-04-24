@@ -51,6 +51,22 @@ MonoBehaviour:
     m_Key: SIDE_DAM
     m_Metadata:
       m_Items: []
+  - m_Id: 26443893720825856
+    m_Key: HOSPITAL_LOR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26443893943123968
+    m_Key: HOSPITAL_LORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26443902491115520
+    m_Key: SCHOOL_LORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26443933902258176
+    m_Key: FARM_LORE
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
