@@ -45,4 +45,6 @@ public class GlobalVars : MonoBehaviour
     {
         return repair ? g_costtobuild / 2 : g_costtobuild;
     }
+
+    static public float lev_startbombing = 20f;
 }

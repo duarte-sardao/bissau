@@ -980,13 +980,15 @@ MonoBehaviour:
     - air_terror
     - air_building
     - air_unit
+    - spinola_arrive
     m_values:
-    - {fileID: 5207441783851843986, guid: 3c7e912009fa9db4cb7af495324a8245, type: 3}
+    - {fileID: 5207441783851843986, guid: 2d8b4ae49525bbb41836c8f057265938, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
     - {fileID: 5207441783851843986, guid: b5aaf4c207b910e4183b1b2ec6780e89, type: 3}
     - {fileID: 6320680104526222103, guid: 0508d2d6541505c44a99129905af4b82, type: 3}
     - {fileID: 6320680104526222103, guid: 634347a7b4db2e0468d5a0a8b558fa3c, type: 3}
     - {fileID: 6320680104526222103, guid: dfca9a7c53cfaeb41a05772abda13230, type: 3}
+    - {fileID: 5207441783851843986, guid: 3c7e912009fa9db4cb7af495324a8245, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11150,6 +11152,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320509626}
   m_CullTransparentMesh: 1
+--- !u!1 &1321672482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1321672484}
+  - component: {fileID: 1321672483}
+  m_Layer: 0
+  m_Name: newsevents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1321672483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321672482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10675c9471501bd4ca861a23173cb4cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evts:
+  - name: spinola_arrive
+    limit: 35
+  events: {fileID: 158689813}
+--- !u!4 &1321672484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321672482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8932152, y: 2.5143878, z: -0.08400132}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1326485514
 GameObject:
   m_ObjectHideFlags: 0

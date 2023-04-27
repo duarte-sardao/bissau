@@ -70,6 +70,26 @@ MonoBehaviour:
     m_Localized: <color=red>BOMBING!</color>
     m_Metadata:
       m_Items: []
+  - m_Id: 17160723927003136
+    m_Localized: NEWS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17160785633603584
+    m_Localized: "The Portuguese government has recently announced that Ant\xF3nio
+      Sebasti\xE3o Ribeiro de Sp\xEDnola would become the new Governor of Portuguese
+      Guinea and commanding officer of it's armed forces. Many believe this will
+      mark a turning point in the conduct of the war, as Arnaldo Schulz war-making
+      conduct has fallen out of favour."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17161217395257344
+    m_Localized: 20 May 1968 Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17162332144791552
+    m_Localized: "Sp\xEDnola Arrives in Bissau"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

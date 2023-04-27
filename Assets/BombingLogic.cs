@@ -26,7 +26,7 @@ public class BombingLogic : GlobalVars
 
     void CheckStart()
     {
-        if (g_liberationlevel >= 25f)
+        if (g_liberationlevel >= lev_startbombing)
         {
             Invoke(nameof(CalcBomb), 30f);
             events.Spawn("bombing");

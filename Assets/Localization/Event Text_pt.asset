@@ -67,6 +67,26 @@ MonoBehaviour:
     m_Localized: <color=red>BOMBARDEAMENTO!</color>
     m_Metadata:
       m_Items: []
+  - m_Id: 17160723927003136
+    m_Localized: "NOT\xCDCIAS"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17161217395257344
+    m_Localized: "Edi\xE7\xE3o 20 de Maio de 1968"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17160785633603584
+    m_Localized: "O governo portugu\xEAs anunciou recentemente que Ant\xF3nio Sebasti\xE3o
+      Ribeiro de Sp\xEDnola se tornaria o novo Governador da Guin\xE9 Portuguesa
+      e comandante das suas for\xE7as armadas. Muitos acreditam que isso marcar\xE1
+      um ponto de viragem na guerra, j\xE1 que a conduta de guerra de Arnaldo Schulz
+      tem sido desfavorecida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17162332144791552
+    m_Localized: "Sp\xEDnola Chega a Bissau"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

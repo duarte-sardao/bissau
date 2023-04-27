@@ -47,6 +47,22 @@ MonoBehaviour:
     m_Key: AIR_BOMBING
     m_Metadata:
       m_Items: []
+  - m_Id: 17160723927003136
+    m_Key: NEWS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17160785633603584
+    m_Key: SPINOLA_ARRIVES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17161217395257344
+    m_Key: SPINOLA_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17162332144791552
+    m_Key: SPINOLA_TITLE
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
