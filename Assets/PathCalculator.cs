@@ -155,7 +155,7 @@ public class PathCalculator : GlobalVars
             //healthdiff if occupied
             if(sector.friend != null)
             {
-                var dam_imbal = pt_damage / gn_damage;
+                var dam_imbal = pt_damage_mult / gn_damage_mult;
                 var diff = (sector.friend.health - origin.enemy.health*dam_imbal)*100;
                 if (diff > 0 && diff < -20)
                     newval += diff * 10;

@@ -91,8 +91,8 @@ public class SectorController : GlobalVars
 
     private void Battle()
     {
-        friend.UpdateHealth( -pt_damage * Time.deltaTime);
-        enemy.UpdateHealth(-gn_damage * Time.deltaTime);
+        friend.UpdateHealth( -multiplier(base_damage, pt_damage_mult) * Time.deltaTime);
+        enemy.UpdateHealth(-multiplier(base_damage, gn_damage_mult) * Time.deltaTime);
         if((timeToExplode -= Time.deltaTime) < 0)
         {
             DrawExplosions();
@@ -130,25 +130,25 @@ public class SectorController : GlobalVars
         {
             if (ControlLevel > -100)
             {
-                UpdateControl(-Time.deltaTime * gn_cap);
+                UpdateControl(-Time.deltaTime * multiplier(base_cap, gn_cap_mult));
             } else
             {
                 var mult = 1;
                 if (buildings["hospital"].built) mult *= 2;
-                friend.UpdateHealth(Time.deltaTime * gn_heal * mult);
+                friend.UpdateHealth(Time.deltaTime * multiplier(base_heal, gn_heal_mult) * mult);
             }
         } else if(Occ(enemy))
         {
             if (ControlLevel < 100)
             {
-                UpdateControl(Time.deltaTime * pt_cap);
+                UpdateControl(Time.deltaTime * multiplier(base_cap, pt_cap_mult));
             } else
             {
-                enemy.UpdateHealth(Time.deltaTime * pt_heal);
+                enemy.UpdateHealth(Time.deltaTime * multiplier(base_heal, pt_heal_mult));
             }
         }
         if(bissau && Occ(friend) && ControlLevel > g_fullcontrolg)
-            friend.UpdateHealth(-pt_damage * 10 * Time.deltaTime);
+            friend.UpdateHealth(-multiplier(base_damage, pt_damage_mult) * 10 * Time.deltaTime);
         BuildingBuilding();
     }
 
