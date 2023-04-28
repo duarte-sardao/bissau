@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragUI : MonoBehaviour, IDragHandler
+public class DragUI : GlobalVars, IDragHandler
 {
     private Canvas canvas;
     private RectTransform rectTransform;

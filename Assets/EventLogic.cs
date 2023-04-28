@@ -6,6 +6,7 @@ using UnityEngine.Localization.Components;
 
 public class EventLogic : DragUI
 {
+    [SerializeField] private string triggered_evt = null;
     protected override void Start()
     {
         base.Start();
@@ -13,6 +14,8 @@ public class EventLogic : DragUI
     }
     public void Close()
     {
+        if (triggered_evt != null)
+            trigger_modifier(triggered_evt);
         Destroy(this.gameObject);
     }
 }

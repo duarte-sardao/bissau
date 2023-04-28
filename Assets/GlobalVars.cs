@@ -54,4 +54,31 @@ public class GlobalVars : MonoBehaviour
         return repair ? g_costtobuild / 2 : g_costtobuild;
     }
 
+    //triggered modifiers
+
+    public void trigger_modifier(string name)
+    {
+        Invoke(name, 0f);
+    }
+
+    public void hearts_and_minds()
+    {
+        gn_cap_mult -= 0.25f;
+    }
+
+    public void indigenous_recruiting()
+    {
+        pt_heal_mult += 0.15f;
+        g_ptunittime -= 15f;
+        pt_cap_mult += 0.1f;
+    }
+
+    public void bombing_update()
+    {
+        g_bombterrormult = 2;
+        g_bombunitmult = 3;
+        g_bombbuildingmult = 2;
+        g_bombcampmult = 6;
+    }
+
 }
