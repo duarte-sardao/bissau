@@ -87,6 +87,44 @@ MonoBehaviour:
     m_Localized: "Sp\xEDnola Chega a Bissau"
     m_Metadata:
       m_Items: []
+  - m_Id: 17863084425211904
+    m_Localized: "Ao chegar \xE0 Guin\xE9, Sp\xEDnola identificou que grande parte
+      da estrutura da col\xF3nia estava a gerar simpatia pelos revolucion\xE1rios.
+      Compreendendo este facto, Sp\xEDnola come\xE7ou a levar a cabo uma campanha
+      de sensibiliza\xE7\xE3o, por exemplo, reduzindo algumas da discrimina\xE7\xE3o
+      mais aberta e angariando apoio entre l\xEDderes tradicionais. A partir de agora,
+      ser\xE1 mais dif\xEDcil ganhar terreno."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17864172075347968
+    m_Localized: "Relat\xF3rios revelam que o General Sp\xEDnola deu in\xEDcio a
+      um projecto maci\xE7o de recrutamento de combatentes ind\xEDgenas, reduzindo
+      a depend\xEAncia da metr\xF3pole e refor\xE7ando o apoio local. Isto permitir\xE1
+      aos portugueses recuperar mais rapidamente das baixas no terreno e as suas
+      tropas ser\xE3o vistas com menos desconfian\xE7a quando tentarem aumentar o
+      controlo do territ\xF3rio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865255220801536
+    m_Localized: Colaboradores!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865878393712640
+    m_Localized: Preocupante.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865956298715136
+    m_Localized: Temos de nos adaptar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17866094224207872
+    m_Localized: "As nossas observa\xE7\xF5es indicam que a For\xE7a A\xE9rea Portuguesa,
+      sob o comando de Sp\xEDnola, est\xE1 a rever as suas t\xE1cticas: desiludida
+      com o fraco desempenho de bombardeamentos descoordenados e terroristas, est\xE1
+      a ser disciplinada para se concentrar mais intensamente em alvos militares,
+      principalmente nos nossos campos de treino."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

@@ -25,12 +25,12 @@ public class NewsEvents : GlobalVars
 
     void CheckSpawn()
     {
-        if (pos >= evts.Count)
-            Destroy(this.gameObject);
         if(g_liberationlevel >= evts[pos].limit)
         {
             events.Spawn(evts[pos].name);
             pos++;
+            if (pos >= evts.Count)
+                Destroy(this.gameObject);
         }
     }
 }

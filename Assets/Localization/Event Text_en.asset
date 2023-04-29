@@ -90,6 +90,41 @@ MonoBehaviour:
     m_Localized: "Sp\xEDnola Arrives in Bissau"
     m_Metadata:
       m_Items: []
+  - m_Id: 17863084425211904
+    m_Localized: "Arriving in Guinea, Sp\xEDnola has identified much of the structure
+      of the colony was driving sympathy for the revolutionaries. Understanding this,
+      Sp\xEDnola has begun undertaking a hearts and minds campaign, for example,
+      reducing some of the most over discrimination and rallying support among traditional
+      leadership. It will be harder to gain ground from now on."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17864172075347968
+    m_Localized: "Reports have shown that General Sp\xEDnola has began a massive
+      undertaking of recruitment of indigenous fighters, reducing dependence on the
+      metropole and shoring up local support. This will allow the Portuguese to more
+      quickly recover casualties in the field and their troops will be viewed with
+      less suspicion as they seek to increase control of territory."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865255220801536
+    m_Localized: Collaborators!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865878393712640
+    m_Localized: Worrying.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865956298715136
+    m_Localized: We must adapt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17866094224207872
+    m_Localized: "Our observations have indicated that the Portuguese Airforce under
+      Sp\xEDnola is overhauling it's tactics: disappointed with the lackluster performance
+      of uncoordinated and terror bombings, it is being disciplined into focusing
+      more intently on military targets, most notably our training camps."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

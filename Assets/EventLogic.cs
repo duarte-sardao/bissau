@@ -14,7 +14,7 @@ public class EventLogic : DragUI
     }
     public void Close()
     {
-        if (triggered_evt != null)
+        if (triggered_evt != null && triggered_evt.Length > 0)
             trigger_modifier(triggered_evt);
         Destroy(this.gameObject);
     }

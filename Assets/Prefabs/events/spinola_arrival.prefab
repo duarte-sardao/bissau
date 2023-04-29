@@ -708,7 +708,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -867,6 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a26d3a70cb12ab40b6fea7ee27e2027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggered_evt: call_other_spinola_events
 --- !u!1 &5207441783918123726
 GameObject:
   m_ObjectHideFlags: 0

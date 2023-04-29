@@ -13,8 +13,11 @@ public class EventSpawner : MonoBehaviour
     {
         return Instantiate(events[name], this.transform).GetComponent<EventLogic>();
     }
-
-    IEnumerator SpawnDelayed(string name, float delay)
+    public void SpawnDelayed(string name, float delay)
+    {
+        StartCoroutine(SpDelay(name, delay));
+    }
+    private IEnumerator SpDelay(string name, float delay)
     {
         yield return new WaitForSeconds(delay);
         Spawn(name);

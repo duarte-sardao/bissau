@@ -63,6 +63,30 @@ MonoBehaviour:
     m_Key: SPINOLA_TITLE
     m_Metadata:
       m_Items: []
+  - m_Id: 17863084425211904
+    m_Key: SPINOLA_HEARTSANDMINDS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17864172075347968
+    m_Key: SPINOLA_INDIGENOUSRECRUITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865255220801536
+    m_Key: COLABORADORES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865878393712640
+    m_Key: WORRYING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17865956298715136
+    m_Key: ADAPT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17866094224207872
+    m_Key: SPINOLA_BOMBINGNEW
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
