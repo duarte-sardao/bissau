@@ -984,6 +984,10 @@ MonoBehaviour:
     - hearts_and_minds
     - indi_recruits
     - better_bombs
+    - sabotage_money
+    - sabotage_politic
+    - sabotage_military
+    - sabotage_mil_fixed
     m_values:
     - {fileID: 5207441783851843986, guid: 2d8b4ae49525bbb41836c8f057265938, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
@@ -995,6 +999,10 @@ MonoBehaviour:
     - {fileID: 5207441783851843986, guid: 0f6c17aebd8be3749b8bb03da3734a19, type: 3}
     - {fileID: 5207441783851843986, guid: aaba88758e864d647bc879ca71f188dd, type: 3}
     - {fileID: 5207441783851843986, guid: 9ec38731e5d81d2438b52068a4a1d8d6, type: 3}
+    - {fileID: 5207441783851843986, guid: 4cd3db5042c121a4caebff64cc303074, type: 3}
+    - {fileID: 5207441783851843986, guid: fcd8ec042a1150948aab94832285b3f9, type: 3}
+    - {fileID: 5207441783851843986, guid: 6541997d935ea874aad07985a6241eb1, type: 3}
+    - {fileID: 5207441783851843986, guid: cf783b7ebbf385b4888049a656087274, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6597,6 +6605,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875061224}
   m_CullTransparentMesh: 1
+--- !u!1 &876479857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 876479859}
+  - component: {fileID: 876479858}
+  m_Layer: 0
+  m_Name: sabotageevents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &876479858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876479857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833574cdd2c0ae34b82c0164cd35a106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evtman: {fileID: 158689813}
+--- !u!4 &876479859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876479857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.37787664, y: 0.8050802, z: -0.08831256}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &888015636
 GameObject:
   m_ObjectHideFlags: 0

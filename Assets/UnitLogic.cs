@@ -90,6 +90,7 @@ public class UnitLogic : GlobalVars
             {
                 var mult = 1f;
                 if (foreigncount > 0) mult = 2f;
+                if (guinean) { mult *= gn_speed; } else { mult *= pt_speed; }
                 this.transform.position += (next - this.transform.position).normalized * Time.deltaTime * mult;
             } else
             {

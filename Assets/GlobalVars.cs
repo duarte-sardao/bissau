@@ -22,6 +22,9 @@ public class GlobalVars : MonoBehaviour
     static public float pt_heal_mult = 1f;
     static public float gn_heal_mult = 1f;
 
+    static public float gn_speed = 1;
+    static public float pt_speed = 1;
+
     static public float base_cap = 10;
     static public float pt_cap_mult = 1f;
     static public float gn_cap_mult = 199.1f;
@@ -49,47 +52,14 @@ public class GlobalVars : MonoBehaviour
     static public string g_lastbomb = "";
     static public string g_lastbombtype = "";
 
+    static public float g_sabotage_freq = 120f;
+    static public int g_sabotage_strength = 4;
+    static protected int g_last_sabotage_strength;
+
+    static public ResourceManager g_res;
+
     public int gf_buildcost(bool repair)
     {
         return repair ? g_costtobuild / 2 : g_costtobuild;
     }
-
-    //triggered modifiers
-
-    public void trigger_modifier(string name)
-    {
-        Invoke(name, 0f);
-    }
-
-    public void hearts_and_minds()
-    {
-        gn_cap_mult -= 0.25f;
-        Debug.Log("hearts and minds");
-    }
-
-    public void indigenous_recruiting()
-    {
-        pt_heal_mult += 0.15f;
-        g_ptunittime -= 15f;
-        pt_cap_mult += 0.1f;
-        Debug.Log("indigenous recruits");
-    }
-
-    public void bombing_update()
-    {
-        g_bombterrormult = 2;
-        g_bombunitmult = 3;
-        g_bombbuildingmult = 2;
-        g_bombcampmult = 6;
-        Debug.Log("better bombings");
-    }
-
-    public void call_other_spinola_events()
-    {
-        var spwn = FindObjectOfType<EventSpawner>();
-        spwn.SpawnDelayed("hearts_and_minds", 30f);
-        spwn.SpawnDelayed("indi_recruits", 90f);
-        spwn.SpawnDelayed("better_bombs", 140f);
-    }
-
 }

@@ -125,6 +125,33 @@ MonoBehaviour:
       more intently on military targets, most notably our training camps."
     m_Metadata:
       m_Items: []
+  - m_Id: 18235936022327296
+    m_Localized: SABOTAGE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236012710981632
+    m_Localized: We have recently tabulated our finances and found massive losses
+      where they shouldn't be. We believe this to be enemy sabotage and the perpetrators
+      will be punished accordingly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236282547335168
+    m_Localized: In some of the liberated areas, the cadres responsibly for upholding
+      the revolution have been skirting their duties and in some cases aiding the
+      enemy. Our political standing is weakened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236543944749056
+    m_Localized: Some of our military plans have been leaked, due to enemy infiltration
+      of our organizational structure. For now, we will find the enemy much better
+      prepared in combats and our movement will be slowed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236987249127424
+    m_Localized: We have reason to believe the enemy can no longer derive valuable
+      intel from our leaked military plans. We can rest easy again.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

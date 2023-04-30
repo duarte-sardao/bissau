@@ -32,6 +32,7 @@ public class ResourceManager : GlobalVars
     void Start()
     {
         UpdateBoard();
+        g_res = this;
     }
 
     void Update()
@@ -113,6 +114,18 @@ public class ResourceManager : GlobalVars
             badtext = "<color=#8F0000>" + m_StringTable.GetTable().GetEntry(name).LocalizedValue + ": " + value + "\n";
         }
         return badtext;
+    }
+
+    public void ModifyMoney(int val)
+    {
+        money += val;
+        monval.text = money.ToString();
+    }
+
+    public void ModifyPolitic(int val)
+    {
+        politic += val;
+        polval.text = politic.ToString();
     }
 
     private void UpdateBoard()

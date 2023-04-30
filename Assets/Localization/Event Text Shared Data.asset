@@ -87,6 +87,26 @@ MonoBehaviour:
     m_Key: SPINOLA_BOMBINGNEW
     m_Metadata:
       m_Items: []
+  - m_Id: 18235936022327296
+    m_Key: SABOTAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236012710981632
+    m_Key: SABO_MONEY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236282547335168
+    m_Key: SABO_POLITIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236543944749056
+    m_Key: SABO_MILITARY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236987249127424
+    m_Key: SABO_FIXED
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

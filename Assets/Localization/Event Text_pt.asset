@@ -125,6 +125,34 @@ MonoBehaviour:
       principalmente nos nossos campos de treino."
     m_Metadata:
       m_Items: []
+  - m_Id: 18235936022327296
+    m_Localized: SABOTAGEM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236012710981632
+    m_Localized: "Tabul\xE1mos as nossas finan\xE7as recentemente e encontr\xE1mos
+      perdas enormes onde n\xE3o se deviam encontrar. Acreditamos que se trata de
+      sabotagem inimiga e os perpetradores ser\xE3o punidos em conformidade."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236282547335168
+    m_Localized: "Nalgumas das zonas libertadas, os quadros respons\xE1veis pela
+      defesa da revolu\xE7\xE3o t\xEAm andado a fugir aos seus deveres e, nalguns
+      casos, a ajudar o inimigo. A nossa posi\xE7\xE3o pol\xEDtica est\xE1 enfraquecida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236543944749056
+    m_Localized: "Alguns dos nossos planos militares foram revelados, devido a infiltra\xE7\xF5es
+      inimigas na nossa estrutura organizacional. Para j\xE1, vamos encontrar o inimigo
+      muito mais bem preparado em combates e a nossa movimenta\xE7\xE3o dificultada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18236987249127424
+    m_Localized: "Temos raz\xF5es para acreditar que o inimigo j\xE1 n\xE3o pode
+      retirar informa\xE7\xF5es valiosas das nossas fugas de informa\xE7\xE3o dos
+      planos militares. Podemos ficar novamente tranquilos."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
