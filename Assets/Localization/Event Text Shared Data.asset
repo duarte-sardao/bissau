@@ -107,6 +107,22 @@ MonoBehaviour:
     m_Key: SABO_FIXED
     m_Metadata:
       m_Items: []
+  - m_Id: 19526631667593216
+    m_Key: NATO_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19526902355390464
+    m_Key: NATO_DESC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539002083569664
+    m_Key: MOTO_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539104818851840
+    m_Key: MOTO_DESC
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

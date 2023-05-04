@@ -988,6 +988,8 @@ MonoBehaviour:
     - sabotage_politic
     - sabotage_military
     - sabotage_mil_fixed
+    - nato_arms
+    - moto
     m_values:
     - {fileID: 5207441783851843986, guid: 2d8b4ae49525bbb41836c8f057265938, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
@@ -1003,6 +1005,8 @@ MonoBehaviour:
     - {fileID: 5207441783851843986, guid: fcd8ec042a1150948aab94832285b3f9, type: 3}
     - {fileID: 5207441783851843986, guid: 6541997d935ea874aad07985a6241eb1, type: 3}
     - {fileID: 5207441783851843986, guid: cf783b7ebbf385b4888049a656087274, type: 3}
+    - {fileID: 5207441783851843986, guid: b855b5345381a1c438bd3402aee78fd6, type: 3}
+    - {fileID: 5207441783851843986, guid: a4485e7d89df00a488eec2fd7c9f71b3, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11243,6 +11247,10 @@ MonoBehaviour:
   evts:
   - name: spinola_arrive
     limit: 35
+  - name: nato_arms
+    limit: 30
+  - name: moto
+    limit: 45
   events: {fileID: 158689813}
 --- !u!4 &1321672484
 Transform:

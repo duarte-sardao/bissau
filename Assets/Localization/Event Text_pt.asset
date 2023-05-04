@@ -153,6 +153,33 @@ MonoBehaviour:
       planos militares. Podemos ficar novamente tranquilos."
     m_Metadata:
       m_Items: []
+  - m_Id: 19526631667593216
+    m_Localized: "Equipamento de NATO Reinfor\xE7a o Ex\xE9rcito Portugu\xEAs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19526902355390464
+    m_Localized: "Crescentemente, equipamento da NATO est\xE1 a chegar \xE1s col\xF3nias
+      portuguesas e a reinfor\xE7ar as suas opera\xE7\xF5es. Alguns pa\xEDses, como
+      os EUA e o Reino Unido, especificam que a ajuda militar deve apenas ser usada
+      na Europa, dentro do contexto da NATO, mas n\xE3o existe um verdadeiro controlo
+      do uso. Outros, como a Fran\xE7a, recentemente sa\xEDda de uma guerra similar
+      na Alg\xE9ria, e a Rep\xFAblica Federal Alem\xE3, n\xE3o sentem a necessidade
+      de fingir que o seu equipamento n\xE3o vai ser usado para suprimir as guerras
+      de liberta\xE7\xE3o africanas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539002083569664
+    m_Localized: "Motoriza\xE7\xE3o do Ex\xE9rcito Portugu\xEAs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539104818851840
+    m_Localized: "A motoriza\xE7\xE3o do ex\xE9rcito portugu\xEAs tem vindo a aumentar
+      de forma constante: embora o terreno mais dif\xEDcil e pantanoso de Bissau
+      dificulte isto, mais do que em Angola ou Mo\xE7ambique, n\xE3o deixa de representar
+      uma melhoria significativa da mobilidade dos portugueses, bem como da sua capacidade
+      de conquistar territ\xF3rio."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

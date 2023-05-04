@@ -64,4 +64,15 @@ public class TriggeredModifiers : GlobalVars
         pt_damage_mult -= 0.1f * g_last_sabotage_strength;
         gn_speed += 0.1f * g_last_sabotage_strength;
     }
+
+    public void new_arms()
+    {
+        pt_damage_mult += 0.33f;
+    }
+
+    public void pt_moto()
+    {
+        pt_cap_mult += 0.3f;
+        pt_speed += 0.4f;
+    }
 }

@@ -152,6 +152,31 @@ MonoBehaviour:
       intel from our leaked military plans. We can rest easy again.
     m_Metadata:
       m_Items: []
+  - m_Id: 19526631667593216
+    m_Localized: NATO Equipment Reinforces the Portuguese Army
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19526902355390464
+    m_Localized: Increasingly, NATO equipment is making it's way to the Portuguese
+      colonies and reinforcing their position. Some countries, such as the USA and
+      Britain, specify that the military aid is only to be used in the European continent
+      within the context of NATO, but no real oversight is given. Others such as
+      France, fresh off a similar conflict in Algeria, and the Federal Republic of
+      Germany, don't feel the need to pretend their military aid isn't going towards
+      putting down the liberation wars.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539002083569664
+    m_Localized: Motorization of the Portuguese Army
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19539104818851840
+    m_Localized: 'The Portuguese Army has seen a steadily increasing level of motorization:
+      while the rougher and swampier terrain of Bissau makes this more difficult
+      than in Angola or Mozambique, it still brings a serious improvement to the
+      mobility of the Portuguese as well as their ability to capture territory.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
