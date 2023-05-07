@@ -116,7 +116,8 @@ public class SideMenu : ResourceManager
 
     public void Build(string building)
     {
-        money -= gf_buildcost(sector.buildings[building].repairable);
+        //money -= gf_buildcost(sector.buildings[building].repairable);
+        ModifyMoney(-gf_buildcost(sector.buildings[building].repairable));
         sector.buildings[building].building = true;
     }
 }

@@ -123,6 +123,22 @@ MonoBehaviour:
     m_Key: MOTO_DESC
     m_Metadata:
       m_Items: []
+  - m_Id: 20705602936999936
+    m_Key: CABRAL_DIE_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20705648793325568
+    m_Key: CABRAL_DIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20705885670838272
+    m_Key: CABRAL_DIE_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20709538913816576
+    m_Key: CABRAL_DIE_BUTTON
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

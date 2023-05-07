@@ -75,4 +75,11 @@ public class TriggeredModifiers : GlobalVars
         pt_cap_mult += 0.3f;
         pt_speed += 0.4f;
     }
+
+    public void cabral_death()
+    {
+        g_res.ModifyPolitic(-300);
+        gn_cap_mult += 0.2f;
+        gn_damage_mult += 0.33f;
+    }
 }

@@ -180,6 +180,29 @@ MonoBehaviour:
       de conquistar territ\xF3rio."
     m_Metadata:
       m_Items: []
+  - m_Id: 20705885670838272
+    m_Localized: "Edi\xE7\xE3o 20 de Janeiro de 1973"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20705602936999936
+    m_Localized: "OS PORTUGUESES MATAM AM\xCDLCAR CABRAL!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20705648793325568
+    m_Localized: "N\xE3o s\xF3 n\xE3o tendo falhado a controlar de forma significativa
+      a insurrei\xE7\xE3o na Guin\xE9, como vendo-se empurrados para tr\xE1s em todas
+      as frentes, os portugueses demonstram desespero e barb\xE1rie crescentes. Acreditando
+      que a \xFAnica forma de travar a revolu\xE7\xE3o seria cortar-lhe a cabe\xE7a,
+      conseguiram cruelmente matar Cabral em Conacri, com a ajuda de traidores dentro
+      do PAIGC. Embora, por agora, o povo chore a perda de uma figura imponente e
+      de um te\xF3rico brilhante, \xE9 pouco prov\xE1vel que este acto altere a sorte
+      do governo colonial em colapso. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20709538913816576
+    m_Localized: Que a nossa raiva seja arma
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

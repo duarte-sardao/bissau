@@ -177,6 +177,28 @@ MonoBehaviour:
       mobility of the Portuguese as well as their ability to capture territory.'
     m_Metadata:
       m_Items: []
+  - m_Id: 20705602936999936
+    m_Localized: "THE PORTUGUESE KILL AM\xCDLCAR CABRAL!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20705885670838272
+    m_Localized: 20 January 1973 Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20705648793325568
+    m_Localized: 'Not only having failed to significantly control the insurgency
+      in Guinea, but seeing themselves pushed back on every front, the Portuguese
+      have resorted to increasing desperation and barbarism. Believing the only way
+      to stop the revolution would be to cut its'' head, they have suceeded in cruelly
+      killing Cabral in Conakry, with the aid of traitors among the PAIGC. While
+      for now the people mourn the loss of a towering figure and a brilliant theorist,
+      this act is unlikely to change the fortunes of the collapsing colonial government. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20709538913816576
+    m_Localized: Let our rage become a weapon
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
