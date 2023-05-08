@@ -82,4 +82,27 @@ public class TriggeredModifiers : GlobalVars
         gn_cap_mult += 0.2f;
         gn_damage_mult += 0.33f;
     }
+
+    public void green_sea()
+    {
+        g_res.ModifyPolitic(150);
+        g_res.ModifyMoney(-25);
+    }
+
+    public void declaration_indie()
+    {
+        var spwn = FindObjectOfType<EventSpawner>();
+        spwn.SpawnDelayed("carnation_revolution", 1f);
+    }
+
+    public void carnation()
+    {
+        var spwn = FindObjectOfType<EventSpawner>();
+        spwn.SpawnDelayed("last_event", 1f);
+    }
+
+    public void game_end()
+    {
+
+    }
 }

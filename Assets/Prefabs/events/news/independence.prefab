@@ -153,7 +153,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8263e1de1b6ccc5469c79427b64d09cc
     m_TableEntryReference:
-      m_KeyId: 20705885670838272
+      m_KeyId: 21019585833308160
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -233,8 +233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 216.55775, y: 118}
-  m_SizeDelta: {x: 509.1154, y: 50}
+  m_AnchoredPosition: {x: 162, y: 118}
+  m_SizeDelta: {x: 400, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &766624515926082854
 CanvasRenderer:
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "OS PORTUGUESES MATAM AM\xCDLCAR CABRAL!"
+  m_text: independece declared yippe!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 17
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -609.45886, y: 0, z: 0, w: -53.84308}
+  m_margin: {x: -369.87915, y: 0, z: 0, w: -53.84308}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -349,7 +349,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8263e1de1b6ccc5469c79427b64d09cc
     m_TableEntryReference:
-      m_KeyId: 20705602936999936
+      m_KeyId: 21019524395143168
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -427,7 +427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453, y: -98}
+  m_AnchoredPosition: {x: -447, y: -115}
   m_SizeDelta: {x: 500, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7978154534502310188
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1cc38ffa1546a2b409b06f2a1641c63b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e3f8eb59cba58d498ae30460e344544, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -505,8 +505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 397, y: -311}
-  m_SizeDelta: {x: 420, y: 90}
+  m_AnchoredPosition: {x: 466, y: -338}
+  m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5207441783133226591
 CanvasRenderer:
@@ -639,8 +639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 209, y: 59}
-  m_SizeDelta: {x: 400, y: 50}
+  m_AnchoredPosition: {x: 282.53436, y: 59}
+  m_SizeDelta: {x: 547.0687, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5207441783645603845
 CanvasRenderer:
@@ -670,14 +670,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "N\xE3o s\xF3 n\xE3o tendo falhado a controlar de forma significativa a
-    insurrei\xE7\xE3o na Guin\xE9, como vendo-se empurrados para tr\xE1s em todas
-    as frentes, os portugueses demonstram desespero e barb\xE1rie crescentes. Acreditando
-    que a \xFAnica forma de travar a revolu\xE7\xE3o seria cortar-lhe a cabe\xE7a,
-    conseguiram cruelmente matar Cabral em Conacri, com a ajuda de traidores dentro
-    do PAIGC. Embora, por agora, o povo chore a perda de uma figura imponente e de
-    um te\xF3rico brilhante, \xE9 pouco prov\xE1vel que este acto altere a sorte
-    do governo colonial em colapso. "
+  m_text: "Ap\xF3s mais de uma d\xE9cada de guerra, a Assembleia Nacional Popular
+    reuniu-se em Madina do Bo\xE9 para declarar formalmente a independ\xEAncia da
+    Guin\xE9-Bissau. Dezenas de estados preparam-se j\xE1 para reconhecer o governo
+    do PAIGC e uma vota\xE7\xE3o da ONU sobre o reconhecimento ser\xE1 aprovada com
+    um apoio esmagador. Portugal est\xE1 agora mais isolado do que nunca, pois procura
+    agora desfazer esta conquista e manter o controlo de uma na\xE7\xE3o orgulhosa
+    e soberana."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -704,8 +703,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -740,7 +739,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -193.06232, y: 0, z: -149.44084, w: -53.84308}
+  m_margin: {x: -182.59857, y: 0, z: 0, w: -53.84308}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -762,7 +761,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8263e1de1b6ccc5469c79427b64d09cc
     m_TableEntryReference:
-      m_KeyId: 20705648793325568
+      m_KeyId: 21019546704646144
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -817,7 +816,7 @@ GameObject:
   - component: {fileID: 5207441783851843985}
   - component: {fileID: 5207441783851843990}
   m_Layer: 5
-  m_Name: cabral_dies
+  m_Name: independence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +836,7 @@ RectTransform:
   m_Children:
   - {fileID: 7324749115544332448}
   - {fileID: 5207441783645603846}
-  - {fileID: 5207441784359698422}
+  - {fileID: 1463258163906165856}
   - {fileID: 5207441783133226584}
   - {fileID: 7346287574313308595}
   - {fileID: 454156156479839818}
@@ -870,7 +869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a26d3a70cb12ab40b6fea7ee27e2027, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggered_evt: cabral_death
+  triggered_evt: declaration_indie
 --- !u!1 &5207441783918123726
 GameObject:
   m_ObjectHideFlags: 0
@@ -882,7 +881,7 @@ GameObject:
   - component: {fileID: 5207441783918123727}
   - component: {fileID: 5207441783918123725}
   - component: {fileID: 5207441783918123724}
-  - component: {fileID: 5728122097880909306}
+  - component: {fileID: 4618958726371845950}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -938,7 +937,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Que a nossa raiva seja arma
+  m_text: Hurray!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -965,8 +964,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1007,7 +1006,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &5728122097880909306
+--- !u!114 &4618958726371845950
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1023,7 +1022,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:8263e1de1b6ccc5469c79427b64d09cc
     m_TableEntryReference:
-      m_KeyId: 20709538913816576
+      m_KeyId: 21019609229135872
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -1047,7 +1046,7 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
---- !u!1 &5207441784359698417
+--- !u!1 &6617646058307777536
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1055,10 +1054,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5207441784359698422}
-  - component: {fileID: 5207441784359698421}
-  - component: {fileID: 5207441784359698420}
-  - component: {fileID: 5207441784359698423}
+  - component: {fileID: 1463258163906165856}
+  - component: {fileID: 5600398276240565196}
+  - component: {fileID: 28574836909148921}
+  - component: {fileID: 2461683380587833719}
   m_Layer: 5
   m_Name: header
   m_TagString: Untagged
@@ -1066,14 +1065,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &5207441784359698422
+--- !u!224 &1463258163906165856
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5207441784359698417}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 6617646058307777536}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1083,24 +1082,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: 284}
+  m_AnchoredPosition: {x: -316.99997, y: 284}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &5207441784359698421
+--- !u!222 &5600398276240565196
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5207441784359698417}
+  m_GameObject: {fileID: 6617646058307777536}
   m_CullTransparentMesh: 1
---- !u!114 &5207441784359698420
+--- !u!114 &28574836909148921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5207441784359698417}
+  m_GameObject: {fileID: 6617646058307777536}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -1183,13 +1182,13 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &5207441784359698423
+--- !u!114 &2461683380587833719
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5207441784359698417}
+  m_GameObject: {fileID: 6617646058307777536}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
@@ -1208,7 +1207,7 @@ MonoBehaviour:
   m_UpdateString:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5207441784359698420}
+      - m_Target: {fileID: 28574836909148921}
         m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
         m_MethodName: set_text
         m_Mode: 0

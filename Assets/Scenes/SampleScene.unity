@@ -991,6 +991,10 @@ MonoBehaviour:
     - nato_arms
     - moto
     - kill_cabral
+    - green_sea
+    - indie
+    - carnation_revolution
+    - last_event
     m_values:
     - {fileID: 5207441783851843986, guid: 2d8b4ae49525bbb41836c8f057265938, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
@@ -1009,6 +1013,10 @@ MonoBehaviour:
     - {fileID: 5207441783851843986, guid: b855b5345381a1c438bd3402aee78fd6, type: 3}
     - {fileID: 5207441783851843986, guid: a4485e7d89df00a488eec2fd7c9f71b3, type: 3}
     - {fileID: 5207441783851843986, guid: a9c293edc8bcd834fa2331e55a42b54d, type: 3}
+    - {fileID: 5207441783851843986, guid: 06acd7f893df16c4f80d4e4fe9ff4444, type: 3}
+    - {fileID: 5207441783851843986, guid: 1a14b2c4989e513419ca6decca7f6b8f, type: 3}
+    - {fileID: 5207441783851843986, guid: 30c7b11fada3ce44a98931c730f5387a, type: 3}
+    - {fileID: 5207441783851843986, guid: f368af1a6c6c39a49a35ac507a11cee4, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11255,6 +11263,8 @@ MonoBehaviour:
     limit: 45
   - name: kill_cabral
     limit: 75
+  - name: green_sea
+    limit: 60
   events: {fileID: 158689813}
 --- !u!4 &1321672484
 Transform:
