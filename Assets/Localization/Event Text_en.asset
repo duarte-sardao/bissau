@@ -199,6 +199,93 @@ MonoBehaviour:
     m_Localized: Let our rage become a weapon
     m_Metadata:
       m_Items: []
+  - m_Id: 21019609229135872
+    m_Localized: Hurray!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019585833308160
+    m_Localized: 24 September 1973 Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019524395143168
+    m_Localized: Independence Declared!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019546704646144
+    m_Localized: "After more than a decade of war, the People's National Assembly
+      has convened in Madina do Bo\xE9 to formally declare the indepedence of Guinea-Bissau.
+      Already, dozens of states are preparing to recognize the PAIGC government and
+      a UN vote on recognition will pass with overwelming support. Portugal is now
+      more isolated than ever, as they now seek to undo this turn of events and maintain
+      control of a proud, sovereign nation."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21024429784666112
+    m_Localized: A chapter of history ends and another begins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023414519828480
+    m_Localized: 26 August 1974 Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023356298694656
+    m_Localized: Agreement Signed in Algiers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023074621820928
+    m_Localized: 25 April 1974 Edition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023060898058240
+    m_Localized: 'Today the dictatorship ruling Portugal has been overthrown by the
+      left-wing Armed Forces Movement, marking the end of the 40 year old regime.
+      Promising democratization and decolonization, the Movement is particularly
+      influenced by the happenings in Guinea: it originates from the Capitan''s Movement,
+      who were displeased by their own mistreatment and the refusal of the government
+      to negotiate a end to the war. Contact with left-wing literature and the PAIGC
+      would radicalize and politicize many of these capitans, who despite a abortive
+      coup attempt in the 16th of March, now stand ready to fundamentally change
+      the country, starting by withdrawing from what they see as wars of agression.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023023971405824
+    m_Localized: Portuguese Government Overthrown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023401815281664
+    m_Localized: 'While some among Portuguese society believed not all was lost and
+      the country could still retain its'' colonies by negotiating and establishing
+      a federal system, they could not stop the popular acclaim for decolonization.
+      Today the governments of Lisbon and Bissau have formally signed an agreement:
+      the former recognizes the independence of the latter, commits to withdraw all
+      troops by October (after months of armistice) and will hold a referendum on
+      the independence of Cape Verde. The decade long conflict for independence is
+      formally over, as the Portuguese finally recognize the national dignity of
+      the peoples of Africa and the right to self-determination.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031757577687040
+    m_Localized: Shameful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031605366394880
+    m_Localized: Portugal Invades Conakry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031669069484032
+    m_Localized: 22 November 1970
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031690066169856
+    m_Localized: In a shocking disregard for international law, the Portuguese have
+      executed "Operation Green Sea", intending to invade Conakry to overthrow the
+      Guinean government, capture the PAIGC leadership, rescue prisoners of wars
+      and destroy naval and air assets. Despite succeeding in freeing their prisoners
+      and in destroying assets, even Portuguese allies have found this invasion to
+      be reckless and illegal and this is likely to further isolate the country and
+      galvanize support for the liberation movements.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

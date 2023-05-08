@@ -203,6 +203,98 @@ MonoBehaviour:
     m_Localized: Que a nossa raiva seja arma
     m_Metadata:
       m_Items: []
+  - m_Id: 21019609229135872
+    m_Localized: Viva!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019585833308160
+    m_Localized: "Edi\xE7\xE3o 24 de Setembro de 1973"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019524395143168
+    m_Localized: "Independ\xEAncia Declarada!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019546704646144
+    m_Localized: "Ap\xF3s mais de uma d\xE9cada de guerra, a Assembleia Nacional
+      Popular reuniu-se em Madina do Bo\xE9 para declarar formalmente a independ\xEAncia
+      da Guin\xE9-Bissau. Dezenas de estados preparam-se j\xE1 para reconhecer o
+      governo do PAIGC e uma vota\xE7\xE3o da ONU sobre o reconhecimento ser\xE1
+      aprovada com um apoio esmagador. Portugal est\xE1 agora mais isolado do que
+      nunca, pois procura agora desfazer esta conquista e manter o controlo de uma
+      na\xE7\xE3o orgulhosa e soberana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21024429784666112
+    m_Localized: "Um cap\xEDtulo de hist\xF3rio acaba e outro come\xE7a."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023414519828480
+    m_Localized: "Edi\xE7\xE3o 26 de Agosto de 1974"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023356298694656
+    m_Localized: Acordo Assinado em Argel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023074621820928
+    m_Localized: "Edi\xE7\xE3o 25 de Abril de 1974"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023060898058240
+    m_Localized: "Hoje, a ditadura que governava Portugal foi derrubada pelo esquerdista
+      Movimento das For\xE7as Armadas, marcando o fim de 40 anos do regime. Prometendo
+      a democratiza\xE7\xE3o e a descoloniza\xE7\xE3o, o Movimento \xE9 particularmente
+      influenciado pelos acontecimentos na Guin\xE9: tem origem no Movimento dos
+      Capit\xE3es, descontentes com os seus pr\xF3prios maus tratos e com a recusa
+      do governo em negociar o fim da guerra. O contacto com a literatura de esquerda
+      e com o PAIGC viria a radicalizar e politizar muitos destes capit\xE3es, que,
+      apesar de uma tentativa de golpe de Estado abortada em 16 de Mar\xE7o, est\xE3o
+      agora dispostos a mudar profundamente o pa\xEDs, come\xE7ando por se retirarem
+      daquilo que consideram ser guerras de agress\xE3o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023023971405824
+    m_Localized: "Governo Portugu\xEAs Derrubado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023401815281664
+    m_Localized: "Embora alguns elementos da sociedade portuguesa acreditassem que
+      nem tudo estava perdido e que o pa\xEDs ainda poderia manter as suas col\xF3nias
+      atrav\xE9s de negocia\xE7\xF5es e do estabelecimento de um sistema federal,
+      n\xE3o conseguiram travar a desejo popular pela descoloniza\xE7\xE3o. Hoje,
+      os governos de Lisboa e de Bissau assinaram formalmente um acordo: o primeiro
+      reconhece a independ\xEAncia do segundo, compromete-se a retirar todas as tropas
+      at\xE9 Outubro (ap\xF3s meses de armist\xEDcio) e vai realizar um referendo
+      sobre a independ\xEAncia de Cabo Verde. O conflito pela independ\xEAncia, que
+      durou uma d\xE9cada, est\xE1 formalmente terminado, agora que os portugueses
+      reconhecem finalmente a dignidade nacional dos povos de \xC1frica e o direito
+      \xE0 autodetermina\xE7\xE3o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031757577687040
+    m_Localized: Vergonhoso!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031605366394880
+    m_Localized: Portugal Invade Conakri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031669069484032
+    m_Localized: "Edi\xE7\xE3o 22 de Novembro de 1970"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031690066169856
+    m_Localized: "Num chocante desrespeito pelo direito internacional, os portugueses
+      executaram a \"Opera\xE7\xE3o Mar Verde\", com a inten\xE7\xE3o de invadir
+      Conacri para derrubar o governo guineense, capturar a lideran\xE7a do PAIGC,
+      resgatar prisioneiros de guerra e destruir meios navais e a\xE9reos. Apesar
+      de terem conseguido libertar os seus prisioneiros e destruir os meios, mesmo
+      os aliados portugueses consideraram esta invas\xE3o imprudente e ilegal, o
+      que poder\xE1 isolar ainda mais o pa\xEDs e galvanizar o apoio aos movimentos
+      de liberta\xE7\xE3o."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

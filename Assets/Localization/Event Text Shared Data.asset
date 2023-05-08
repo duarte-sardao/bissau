@@ -139,6 +139,66 @@ MonoBehaviour:
     m_Key: CABRAL_DIE_BUTTON
     m_Metadata:
       m_Items: []
+  - m_Id: 21019524395143168
+    m_Key: INDIE_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019546704646144
+    m_Key: INDIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019585833308160
+    m_Key: INDIE_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21019609229135872
+    m_Key: HURRAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023023971405824
+    m_Key: CARNATION_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023060898058240
+    m_Key: CARNATION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023074621820928
+    m_Key: CARNATION_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023356298694656
+    m_Key: END_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023401815281664
+    m_Key: END_NEWS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21023414519828480
+    m_Key: END_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21024429784666112
+    m_Key: END_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031605366394880
+    m_Key: CONAKRY_INVADE_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031669069484032
+    m_Key: CONAKRY_INVADE_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031690066169856
+    m_Key: CONAKRY_INVADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21031757577687040
+    m_Key: CONAKRY_INVADE_BUTTON
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
