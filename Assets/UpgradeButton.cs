@@ -5,24 +5,29 @@ using UnityEngine.UI;
 
 public class UpgradeButton : TriggeredModifiers
 {
-    static Dictionary<string, bool> isCompleted;
 
-    public string identifier;
-    public List<string> preReqs;
-    public int monCost;
-    public int polCost;
-    public string triggeredMod;
+    [SerializeField] private string identifier;
+    [SerializeField] private List<UpgradeButton> preReqs;
+    [HideInInspector] public List<UpgradeButton> children;
+    [SerializeField] private int monCost;
+    [SerializeField] private int polCost;
+    [SerializeField] private string triggeredMod;
 
-    public string localizedDesc;
+    [SerializeField] private string localizedDesc;
     private Button buyButton;
     private TMPro.TextMeshPro descText;
 
     private ResourceManager resources;
 
+    [HideInInspector] public bool isBought;
+
     void Start()
     {
-        isCompleted.Add(identifier, false);
         resources = FindObjectOfType<ResourceManager>();
+        foreach (var req in preReqs)
+        {
+            req.children.Add(this);
+        }
         //get desc butt ticks and stuff (list of children and then traverse?)
     }
 
@@ -38,23 +43,45 @@ public class UpgradeButton : TriggeredModifiers
         }
     }
 
-    bool Purchaseable()
+    public void CheckButtonAvailability()
+    {
+        if(ReqsFulfilled())
+        {
+            //colour and enabled
+        } else
+        {
+            //b&w and disabled
+        }
+    }
+
+    bool ReqsFulfilled()
     {
         bool reqsFulfilled = true;
-        foreach(string req in preReqs)
+        foreach (var req in preReqs)
         {
-            reqsFulfilled = reqsFulfilled && isCompleted[req];
+            reqsFulfilled = reqsFulfilled && req.isBought;
         }
-        return resources.money >= monCost && resources.politic >= polCost && reqsFulfilled;
+        return reqsFulfilled;
+    }
+
+    bool Purchaseable()
+    {
+        return resources.money >= monCost && resources.politic >= polCost && ReqsFulfilled();
     }
 
     void Purchase()
     {
         if (!Purchaseable())
             return;
+
         resources.ModifyMoney(-monCost);
         resources.ModifyPolitic(-polCost);
-        isCompleted[identifier] = true;
+        isBought = true;
         trigger_modifier(triggeredMod);
+
+        foreach(var chld in children)
+        {
+            chld.CheckButtonAvailability();
+        }
     }
 }
