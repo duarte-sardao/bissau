@@ -105,4 +105,12 @@ public class TriggeredModifiers : GlobalVars
     {
 
     }
+
+
+    public void up_open_senegal()
+    {
+        GameObject.Find("senegal_overlay").SetActive(true);
+        GameObject.Find("26-Senegal (Ziguinchor)").GetComponent<SectorController>().ControlLevel = -100;
+        GameObject.Find("29-Senegal (Mandou)").GetComponent<SectorController>().ControlLevel = -100;
+    }
 }

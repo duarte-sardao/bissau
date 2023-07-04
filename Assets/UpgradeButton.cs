@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
 public class UpgradeButton : TriggeredModifiers
@@ -13,17 +14,20 @@ public class UpgradeButton : TriggeredModifiers
     [SerializeField] private int polCost;
     [SerializeField] private string triggeredMod;
 
-    [SerializeField] private string localizedDesc;
     private Button buyButton;
     private TMPro.TextMeshPro descText;
+    private TMPro.TextMeshPro effectsText;
+    private TMPro.TextMeshPro titleText;
 
     private ResourceManager resources;
 
-    [HideInInspector] public bool isBought;
+    public bool isBought;
+    private Button ourButton;
 
     void Start()
     {
         resources = FindObjectOfType<ResourceManager>();
+        ourButton = this.GetComponent<Button>();
         foreach (var req in preReqs)
         {
             req.children.Add(this);
@@ -34,24 +38,36 @@ public class UpgradeButton : TriggeredModifiers
     private void Select()
     {
         //update text
+        titleText.text = GetStr("up_" + identifier + "_title");
+        descText.text = GetStr("up_" + identifier + "_desc");
+        var effectString = GetStr("effects") + GetStr("up_" + identifier + "_effect");
 
-        //if bought put tick else
-        if(Purchaseable())
+        if (!isBought)
         {
-            buyButton.gameObject.SetActive(true);
-            buyButton.onClick.AddListener(delegate { Purchase(); });
+            effectString += GetStr("cost");
+            if (monCost > 0)
+                effectString += monCost + "<sprite=0>";
+            if (polCost > 0)
+                effectString += polCost + "<sprite=1>";
         }
+        effectsText.text = effectString;
+
+
+        buyButton.gameObject.SetActive(!isBought);
+        buyButton.interactable = Purchaseable();
+        buyButton.onClick.AddListener(delegate { Purchase(); });
+    }
+
+    private string GetStr(string str)
+    {
+        return LocalizationSettings.StringDatabase.GetLocalizedString("Upgrades", str);
     }
 
     public void CheckButtonAvailability()
     {
         if(ReqsFulfilled())
-        {
-            //colour and enabled
-        } else
-        {
-            //b&w and disabled
-        }
+            ourButton.interactable = true;
+        ourButton.interactable = false;
     }
 
     bool ReqsFulfilled()
