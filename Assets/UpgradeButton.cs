@@ -14,10 +14,11 @@ public class UpgradeButton : TriggeredModifiers
     [SerializeField] private int polCost;
     [SerializeField] private string triggeredMod;
 
-    private Button buyButton;
-    private TMPro.TextMeshPro descText;
-    private TMPro.TextMeshPro effectsText;
-    private TMPro.TextMeshPro titleText;
+    [SerializeField] private GameObject upinfo;
+    [SerializeField] private Button buyButton;
+    [SerializeField] private TMPro.TMP_Text descText;
+    [SerializeField] private TMPro.TMP_Text effectsText;
+    [SerializeField] private TMPro.TMP_Text titleText;
 
     private ResourceManager resources;
 
@@ -33,22 +34,28 @@ public class UpgradeButton : TriggeredModifiers
             req.children.Add(this);
         }
         //get desc butt ticks and stuff (list of children and then traverse?)
+        upinfo = GameObject.FindGameObjectWithTag("upgradeinfo");
+        var objs = upinfo.GetComponentsInChildren<TMPro.TMP_Text>();
+        Debug.Log(objs.Length);
+        titleText = objs[0]; descText = objs[1]; effectsText = objs[2];
+        buyButton = upinfo.GetComponentInChildren<Button>();
     }
 
-    private void Select()
+    public void Select()
     {
         //update text
+        upinfo.SetActive(true);
         titleText.text = GetStr("up_" + identifier + "_title");
         descText.text = GetStr("up_" + identifier + "_desc");
-        var effectString = GetStr("effects") + GetStr("up_" + identifier + "_effect");
+        var effectString = GetStr("EFFECTS") + "\n" + GetStr("up_" + identifier + "_effect") + "\n\n";
 
         if (!isBought)
         {
-            effectString += GetStr("cost");
+            effectString += GetStr("COST") + "\n";
             if (monCost > 0)
-                effectString += monCost + "<sprite=0>";
+                effectString += monCost + "  <sprite=0>" + "\n";
             if (polCost > 0)
-                effectString += polCost + "<sprite=1>";
+                effectString += polCost + "  <sprite=1>"+"\n";
         }
         effectsText.text = effectString;
 
