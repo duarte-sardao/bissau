@@ -14,16 +14,17 @@ public class UpgradeButton : TriggeredModifiers
     [SerializeField] private int polCost;
     [SerializeField] private string triggeredMod;
 
-    [SerializeField] private GameObject upinfo;
-    [SerializeField] private Button buyButton;
-    [SerializeField] private TMPro.TMP_Text descText;
-    [SerializeField] private TMPro.TMP_Text effectsText;
-    [SerializeField] private TMPro.TMP_Text titleText;
+    private GameObject upinfo;
+    private Button buyButton;
+    private TMPro.TMP_Text descText;
+    private TMPro.TMP_Text effectsText;
+    private TMPro.TMP_Text titleText;
 
     private ResourceManager resources;
 
     public bool isBought;
     private Button ourButton;
+    [SerializeField] private GameObject childImage;
 
     void Start()
     {
@@ -36,9 +37,10 @@ public class UpgradeButton : TriggeredModifiers
         //get desc butt ticks and stuff (list of children and then traverse?)
         upinfo = GameObject.FindGameObjectWithTag("upgradeinfo");
         var objs = upinfo.GetComponentsInChildren<TMPro.TMP_Text>();
-        Debug.Log(objs.Length);
         titleText = objs[0]; descText = objs[1]; effectsText = objs[2];
         buyButton = upinfo.GetComponentInChildren<Button>();
+
+        childImage.SetActive(isBought);
     }
 
     public void Select()
@@ -100,6 +102,8 @@ public class UpgradeButton : TriggeredModifiers
         resources.ModifyMoney(-monCost);
         resources.ModifyPolitic(-polCost);
         isBought = true;
+        childImage.SetActive(true);
+        Select();
         trigger_modifier(triggeredMod);
 
         foreach(var chld in children)

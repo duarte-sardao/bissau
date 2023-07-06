@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SideMenu : ResourceManager
+public class SideMenu : GlobalVars
 {
     [SerializeField] private bool open;
     [SerializeField] private SectorController sector;
@@ -24,9 +24,12 @@ public class SideMenu : ResourceManager
     [SerializeField] private Image[] buildCheck;
     [SerializeField] private GameObject[] buildDamage;
 
+    private ResourceManager res;
+
     public void Start()
     {
         sidecanvas.enabled = false;
+        res = FindObjectOfType<ResourceManager>();
     }
 
     public void SetupUI()
@@ -102,7 +105,7 @@ public class SideMenu : ResourceManager
                 }
                 else
                 {
-                    if (sector.ControlLevel <= g_fullcontrolg && money >= gf_buildcost(buildd.repairable))
+                    if (sector.ControlLevel <= g_fullcontrolg && res.money >= gf_buildcost(buildd.repairable))
                     {
                         buildButts[i].gameObject.SetActive(true);
                     }
@@ -117,7 +120,7 @@ public class SideMenu : ResourceManager
     public void Build(string building)
     {
         //money -= gf_buildcost(sector.buildings[building].repairable);
-        ModifyMoney(-gf_buildcost(sector.buildings[building].repairable));
+        res.ModifyMoney(-gf_buildcost(sector.buildings[building].repairable));
         sector.buildings[building].building = true;
     }
 }
