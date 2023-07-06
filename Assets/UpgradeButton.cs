@@ -20,15 +20,12 @@ public class UpgradeButton : TriggeredModifiers
     private TMPro.TMP_Text effectsText;
     private TMPro.TMP_Text titleText;
 
-    private ResourceManager resources;
-
     public bool isBought;
     private Button ourButton;
     [SerializeField] private GameObject childImage;
 
     void Start()
     {
-        resources = FindObjectOfType<ResourceManager>();
         ourButton = this.GetComponent<Button>();
         foreach (var req in preReqs)
         {
@@ -91,7 +88,7 @@ public class UpgradeButton : TriggeredModifiers
 
     bool Purchaseable()
     {
-        return resources.money >= monCost && resources.politic >= polCost && ReqsFulfilled();
+        return g_res.money >= monCost && g_res.politic >= polCost && ReqsFulfilled();
     }
 
     void Purchase()
@@ -99,8 +96,8 @@ public class UpgradeButton : TriggeredModifiers
         if (!Purchaseable())
             return;
 
-        resources.ModifyMoney(-monCost);
-        resources.ModifyPolitic(-polCost);
+        g_res.ModifyMoney(-monCost);
+        g_res.ModifyPolitic(-polCost);
         isBought = true;
         childImage.SetActive(true);
         Select();

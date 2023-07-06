@@ -24,12 +24,9 @@ public class SideMenu : GlobalVars
     [SerializeField] private Image[] buildCheck;
     [SerializeField] private GameObject[] buildDamage;
 
-    private ResourceManager res;
-
     public void Start()
     {
         sidecanvas.enabled = false;
-        res = FindObjectOfType<ResourceManager>();
     }
 
     public void SetupUI()
@@ -105,7 +102,7 @@ public class SideMenu : GlobalVars
                 }
                 else
                 {
-                    if (sector.ControlLevel <= g_fullcontrolg && res.money >= gf_buildcost(buildd.repairable))
+                    if (sector.ControlLevel <= g_fullcontrolg && g_res.money >= gf_buildcost(buildd.repairable))
                     {
                         buildButts[i].gameObject.SetActive(true);
                     }
@@ -120,7 +117,7 @@ public class SideMenu : GlobalVars
     public void Build(string building)
     {
         //money -= gf_buildcost(sector.buildings[building].repairable);
-        res.ModifyMoney(-gf_buildcost(sector.buildings[building].repairable));
+        g_res.ModifyMoney(-gf_buildcost(sector.buildings[building].repairable));
         sector.buildings[building].building = true;
     }
 }
