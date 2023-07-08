@@ -10,12 +10,10 @@ public class UpgradeOpenClose : MonoBehaviour, IPointerClickHandler
 
     private bool isOpen;
     [SerializeField] private Animator anim;
-    [SerializeField] private GameObject innerCanvas;
     [SerializeField] private GameObject upinfo;
 
     private void Start()
     {
-        innerCanvas.SetActive(false);
         upinfo.SetActive(false);
     }
 
@@ -34,20 +32,13 @@ public class UpgradeOpenClose : MonoBehaviour, IPointerClickHandler
     {
         isOpen = true;
         anim.SetBool("open", true);
-        Invoke(nameof(OpCanv), 0.75f);
     }
 
     public void Close()
     {
         isOpen = false;
         anim.SetBool("open", false);
-        innerCanvas.SetActive(false);
         upinfo.SetActive(false);
-    }
-
-    private void OpCanv()
-    {
-        innerCanvas.SetActive(true);
     }
 
 }
