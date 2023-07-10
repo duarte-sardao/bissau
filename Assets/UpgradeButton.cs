@@ -28,9 +28,14 @@ public class UpgradeButton : TriggeredModifiers
     static Material normalMat;
     static Material greyMat;
 
+
+    private void Awake()
+    {
+        ourImage = GetComponent<Image>();
+        ourButton = GetComponent<Button>();
+    }
     void Start()
     {
-        ourImage = this.GetComponent<Image>();
         if (normalMat == null)
         {
             normalMat = ourImage.material;
@@ -39,7 +44,6 @@ public class UpgradeButton : TriggeredModifiers
                 shader = Shader.Find("Custom/UI/Greyscale")
             };
         }
-        ourButton = this.GetComponent<Button>();
         foreach (var req in preReqs)
         {
             req.children.Add(this);
@@ -49,8 +53,12 @@ public class UpgradeButton : TriggeredModifiers
         var objs = upinfo.GetComponentsInChildren<TMPro.TMP_Text>();
         titleText = objs[0]; descText = objs[1]; effectsText = objs[2];
         buyButton = upinfo.GetComponentInChildren<Button>();
+    }
 
+    private void OnEnable()
+    {
         childImage.SetActive(isBought);
+        CheckButtonAvailability();
     }
 
     public void Select()
