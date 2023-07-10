@@ -22,10 +22,23 @@ public class UpgradeButton : TriggeredModifiers
 
     public bool isBought;
     private Button ourButton;
+    private Image ourImage;
     [SerializeField] private GameObject childImage;
+
+    static Material normalMat;
+    static Material greyMat;
 
     void Start()
     {
+        ourImage = this.GetComponent<Image>();
+        if (normalMat == null)
+        {
+            normalMat = ourImage.material;
+            greyMat = new Material(normalMat)
+            {
+                shader = Shader.Find("Custom/UI/Greyscale")
+            };
+        }
         ourButton = this.GetComponent<Button>();
         foreach (var req in preReqs)
         {
@@ -71,9 +84,14 @@ public class UpgradeButton : TriggeredModifiers
 
     public void CheckButtonAvailability()
     {
-        if(ReqsFulfilled())
+        if (ReqsFulfilled())
+        {
             ourButton.interactable = true;
+            ourImage.material = normalMat;
+            return;
+        }
         ourButton.interactable = false;
+        ourImage.material = greyMat;
     }
 
     bool ReqsFulfilled()
