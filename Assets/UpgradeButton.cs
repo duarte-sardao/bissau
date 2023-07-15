@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class UpgradeButton : TriggeredModifiers
 {
 
-    [SerializeField] private string identifier;
+    private string identifier;
     [SerializeField] private List<UpgradeButton> preReqs;
     [HideInInspector] public List<UpgradeButton> children;
     [SerializeField] private int monCost;
@@ -48,6 +48,7 @@ public class UpgradeButton : TriggeredModifiers
         {
             req.children.Add(this);
         }
+        identifier = gameObject.name;
         //get desc butt ticks and stuff (list of children and then traverse?)
         upinfo = GameObject.FindGameObjectWithTag("upgradeinfo");
         var objs = upinfo.GetComponentsInChildren<TMPro.TMP_Text>();
