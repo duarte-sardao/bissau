@@ -39,6 +39,42 @@ MonoBehaviour:
     m_Key: up_test_effect
     m_Metadata:
       m_Items: []
+  - m_Id: 4718740477272064
+    m_Key: up_diplo_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4718840985378816
+    m_Key: up_diplo_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4719700079501312
+    m_Key: up_diplo_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4720402122104832
+    m_Key: up_guinea_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4720613171093504
+    m_Key: up_guinea_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721541240545280
+    m_Key: up_guinea_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4722738177466368
+    m_Key: up_senegal_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4722946286247936
+    m_Key: up_senegal_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723625960628224
+    m_Key: up_senegal_effect
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

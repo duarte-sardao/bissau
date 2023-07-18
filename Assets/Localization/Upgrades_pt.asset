@@ -42,6 +42,56 @@ MonoBehaviour:
     m_Localized: It does this.
     m_Metadata:
       m_Items: []
+  - m_Id: 4718740477272064
+    m_Localized: Diplomacia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4718840985378816
+    m_Localized: "A luta contra a ocupa\xE7\xE3o portuguesa n\xE3o pode ser ganha
+      sozinha. Precisamos de fundos, apoio, equipamento militar e ajudas diversas.
+      O ocupante j\xE1 tem atr\xE1s de si uma coliga\xE7\xE3o de detest\xE1veis imperialistas
+      europeus e americanos: temos de a contrariar com o apoio dos povos do mundo
+      amantes da liberdade."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4719700079501312
+    m_Localized: "Desbloqueia mais op\xE7\xF5es para ajuda international."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4720402122104832
+    m_Localized: Apoio de Conacri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4720613171093504
+    m_Localized: "Mais generosamente do que qualquer outro pa\xEDs, o governo de
+      S\xE9kou Tour\xE9 est\xE1 pronto a apoiar-nos na nossa luta. O PAIGC j\xE1
+      opera a partir desse pa\xEDs e, ao refor\xE7armos a nossa alian\xE7a, podemos
+      contar com a seguran\xE7a de uma fronteira amiga e os recursos necess\xE1rios
+      para levar a cabo a nossa luta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721541240545280
+    m_Localized: "B\xF3nus de recursos significativo enquanto temos uma fronteira
+      com a Guin\xE9.\n\nCapacidade de mover unidades no seu territ\xF3rio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4722738177466368
+    m_Localized: Abertura da Fronteira Senegalese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4722946286247936
+    m_Localized: "O governo de Senghor tem sido mais reticente do que os nossos aliados
+      de Conacri no apoio ao PAIGC. At\xE9 hoje, os nossos combatentes continuam
+      impedidos de operar dentro do seu territ\xF3rio, o que torna dif\xEDceis as
+      ofensivas no norte. \xC9 imperativo que enviemos uma delega\xE7\xE3o e asseguremos
+      o seu apoio."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723625960628224
+    m_Localized: "As prov\xEDncias senegalesas s\xE3o abertas e tratadas como territ\xF3rio
+      aliado para efeitos de ajuda."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

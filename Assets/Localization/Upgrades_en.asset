@@ -42,6 +42,57 @@ MonoBehaviour:
     m_Localized: It does this.
     m_Metadata:
       m_Items: []
+  - m_Id: 4718740477272064
+    m_Localized: Diplomacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4718840985378816
+    m_Localized: 'The struggle against Portuguese occupation can''t be won alone.
+      We require funds, support, military equipment and assorted aid. The occupier
+      already has behind them a coalition of detestable European and American imperialists:
+      we must counter it with the support of the freedom loving people''s of the
+      world.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4719700079501312
+    m_Localized: Unlocks further options for international aid.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4720402122104832
+    m_Localized: Aid from Conakry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4720613171093504
+    m_Localized: "More selflessly than any other country, the government of S\xE9kou
+      Tour\xE9 has been ready to support us in our struggle. Already the PAIGC operates
+      from there, by strengthening our alliance we can rely on the safety of a friendly
+      border, and the resources necessary to carry on our fight."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4721541240545280
+    m_Localized: 'Significant resource bonus gained when bordering a Guinean state.
+
+
+      Ability
+      to move units in their territory.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4722738177466368
+    m_Localized: Open the Senegalese Border
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4722946286247936
+    m_Localized: Senghor's government has been more reticent than our Conakry allies
+      in supporting the PAIGC. To this day our fighters are still barred from operating
+      in their territory, making offensives in the north troublesome. It is imperative
+      we send a delegation and secure their support.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4723625960628224
+    m_Localized: Senegalese provinces are opened and treated as allied territory
+      for the purposes of aid.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
