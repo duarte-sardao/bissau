@@ -75,6 +75,30 @@ MonoBehaviour:
     m_Key: up_senegal_effect
     m_Metadata:
       m_Items: []
+  - m_Id: 4823214705303552
+    m_Key: up_guin2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4823546244063232
+    m_Key: up_guin2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4824393476694016
+    m_Key: up_guin2_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4824750198054912
+    m_Key: guin_hosp_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4825034618003456
+    m_Key: guin_hosp_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4825948238077952
+    m_Key: guin_hosp_effect
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

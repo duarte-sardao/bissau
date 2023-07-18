@@ -89,8 +89,40 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4723625960628224
-    m_Localized: Senegalese provinces are opened and treated as allied territory
+    m_Localized: 'Senegalese provinces are opened and treated as allied territory
       for the purposes of aid.
+
+      Small increase in resources from allied border.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4823214705303552
+    m_Localized: Reinforce Guinean Alliance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4823546244063232
+    m_Localized: 'Our two countries have much in common, starting from their very
+      name: Guinea. Throughout our struggle, Conakry has been our base of operations
+      and the francophone Guineans our foremost ally. As the Portuguese saber rattle
+      and threaten our allies, we must strengthen our fraternal ties.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4824393476694016
+    m_Localized: Large increase in resources received from having an allied frontier.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4824750198054912
+    m_Localized: "Bok\xE9 Hospital"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4825034618003456
+    m_Localized: "The Yugoslavs have come forward with a proposal for the establishment
+      of an hospital in Bok\xE9, well-equipped and staffed by Yugoslav and Cuban
+      doctors. This will likely be a flagship of our health services and provide
+      support our small clinics can't provide."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4825948238077952
+    m_Localized: An hospital is built in Guinea-Conakry, which heals at double speed.
     m_Metadata:
       m_Items: []
   references:

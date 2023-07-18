@@ -89,7 +89,40 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4723625960628224
     m_Localized: "As prov\xEDncias senegalesas s\xE3o abertas e tratadas como territ\xF3rio
-      aliado para efeitos de ajuda."
+      aliado para efeitos de ajuda.\nPequeno aumento de recursos de fronteira aliada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4823214705303552
+    m_Localized: "Refor\xE7ar a Alian\xE7a Guineense"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4823546244063232
+    m_Localized: "Os nossos dois pa\xEDses t\xEAm muito em comum, a come\xE7ar pelo
+      seu pr\xF3prio nome: Guin\xE9. Ao longo da nossa luta, Conacri foi a nossa
+      base de opera\xE7\xF5es e os guineenses franc\xF3fonos os nossos principais
+      aliados. Enquanto os portugueses atacam e amea\xE7am os nossos aliados, temos
+      de refor\xE7ar os nossos la\xE7os fraternos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4824393476694016
+    m_Localized: Grande aumento dos recursos recebidos pelo facto de ter uma fronteira
+      aliada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4824750198054912
+    m_Localized: "Hospital de Boqu\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4825034618003456
+    m_Localized: "Os Jugoslavos avan\xE7aram com uma proposta para a cria\xE7\xE3o
+      de um hospital em Bok\xE9, bem equipado e com m\xE9dicos Jugoslavos e Cubanos.
+      Este ser\xE1, provavelmente, um dos nossos servi\xE7os de sa\xFAde mais importantes
+      e prestar\xE1 apoio que as nossas pequenas cl\xEDnicas n\xE3o conseguem dar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4825948238077952
+    m_Localized: "Um hospital \xE9 constru\xEDdo na Guin\xE9-Conacri, que cura com
+      o dobro da velocidade."
     m_Metadata:
       m_Items: []
   references:
