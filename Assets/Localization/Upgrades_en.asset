@@ -125,6 +125,40 @@ MonoBehaviour:
     m_Localized: An hospital is built in Guinea-Conakry, which heals at double speed.
     m_Metadata:
       m_Items: []
+  - m_Id: 5171434807582720
+    m_Localized: Foreign Camps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5171539283501056
+    m_Localized: The training of our military cadres is fraught in dangers, both
+      from Portuguese forces in the field but also from their persasive bombardements.
+      Relying on facilities outside the country to train soldiers would be a great
+      boon to us.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172212653842432
+    m_Localized: A camp is built in Guinea-Conakry.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172339275685888
+    m_Localized: Socialist Aid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172643731824640
+    m_Localized: Ours is a struggle both for national liberation, but also socialism.
+      Outside of Bissau, socialist republics across the world have been the foremost
+      allies of anti-colonial movement and we carry forward knowing we will always
+      have them backing us.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5174091949498368
+    m_Localized: Periodic gain of monetary and political resources.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5174563573817344
+    m_Localized: Swedish Support
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -99,6 +99,34 @@ MonoBehaviour:
     m_Key: guin_hosp_effect
     m_Metadata:
       m_Items: []
+  - m_Id: 5171434807582720
+    m_Key: guin_camp_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5171539283501056
+    m_Key: guin_camp_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172212653842432
+    m_Key: guin_camp_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172339275685888
+    m_Key: socialist_aid_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172643731824640
+    m_Key: socialist_aid_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5174091949498368
+    m_Key: socialist_aid_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5174563573817344
+    m_Key: sweden_title
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

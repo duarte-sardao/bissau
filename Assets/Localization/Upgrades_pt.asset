@@ -125,6 +125,40 @@ MonoBehaviour:
       o dobro da velocidade."
     m_Metadata:
       m_Items: []
+  - m_Id: 5171434807582720
+    m_Localized: Campos Estrangeiros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5171539283501056
+    m_Localized: "A instru\xE7\xE3o dos nossos quadros militares est\xE1 repleta
+      de perigos, tanto das for\xE7as portuguesas no terreno como dos seus persistentes
+      bombardeamentos. Recorrer a instala\xE7\xF5es fora do pa\xEDs para a forma\xE7\xE3o
+      de soldados seria uma grande vantagem para n\xF3s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172212653842432
+    m_Localized: "Um campo \xE9 constru\xEDdo na Guin\xE9-Conacri."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172339275685888
+    m_Localized: Ajuda Socialista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5172643731824640
+    m_Localized: "A nossa luta \xE9 pela liberta\xE7\xE3o nacional, mas tamb\xE9m
+      pelo socialismo. Fora de Bissau, as rep\xFAblicas socialistas de todo o mundo
+      t\xEAm sido os principais aliados do movimento anti-colonial e n\xF3s avan\xE7amos
+      sabendo que teremos sempre o seu respaldo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5174091949498368
+    m_Localized: "Ganho peri\xF3dico de recursos pol\xEDticos e monet\xE1rios."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5174563573817344
+    m_Localized: Apoio Sueco
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
