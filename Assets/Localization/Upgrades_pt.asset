@@ -159,6 +159,40 @@ MonoBehaviour:
     m_Localized: Apoio Sueco
     m_Metadata:
       m_Items: []
+  - m_Id: 5539154208186368
+    m_Localized: "Entre os pa\xEDses da Europa Ocidental, a Su\xE9cia destaca-se
+      como uma ave rara. Enquanto que a maioria dos governos sociais-democrata abandonam
+      os seus supostos ideais, os suecos sob Olof Palme tenho oferecida ajuda, moderada
+      mas importante, a grupos como os vietcongue. Embora seja duvidoso que eles
+      ofere\xE7am muita ajuda militar, qualquer apoio \xE9 inestim\xE1vel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5542492555403264
+    m_Localized: "Ganho de recursos peri\xF3dico.\n\nTaxa de cura base de unidades
+      aumentada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5543578292936704
+    m_Localized: "Armamento Sovi\xE9tico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5543674149560320
+    m_Localized: "As lutas do dia de hoje ainda olham para 1917 para orienta\xE7\xE3o
+      e inspira\xE7\xE3o? Quem pode negar a import\xE2ncia da Uni\xE3o Sovi\xE9tica
+      na luta global pela liberdade? Onde governos progressistas e socialistas tomam
+      podem, ela oferece ajuda a prote\xE7\xE3o. Onde as massas oprimidas lutam contra
+      colonialismo e imperialismo, a kalashnikov segue."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5545076972281856
+    m_Localized: "Aumento grande de poder ofensivo de unidades.\nAumento grande de
+      manuten\xE7\xE3o de campos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5547368349917184
+    m_Localized: "Armamento Chin\xEAs"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

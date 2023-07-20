@@ -159,6 +159,44 @@ MonoBehaviour:
     m_Localized: Swedish Support
     m_Metadata:
       m_Items: []
+  - m_Id: 5539154208186368
+    m_Localized: Among the countries of Western Europe, Sweden stands as the odd
+      one out. While most social democratic governments abandon their purported ideals,
+      the Swedes under Olof Palme have offered moderate but important help to groups
+      such as the Viet Cong. While it is doubtful they will offer much military help,
+      any aid is invaluable.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5542492555403264
+    m_Localized: 'Periodic resource gain.
+
+
+      Base heal rate of units increased.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5543578292936704
+    m_Localized: Soviet Weaponry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5543674149560320
+    m_Localized: 'The struggles of today still look to 1917 for guidance and inspiration.
+      Who can deny the importance of the Soviet Union in the global struggle for
+      freedom? Wherever progressive and socialist governments take power, they offer
+      aid and protection. Wherever the opressed masses combat colonialism and imperialism,
+      the kalashnikov follows. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5545076972281856
+    m_Localized: 'Large increase in unit offensive power.
+
+      Large increase in
+      camp maintenance.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5547368349917184
+    m_Localized: Chinese Weaponry
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
