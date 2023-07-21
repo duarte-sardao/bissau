@@ -155,6 +155,50 @@ MonoBehaviour:
     m_Key: china_guns_desc
     m_Metadata:
       m_Items: []
+  - m_Id: 5794330831708160
+    m_Key: china_guns_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794468157415424
+    m_Key: yug_warsaw_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794629524873216
+    m_Key: yug_warsaw_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795257420570624
+    m_Key: yug_warsaw_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795516980879360
+    m_Key: cuba_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795662527422464
+    m_Key: cuba_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5796941760782336
+    m_Key: cuba_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797316702199808
+    m_Key: antiair_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797496545566720
+    m_Key: antiair_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5798195077537792
+    m_Key: antiair_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5798483716956160
+    m_Key: planes_title
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

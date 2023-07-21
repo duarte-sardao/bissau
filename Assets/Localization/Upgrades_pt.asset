@@ -193,6 +193,73 @@ MonoBehaviour:
     m_Localized: "Armamento Chin\xEAs"
     m_Metadata:
       m_Items: []
+  - m_Id: 5549413081505792
+    m_Localized: "A outra grande pot\xEAncia socialista do mundo, a China Vermelha
+      continua sendo um basti\xE3o do socialismo no continente asi\xE1tico. Com a
+      aprofunda\xE7\xE3o das feridas devido \xE0 ruptura sino-sovi\xE9tica, sua posi\xE7\xE3o
+      permanece incerta, mas ela ainda est\xE3o dispon\xEDvel para nos ajudar, apesar
+      de recebermos apoio sovi\xE9tico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794330831708160
+    m_Localized: "Aumento de poder ofensivo de unidades.\nAumento de manuten\xE7\xE3o
+      de campos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794468157415424
+    m_Localized: Ajuda da Europa Socialista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794629524873216
+    m_Localized: "As pot\xEAncias socialistas menores da Europa, tanto no Pacto de
+      Vars\xF3via como a Iugosl\xE1via n\xE3o alinhada, demonstraram disposi\xE7\xE3o
+      em  ajudar-nos. Embora seja duvidoso que possam fornecer o mesmo apoio militar
+      que os sovi\xE9ticos, a propaganda e a ajuda econ\xF4mica s\xE3o sempre bem-vindas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795257420570624
+    m_Localized: "Ganho de recursos devido \xE0 ajuda externa \xE9 aumentado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795516980879360
+    m_Localized: Os Cubanos Chegam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795662527422464
+    m_Localized: "Bem debaixo do nariz de Washington, um regime vermelho tomou ra\xEDz.
+      Sempre amea\xE7ada com retalia\xE7\xE3o por parte dos odiados \"yanquis\",
+      Cuba imp\xF4s-se como uma lutadora contra o imperialismo com um altru\xEDsmo
+      incompar\xE1vel. Fidel Castro prop\xF4s o envio de um n\xFAmero significativo
+      de volunt\xE1rios, mas preocupado com a \"desnacionaliza\xE7\xE3o\" da luta,
+      Cabral limitou-o a um pequeno contingente: mas que carrega valiosa experi\xEAncia
+      e certamente ir\xE1 aumentar a nossa moral."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5796941760782336
+    m_Localized: Aumento muito pequeno para capacidade ofensiva e defensiva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797316702199808
+    m_Localized: "Armamento Antia\xE9reo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797496545566720
+    m_Localized: "Chegou-nos uma oportunidade muito tentadora: a entrega de grandes
+      quantidades de armamento antia\xE9reo da Uni\xE3o Sovi\xE9tica. \xC9 certo
+      que estes n\xE3o ser\xE3o suficientes para proteger completamente as zonas
+      libertadas, mas dispersando-os pelo nosso ex\xE9rcito, os ataques a\xE9reos
+      inimigos tornar-se-\xE3o muito mais dif\xEDceis."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5798195077537792
+    m_Localized: "A taxa de ataques a\xE9reos diminui ligeiramente.\nOs ataques em
+      zonas com unidades amig\xE1veis presentes s\xE3o muito menos prov\xE1veis."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5798483716956160
+    m_Localized: "O Nascimento da For\xE7a A\xE9rea"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

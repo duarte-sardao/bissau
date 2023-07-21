@@ -197,6 +197,73 @@ MonoBehaviour:
     m_Localized: Chinese Weaponry
     m_Metadata:
       m_Items: []
+  - m_Id: 5549413081505792
+    m_Localized: The other great socialist power of the world, Red China remains
+      a bulwark of socialism in the Asian continent. With the wounds of the Sino-Soviet
+      split deepening, their position remains uncertain, but they're still available
+      to support us, despite us receiving Soviet backing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794330831708160
+    m_Localized: 'Increase in unit offensive power.
+
+      Increase in camp maintenance.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794468157415424
+    m_Localized: European Socialist Aid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5794629524873216
+    m_Localized: The minor socialist powers of Europe, both in the Warsaw Pact and
+      non-aligned Yugoslavia, have shown willingness to help us. While it is doubtful
+      they can provide the same military support as the Soviets, propaganda and economic
+      aid is always welcome.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795257420570624
+    m_Localized: Resource gain due to foreign aid is increased.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795516980879360
+    m_Localized: The Cubans Arrive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5795662527422464
+    m_Localized: Right under the nose of Washington, a red regime has taken root.
+      Ever threatened with retaliation from the hated "yanquis", Cuba has fashioned
+      itself as a fighter against imperialism with unmatched selflessness. Fidel
+      Castro has proposed sending significant numbers of volunteers, but worried
+      about "de-nationalizing" the struggle, Cabral has limited this to a small contingent,
+      who nonetheless carries valuable experience and will boost our morale.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5796941760782336
+    m_Localized: Very minor increase to offensive and defensive capabalities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797316702199808
+    m_Localized: Anti-Air Weaponry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5797496545566720
+    m_Localized: 'A most tantalizing opportunity has reached us: the delivery of
+      large amounts of anti-air weaponry from the Soviet Union. Certainly, these
+      are not enough to completely protected the liberated zones, but by dispersing
+      these amongst our army, enemy air raids will become much more difficult.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5798195077537792
+    m_Localized: 'Air raid rate slightly decreased.
+
+      Attacks on zones with
+      friendly units present are much less likely.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5798483716956160
+    m_Localized: The Birth of the Air Force
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
