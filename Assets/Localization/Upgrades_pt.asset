@@ -260,6 +260,99 @@ MonoBehaviour:
     m_Localized: "O Nascimento da For\xE7a A\xE9rea"
     m_Metadata:
       m_Items: []
+  - m_Id: 6262043274338304
+    m_Localized: wiki??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265142202294272
+    m_Localized: idk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265185995022336
+    m_Localized: "Motoriza\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409236845125632
+    m_Localized: "Pequeno e atravessado por rios e p\xE2ntanos, os ve\xEDculos pesados
+      podem n\xE3o desempenhar um papel t\xE3o importante na Guin\xE9 como em Angola
+      ou Mo\xE7ambique. No entanto, o inimigo utiliza-os e, nos locais onde os podemos
+      utilizar, a mobilidade dever\xE1 ser um grande multiplicador de for\xE7as em
+      termos t\xE1cticos e estrat\xE9gicos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409862605922304
+    m_Localized: "Velocidade de movimento aumentada.\nVelocidade de captura aumentada.\nPequeno
+      b\xF3nus de combate."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410127711100928
+    m_Localized: Fundar a FARP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410812754190336
+    m_Localized: "\xC9 necess\xE1rio p\xF4r termo \xE0 execu\xE7\xE3o do esfor\xE7o
+      de guerra por grupos de guerrilha com pouco controlo, como tem sido feito at\xE9
+      agora. Ap\xF3s o congresso de Cassaca, decidimos fundar as For\xE7as Armadas
+      Revolucion\xE1rias do Povo, o bra\xE7o militar do nosso partido que levar\xE1
+      a luta at\xE9 \xE0 vit\xF3ria."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411440851214336
+    m_Localized: "Campos criam unidades control\xE1veis."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411537144045568
+    m_Localized: Guerra de Guerrilha Refinada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411879839653888
+    m_Localized: "Embora aguardemos ansiosamente o dia em que poderemos enfrentar
+      os Portugueses em combate aberto, simplesmente n\xE3o temos for\xE7as para
+      o fazer agora. Aprendendo de pa\xEDses como a China e Cuba, temos de desgastar
+      o inimigo atrav\xE9s de uma guerrilha bem feita."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6412793635889152
+    m_Localized: "Grande diminui\xE7\xE3o de poder ofensivo.\nMaior aumento de poder
+      defensivo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413058028036096
+    m_Localized: Ataques de Sondagem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413763346391040
+    m_Localized: "A utiliza\xE7\xE3o de ataques curtos e concentrados deve ser encorajada:
+      se formos repelidos as consequ\xEAncias s\xE3o m\xEDnimas, se n\xE3o formos,
+      os Portugueses ensanguentados. De qualquer forma, estes ataques de sondagem
+      trazem-nos informa\xE7\xF5es valiosas sobre as for\xE7as e t\xE1cticas Portuguesas,
+      ao mesmo tempo que os atrasam."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6414290062893056
+    m_Localized: "Poder ofensivo aumentado.\nVelocidade de movimento e captura Portuguesa
+      diminu\xEDda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419163013668864
+    m_Localized: Ofensiva Total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419260657065984
+    m_Localized: "Com as nossas t\xE1cticas militares aperfei\xE7oadas, o nosso ex\xE9rcito
+      equipado pelos nossos aliados e os c\xE9us mais seguros do que nunca, podemos
+      finalmente respirar livremente e enfrentar os portugueses em batalhas abertas,
+      num esfor\xE7o final para livrar a nossa terra dos colonizadores. Avante!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6420565622480896
+    m_Localized: "Anula o b\xF3nus da upgrade de guerra de guerrilha."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6423020401811456
+    m_Localized: "Dom\xEDnio do Terreno"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -264,6 +264,104 @@ MonoBehaviour:
     m_Localized: The Birth of the Air Force
     m_Metadata:
       m_Items: []
+  - m_Id: 6262043274338304
+    m_Localized: check this
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265142202294272
+    m_Localized: idk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265185995022336
+    m_Localized: Motorization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409236845125632
+    m_Localized: Small and criss-crossed by rivers and marshes, trucks might not
+      play as an important role in Guinea than they do in Angola or Mozambique. Still,
+      the enemy makes use of them and where we can use them, the mobility should
+      be a great force multiplier tactically and strategically.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409862605922304
+    m_Localized: 'Increased movement speed.
+
+      Increased capturing speed.
+
+      Small
+      combat bonus.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410127711100928
+    m_Localized: Found the FARP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410812754190336
+    m_Localized: The carrying out of the war effort by guerilla groups with little
+      oversight, as has been done until now, must be stopped. After the Cassaca congress,
+      we determined to found the Revolutionary Armed Forces of the People, the military
+      arm of our party which will carry the struggle to victory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411440851214336
+    m_Localized: Camps spawn controllable units.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411537144045568
+    m_Localized: Refined Guerilla War
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411879839653888
+    m_Localized: While we eagerly await the day we can face the Portuguese in open
+      battle, we simply don't have the strength to battle them like that now. Learning
+      from such countries as China and Cuba, we must wear the enemy out by expertly
+      carrying out guerilla warfare.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6412793635889152
+    m_Localized: 'Big decrease in offensive power.
+
+      Bigger increase in defensive
+      power.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413058028036096
+    m_Localized: Probing Attacks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413763346391040
+    m_Localized: 'The use of short concentrated attacks should be encouraged: if
+      we are repelled the consequences of minimal, if we aren''t, the Portuguese
+      bloodied. Either way, these probing attacks bring us valuable information about
+      Portuguese forces and tactics, while slowing them down.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6414290062893056
+    m_Localized: 'Offensive power increased.
+
+      Portuguese movement and capture
+      speed decreased.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419163013668864
+    m_Localized: Full Offensive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419260657065984
+    m_Localized: With our military tactics refined, our army equipped by our allies
+      and the skies safer than ever, we can finally breathe free and engage the Portuguese
+      in open pitched battles, in one final push to rid our land of the colonizers.
+      Forwards!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6420565622480896
+    m_Localized: Undoes bonuses from the guerilla warfare upgrade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6423020401811456
+    m_Localized: Terrain Mastery
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

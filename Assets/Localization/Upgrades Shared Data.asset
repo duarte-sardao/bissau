@@ -199,6 +199,78 @@ MonoBehaviour:
     m_Key: planes_title
     m_Metadata:
       m_Items: []
+  - m_Id: 6262043274338304
+    m_Key: planes_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265142202294272
+    m_Key: planes_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6265185995022336
+    m_Key: motorized_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409236845125632
+    m_Key: motorized_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409862605922304
+    m_Key: motorized_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410127711100928
+    m_Key: army_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410812754190336
+    m_Key: army_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411440851214336
+    m_Key: army_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411537144045568
+    m_Key: guerilla_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411879839653888
+    m_Key: guerilla_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6412793635889152
+    m_Key: guerilla_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413058028036096
+    m_Key: probing_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413763346391040
+    m_Key: probing_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6414290062893056
+    m_Key: probing_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419163013668864
+    m_Key: fulloffense_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419260657065984
+    m_Key: fulloffense_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6420565622480896
+    m_Key: fulloffense_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6423020401811456
+    m_Key: terrain_title
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
