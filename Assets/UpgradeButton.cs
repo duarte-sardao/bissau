@@ -66,9 +66,9 @@ public class UpgradeButton : TriggeredModifiers
     {
         //update text
         upinfo.SetActive(true);
-        titleText.text = GetStr("up_" + identifier + "_title");
-        descText.text = GetStr("up_" + identifier + "_desc");
-        var effectString = GetStr("EFFECTS") + "\n" + GetStr("up_" + identifier + "_effect") + "\n\n";
+        titleText.text = GetStr(identifier + "_title");
+        descText.text = GetStr(identifier + "_desc");
+        var effectString = GetStr("EFFECTS") + "\n" + GetStr(identifier + "_effect") + "\n\n";
 
         if (!isBought)
         {

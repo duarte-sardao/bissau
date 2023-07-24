@@ -40,51 +40,51 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4718740477272064
-    m_Key: up_diplo_title
+    m_Key: diplo_title
     m_Metadata:
       m_Items: []
   - m_Id: 4718840985378816
-    m_Key: up_diplo_desc
+    m_Key: diplo_desc
     m_Metadata:
       m_Items: []
   - m_Id: 4719700079501312
-    m_Key: up_diplo_effect
+    m_Key: diplo_effect
     m_Metadata:
       m_Items: []
   - m_Id: 4720402122104832
-    m_Key: up_guinea_title
+    m_Key: guinea_title
     m_Metadata:
       m_Items: []
   - m_Id: 4720613171093504
-    m_Key: up_guinea_desc
+    m_Key: guinea_desc
     m_Metadata:
       m_Items: []
   - m_Id: 4721541240545280
-    m_Key: up_guinea_effect
+    m_Key: guinea_effect
     m_Metadata:
       m_Items: []
   - m_Id: 4722738177466368
-    m_Key: up_senegal_title
+    m_Key: senegal_title
     m_Metadata:
       m_Items: []
   - m_Id: 4722946286247936
-    m_Key: up_senegal_desc
+    m_Key: senegal_desc
     m_Metadata:
       m_Items: []
   - m_Id: 4723625960628224
-    m_Key: up_senegal_effect
+    m_Key: senegal_effect
     m_Metadata:
       m_Items: []
   - m_Id: 4823214705303552
-    m_Key: up_guin2_title
+    m_Key: guin2_title
     m_Metadata:
       m_Items: []
   - m_Id: 4823546244063232
-    m_Key: up_guin2_desc
+    m_Key: guin2_desc
     m_Metadata:
       m_Items: []
   - m_Id: 4824393476694016
-    m_Key: up_guin2_effect
+    m_Key: guin2_effect
     m_Metadata:
       m_Items: []
   - m_Id: 4824750198054912
@@ -269,6 +269,38 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6423020401811456
     m_Key: terrain_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6990455748124672
+    m_Key: terrain_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6991546569154560
+    m_Key: terrain_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6991719739383808
+    m_Key: party_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6992649490751488
+    m_Key: party_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993229604937728
+    m_Key: party_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993356352610304
+    m_Key: infra_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6994761738051584
+    m_Key: infra_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6995948851912704
+    m_Key: infra_effect
     m_Metadata:
       m_Items: []
   m_Metadata:

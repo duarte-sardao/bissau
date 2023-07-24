@@ -88,7 +88,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4723625960628224
-    m_Localized: "As prov\xEDncias senegalesas s\xE3o abertas e tratadas como territ\xF3rio
+    m_Localized: "As zonas senegalesas s\xE3o abertas e tratadas como territ\xF3rio
       aliado para efeitos de ajuda.\nPequeno aumento de recursos de fronteira aliada."
     m_Metadata:
       m_Items: []
@@ -351,6 +351,52 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6423020401811456
     m_Localized: "Dom\xEDnio do Terreno"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6990455748124672
+    m_Localized: "A Guin\xE9-Bissau \xE9 atravessada por rios, sapais e p\xE2ntanos.
+      Embora este facto traga grandes dificuldades na guerra, pode ser uma grande
+      vantagem para aqueles que o sabem utilizar. E enquanto os portugueses t\xEAm
+      dificuldades, quer por parte dos oficiais que n\xE3o est\xE3o familiarizados
+      com o terreno, quer por parte dos soldados que sufocam com o calor tropical,
+      n\xF3s sentimo-nos confort\xE1veis na nossa casa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6991546569154560
+    m_Localized: "B\xF3nus de defesa e velocidade."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6991719739383808
+    m_Localized: Fundar o PAIGC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6992649490751488
+    m_Localized: "Os movimentos nacionalistas da Guin\xE9 e de Cabo Verde t\xEAm
+      sido fragmentados, desorganizados e facilmente quebrados sob a press\xE3o do
+      governo colonial. A verdadeira independ\xEAncia exige o esfor\xE7o organizado
+      de um partido socialista militante, pronto a realizar o trabalho pol\xEDtico,
+      militar ou outro, necess\xE1rio para a liberta\xE7\xE3o total."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993229604937728
+    m_Localized: "O partido \xE9 fundado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993356352610304
+    m_Localized: Desenvolvimento de Infraestructura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6994761738051584
+    m_Localized: "Uma das principais reivindica\xE7\xF5es que s\xF3 a independ\xEAncia
+      pode satisfazer \xE9 a reivindica\xE7\xE3o de escolas, de hospitais, de melhores
+      estradas, de habita\xE7\xF5es condignas e de bons locais de trabalho. Durante
+      s\xE9culos, a economia colonial atrasou o desenvolvimento da nossa terra natal:
+      apesar de s\xF3 podermos retificar totalmente esta situa\xE7\xE3o quando a
+      guerra for ganha, podemos come\xE7ar a fazer esfor\xE7os sinceros agora."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6995948851912704
+    m_Localized: "Permite constru\xE7\xE3o em zonas."
     m_Metadata:
       m_Items: []
   references:

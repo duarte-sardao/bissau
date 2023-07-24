@@ -89,8 +89,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4723625960628224
-    m_Localized: 'Senegalese provinces are opened and treated as allied territory
-      for the purposes of aid.
+    m_Localized: 'Senegalese zones are opened and treated as allied territory for
+      the purposes of aid.
 
       Small increase in resources from allied border.'
     m_Metadata:
@@ -360,6 +360,50 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6423020401811456
     m_Localized: Terrain Mastery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6990455748124672
+    m_Localized: Guinea-Bissau is crossed by rivers, marshes and swamps. While this
+      brings great difficults in warfare, it can be great boon to those who can make
+      good use of it. And while the Portuguese struggle, both from officers struggling
+      unfamiliar with the terrain and soldiers sweltering under tropical heat, we
+      feel at comfort in our home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6991546569154560
+    m_Localized: Defensive and speed bonuses.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6991719739383808
+    m_Localized: Found the PAIGC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6992649490751488
+    m_Localized: The nationalist movements of Guinea and Cape Verde have been splintered,
+      unorganized and easily cracked under the pressure of the colonial government.
+      True independence requires the organized effort of a militant socialist party,
+      ready to carry out the required political work, military or otherwise, for
+      complete liberation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993229604937728
+    m_Localized: The party is founded.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6993356352610304
+    m_Localized: Infrastructure Development
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6994761738051584
+    m_Localized: 'A main demand that only independence can fulfill is the demand
+      for schools, for hospitals, for better roads and proper housing and good workplaces.
+      For centuries the colonial economy has stunted the development of our homeland:
+      even though we will only be able to fully rectify this when the war is won,
+      we can begin making earnest efforts now.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6995948851912704
+    m_Localized: Allows building on zones.
     m_Metadata:
       m_Items: []
   references:
