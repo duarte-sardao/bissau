@@ -303,6 +303,114 @@ MonoBehaviour:
     m_Key: infra_effect
     m_Metadata:
       m_Items: []
+  - m_Id: 7205046264487936
+    m_Key: devaid_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205191886528512
+    m_Key: devaid_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206061348970496
+    m_Key: devaid_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206250075873280
+    m_Key: cheaper_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206570029965312
+    m_Key: cheaper_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207094276022272
+    m_Key: cheaper_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207177981747200
+    m_Key: aabuild1_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207528608784384
+    m_Key: aabuild1_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208048534708224
+    m_Key: aabuild1_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208180344905728
+    m_Key: aabuild2_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208311001669632
+    m_Key: aabuild2_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7209397825527808
+    m_Key: aabuild2_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7209657452945408
+    m_Key: warehouses_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7215937903091712
+    m_Key: warehouses_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7216966937829376
+    m_Key: warehouses_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7217300607295488
+    m_Key: political_education_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7217425056489472
+    m_Key: political_education_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218482608300032
+    m_Key: political_education_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218856459198464
+    m_Key: permanent_commission_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7219419871666176
+    m_Key: permanent_commission_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221217462280192
+    m_Key: permanent_commission_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221417169870848
+    m_Key: elections_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221651321085952
+    m_Key: elections_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7222624957456384
+    m_Key: elections_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7222978751193088
+    m_Key: loyalty_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7223086695800832
+    m_Key: loyalty_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7224820017094656
+    m_Key: loyalty_effect
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

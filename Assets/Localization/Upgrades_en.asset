@@ -261,15 +261,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5798483716956160
-    m_Localized: The Birth of the Air Force
+    m_Localized: A Dream of Clear Skies
     m_Metadata:
       m_Items: []
   - m_Id: 6262043274338304
-    m_Localized: check this
+    m_Localized: It is the dream of everyone to one day be able to walk outside,
+      without a fear of terrible attacks from the air. While we made great strides
+      in clearing the air, there's still much more batteries and guided missiles
+      being offered by the Soviets, while some enterprising guineans have gone there
+      for training with MiGs. The time will come where we won't have to worry anymore,
+      but in the meantime we'll give the Portuguese a seriously bloodied nose.
     m_Metadata:
       m_Items: []
   - m_Id: 6265142202294272
-    m_Localized: idk
+    m_Localized: Air raid rate further decreased.
     m_Metadata:
       m_Items: []
   - m_Id: 6265185995022336
@@ -404,6 +409,169 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6995948851912704
     m_Localized: Allows building on zones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205046264487936
+    m_Localized: Foreign Professionals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205191886528512
+    m_Localized: From the get-go, the hardest difficulty to overcome in our efforts
+      to improve the lot of our people is the lack of trained professionals, as most
+      of the population is illiterate and experienced only in agriculture. While
+      we work on the education and professionalization of our workforce, experts
+      from our allies can come over and help.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206061348970496
+    m_Localized: Boosts the effects of farms, schools and hospitals.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206250075873280
+    m_Localized: Efficient Procurement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206570029965312
+    m_Localized: For a movement with resources as limited as ours, the construction
+      of new infrastructure is a costly and difficult undertaking. It would be wise
+      to work on reducing costs, by procuring cheap materials and establishing clear
+      lines of supply.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207094276022272
+    m_Localized: Reduced build costs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207177981747200
+    m_Localized: Sturdy Construction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207528608784384
+    m_Localized: 'An immediate problem facing our construction efforts is the Portuguese:
+      for an adversary with such supremacy in airpower, large fixed structure are
+      easy and appealing targets. While to some extent this is unavoidable, we must
+      make smart usage of our materials and adopt building techniques that reduce
+      the potential damage of bombings.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208048534708224
+    m_Localized: Bombed buildings are damaged, not destroyed, and can be repaired
+      at half cost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208180344905728
+    m_Localized: Mobility and Dispersion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208311001669632
+    m_Localized: Recently it was proposed that our military training should be done
+      in smaller, more dispersed units, which would then be brought together, thus
+      diminshing the catastrophic consequences of an air attack. Further, this tactic
+      can be extended to many more of our services.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7209397825527808
+    m_Localized: 'Bombed buildings begin automatically rebuilding for free.
+
+      Reduced
+      likelihood of attacks in camps.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7209657452945408
+    m_Localized: People's Stores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7215937903091712
+    m_Localized: The war was greatly disrupted the normal functioning of the economy
+      and across the country many peasants languish as their access to market and
+      vital goods is disrupted. Across the liberated zones, we ought to set up the
+      "People's Stores", to provide keystone resources, as well as to mediate exchange
+      with the peasants, in a mutual beneficial arrangement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7216966937829376
+    m_Localized: 'Increase in farm output.
+
+      Portuguese capture speed decreased.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7217300607295488
+    m_Localized: Political Education
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7217425056489472
+    m_Localized: The lack of political coherence is a death sentence for any revolutionary
+      movement, and if fighters aren't fully cognizant of what they are fighting
+      for, they can be easily demoralized. It is imperative that our education efforts
+      target our cadres and soldiers, inculcating in them our goals and belief in
+      a sovereign socialist Guinea and Cape Verde.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218482608300032
+    m_Localized: 'Increase in school output.
+
+      Increase in capture rate.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218856459198464
+    m_Localized: The Permanent Commission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7219419871666176
+    m_Localized: "Our ultimate goal is of a true people's democracy, but the reality
+      of war makes this a far-off reality. So far, the Permanent Commission, headed
+      by Am\xEDlcar Cabral, Lu\xEDs Cabral and Aristides Pereira, has made most significant
+      decisions, both for security reasons and the simple unviability of uniting
+      representatives across all zones. For the time being we will have to further
+      rely on it for our decision-making."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221217462280192
+    m_Localized: 'Reduced effects from sabotage events.
+
+      Periodic gain of political
+      resources.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221417169870848
+    m_Localized: Deferred Elections
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221651321085952
+    m_Localized: Cabral is cognizant of the importance of revolutionary democracy
+      and the dangers of growing bureaucratic centralism. Despite this, the reality
+      is quite harsh, while we held elections in the liberated zones, and while the
+      most recent reorganization of the party has reiterated the need for elections
+      on party committees through the village assemblies, we simply don't have the
+      capacity to organize more for now. Like so many other problems, we can only
+      hope this can be rectified when peace comes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7222624957456384
+    m_Localized: 'Reduced likelihood of sabotage events.
+
+      Periodic gain of
+      political resources increased.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7222978751193088
+    m_Localized: Reinforce Loyalty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7223086695800832
+    m_Localized: Portugal has made quite frequent use of dissastified party members
+      in their attempts to sabotage our movement and drive a wedge between us. Truthfully,
+      the current functioning of the political apparatus, with top-down leadership,
+      lack of elections and difficulty for cadres to move up has created a hotbed
+      of dissent. A concerted effort must be made to ensure the loyalty of party
+      members and to assuage their concerns as much as feasible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7224820017094656
+    m_Localized: 'Further reduced likelihood of sabotage events.
+
+      Reduced porutugese
+      capture rate.'
     m_Metadata:
       m_Items: []
   references:

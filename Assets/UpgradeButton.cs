@@ -14,7 +14,7 @@ public class UpgradeButton : TriggeredModifiers
     [SerializeField] private int polCost;
     [SerializeField] private string triggeredMod;
 
-    private GameObject upinfo;
+    [SerializeField] private GameObject upinfo;
     private Button buyButton;
     private TMPro.TMP_Text descText;
     private TMPro.TMP_Text effectsText;
@@ -33,6 +33,7 @@ public class UpgradeButton : TriggeredModifiers
     {
         ourImage = GetComponent<Image>();
         ourButton = GetComponent<Button>();
+        upinfo = GameObject.FindGameObjectWithTag("upgradeinfo");
     }
     void Start()
     {
@@ -50,7 +51,6 @@ public class UpgradeButton : TriggeredModifiers
         }
         identifier = gameObject.name;
         //get desc butt ticks and stuff (list of children and then traverse?)
-        upinfo = GameObject.FindGameObjectWithTag("upgradeinfo");
         var objs = upinfo.GetComponentsInChildren<TMPro.TMP_Text>();
         titleText = objs[0]; descText = objs[1]; effectsText = objs[2];
         buyButton = upinfo.GetComponentInChildren<Button>();

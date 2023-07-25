@@ -178,10 +178,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 5543674149560320
     m_Localized: "As lutas do dia de hoje ainda olham para 1917 para orienta\xE7\xE3o
-      e inspira\xE7\xE3o? Quem pode negar a import\xE2ncia da Uni\xE3o Sovi\xE9tica
+      e inspira\xE7\xE3o. Quem pode negar a import\xE2ncia da Uni\xE3o Sovi\xE9tica
       na luta global pela liberdade? Onde governos progressistas e socialistas tomam
       podem, ela oferece ajuda a prote\xE7\xE3o. Onde as massas oprimidas lutam contra
-      colonialismo e imperialismo, a kalashnikov segue."
+      colonialismo e imperialismo, a Kalashnikov segue."
     m_Metadata:
       m_Items: []
   - m_Id: 5545076972281856
@@ -257,15 +257,21 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5798483716956160
-    m_Localized: "O Nascimento da For\xE7a A\xE9rea"
+    m_Localized: "Um sonho de C\xE9us Limpos"
     m_Metadata:
       m_Items: []
   - m_Id: 6262043274338304
-    m_Localized: wiki??
+    m_Localized: "O sonho de toda a gente \xE9 poder um dia passear ao ar livre,
+      sem receio de terr\xEDveis ataques a\xE9reos. Embora tenhamos feito grandes
+      progressos na limpeza do ar, ainda h\xE1 mais baterias e m\xEDsseis guiados
+      a serem oferecidos pelos sovi\xE9ticos, ao mesmo tempo que alguns guineenses
+      aventureiros foram para l\xE1 treinar com MiGs. Chegar\xE1 o momento em que
+      n\xE3o teremos de nos preocupar mais, mas, entretanto, vamos dar aos portugueses
+      um nariz seriamente ensanguentado."
     m_Metadata:
       m_Items: []
   - m_Id: 6265142202294272
-    m_Localized: idk
+    m_Localized: "Taxa de ataques a\xE9reos diminuiu ainda mais."
     m_Metadata:
       m_Items: []
   - m_Id: 6265185995022336
@@ -397,6 +403,166 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 6995948851912704
     m_Localized: "Permite constru\xE7\xE3o em zonas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205046264487936
+    m_Localized: Profissionais Estrangeiros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7205191886528512
+    m_Localized: "Desde o primeiro momento, a dificuldade mais dif\xEDcil de ultrapassar
+      nos nossos esfor\xE7os para melhorar a situa\xE7\xE3o do nosso povo \xE9 a
+      falta de profissionais formados, uma vez que a maioria da popula\xE7\xE3o \xE9
+      analfabeta e tem apenas experi\xEAncia na agricultura. Enquanto trabalhamos
+      na forma\xE7\xE3o e profissionaliza\xE7\xE3o da nossa m\xE3o de obra, os especialistas
+      dos nossos aliados podem vir ajudar-nos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206061348970496
+    m_Localized: "Melhora os efeitos de planta\xE7\xF5es, escolas e cl\xEDnicas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206250075873280
+    m_Localized: Aprovisionamento Eficiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7206570029965312
+    m_Localized: "Para um movimento com recursos t\xE3o limitados como o nosso, a
+      constru\xE7\xE3o de novas infra-estruturas \xE9 um empreendimento dispendioso
+      e dif\xEDcil. Seria sensato trabalhar para reduzir os custos, adquirindo materiais
+      baratos e estabelecendo linhas claras de abastecimento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207094276022272
+    m_Localized: "Custos de constru\xE7\xE3o reduzidos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207177981747200
+    m_Localized: "Constru\xE7\xE3o Robusta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7207528608784384
+    m_Localized: "Um problema imediato que se coloca aos nossos esfor\xE7os de constru\xE7\xE3o
+      s\xE3o os portugueses: para um advers\xE1rio com tanta supremacia no poder
+      a\xE9reo, as grandes estruturas fixas s\xE3o alvos f\xE1ceis e apetec\xEDveis.
+      Embora at\xE9 certo ponto isto seja inevit\xE1vel, temos de fazer uma utiliza\xE7\xE3o
+      inteligente dos nossos materiais e adotar t\xE9cnicas de constru\xE7\xE3o que
+      reduzam os danos potenciais dos bombardeamentos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208048534708224
+    m_Localized: "Os edif\xEDcios bombardeados s\xE3o danificados, n\xE3o destru\xEDdos,
+      e podem ser reparados a metade do custo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208180344905728
+    m_Localized: "Mobilidade e Dispers\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7208311001669632
+    m_Localized: "Recentemente, foi proposto que o nosso treino militar fosse efectuado
+      em unidades mais pequenas e mais dispersas, que seriam depois reunidas, diminuindo
+      assim as consequ\xEAncias catastr\xF3ficas de um ataque a\xE9reo. Al\xE9m disso,
+      esta t\xE1tica pode ser alargada a muitos outros servi\xE7os."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7209397825527808
+    m_Localized: "Edif\xEDcios bombardeados come\xE7am a ser reconstru\xEDdos automaticamente
+      de forma gratuita.\nRedu\xE7\xE3o da probabilidade de ataques em campos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7209657452945408
+    m_Localized: "Armaz\xE9ns do Povo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7215937903091712
+    m_Localized: "A guerra perturbou profundamente o funcionamento normal da economia
+      e, em todo o pa\xEDs, muitos camponeses est\xE3o a sofrer com a falta de acesso
+      ao mercado e a bens vitais. Em todas as zonas libertadas, devemos criar os
+      \"Armaz\xE9ns do Povo\", para fornecer recursos essenciais, bem como para mediar
+      o interc\xE2mbio com os camponeses."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7216966937829376
+    m_Localized: "Aumento da produ\xE7\xE3o de planta\xE7\xF5es.\nDiminui\xE7\xE3o
+      da velocidade de captura portuguesa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7217300607295488
+    m_Localized: "Educa\xE7\xE3o Pol\xEDtica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7217425056489472
+    m_Localized: "A falta de coer\xEAncia pol\xEDtica \xE9 uma senten\xE7a de morte
+      para qualquer movimento revolucion\xE1rio e, se os combatentes n\xE3o souberem
+      bem aquilo por que est\xE3o a lutar, podem ser facilmente desmoralizados. \xC9
+      imperativo que os nossos esfor\xE7os de educa\xE7\xE3o se concentrem nos nossos
+      quadros e soldados, inculcando neles os nossos objectivos e a nossa cren\xE7a
+      numa Guin\xE9 e Cabo Verde socialistas e soberanos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218482608300032
+    m_Localized: "Aumento da produ\xE7\xE3o de escolas.\nAumento da velocidade de
+      captura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7218856459198464
+    m_Localized: "A Comiss\xE3o Permanente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7219419871666176
+    m_Localized: "O nosso objetivo final \xE9 o de uma verdadeira democracia popular,
+      mas a realidade da guerra torna-a uma realidade distante. At\xE9 agora, a Comiss\xE3o
+      Permanente, presidida por Am\xEDlcar Cabral, Lu\xEDs Cabral e Aristides Pereira,
+      tem tomado as decis\xF5es mais importantes, tanto por raz\xF5es de seguran\xE7a
+      como pela simples inviabilidade de reunir representantes de todas as zonas.
+      Por enquanto, teremos de continuar a contar com ela para a nossa tomada de
+      decis\xF5es."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221217462280192
+    m_Localized: "Redu\xE7\xE3o dos efeitos dos eventos de sabotagem.\nGanho peri\xF3dico
+      de recursos pol\xEDticos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221417169870848
+    m_Localized: "Elei\xE7\xF5es Diferidas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7221651321085952
+    m_Localized: "Cabral est\xE1 consciente da import\xE2ncia da democracia revolucion\xE1ria
+      e dos perigos do crescente centralismo burocr\xE1tico. Apesar disso, a realidade
+      \xE9 bastante dura: embora tenhamos realizado elei\xE7\xF5es nas zonas libertadas,
+      e embora a mais recente reorganiza\xE7\xE3o do partido tenha reiterado a necessidade
+      de elei\xE7\xF5es para os comit\xE9s do partido atrav\xE9s das assembleias
+      de aldeia, simplesmente n\xE3o temos capacidade para organizar mais por agora.
+      Como muitos outros problemas, s\xF3 podemos esperar que isto possa ser rectificado
+      quando a paz chegar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7222624957456384
+    m_Localized: "Redu\xE7\xE3o da probabilidade de eventos de sabotagem.\nAumento
+      do ganho peri\xF3dico de recursos pol\xEDticos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7222978751193088
+    m_Localized: "Reinfor\xE7o de Lealdade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7223086695800832
+    m_Localized: "Portugal tem aproveitado com bastante frequ\xEAncia os membros
+      do partido que se encontram em situa\xE7\xE3o de dissid\xEAncia para tentar
+      sabotar o nosso movimento e criar um fosso entre n\xF3s. Na verdade, o atual
+      funcionamento do aparelho pol\xEDtico, com a lideran\xE7a de topo, a falta
+      de elei\xE7\xF5es e a dificuldade de ascens\xE3o dos quadros, criou um foco
+      de dissid\xEAncia. H\xE1 que fazer um esfor\xE7o concertado para garantir a
+      lealdade dos membros do partido e atenuar, tanto quanto poss\xEDvel, as suas
+      preocupa\xE7\xF5es."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7224820017094656
+    m_Localized: "Redu\xE7\xE3o adicional da probabilidade de eventos de sabotagem.\nDiminui\xE7\xE3o
+      da velocidade de captura portuguesa."
     m_Metadata:
       m_Items: []
   references:
