@@ -565,6 +565,10 @@ MonoBehaviour:
       da velocidade de captura portuguesa."
     m_Metadata:
       m_Items: []
+  - m_Id: 8307952442613760
+    m_Localized: "80% do territ\xF3rio libertado"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

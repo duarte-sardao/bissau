@@ -208,15 +208,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6265185995022336
-    m_Key: motorized_title
+    m_Key: motorize_title
     m_Metadata:
       m_Items: []
   - m_Id: 6409236845125632
-    m_Key: motorized_desc
+    m_Key: motorize_desc
     m_Metadata:
       m_Items: []
   - m_Id: 6409862605922304
-    m_Key: motorized_effect
+    m_Key: motorize_effect
     m_Metadata:
       m_Items: []
   - m_Id: 6410127711100928
@@ -409,6 +409,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 7224820017094656
     m_Key: loyalty_effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8307944779620352
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8307952442613760
+    m_Key: lib_requirement
     m_Metadata:
       m_Items: []
   m_Metadata:

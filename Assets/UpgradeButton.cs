@@ -73,6 +73,8 @@ public class UpgradeButton : TriggeredModifiers
         if (!isBought)
         {
             effectString += GetStr("COST") + "\n";
+            if (identifier == "indie")
+                effectString += GetStr("lib_requirement") + "\n";
             if (monCost > 0)
                 effectString += monCost + "  <sprite=0>" + "\n";
             if (polCost > 0)

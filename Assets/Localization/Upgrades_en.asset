@@ -574,6 +574,10 @@ MonoBehaviour:
       capture rate.'
     m_Metadata:
       m_Items: []
+  - m_Id: 8307952442613760
+    m_Localized: 80% of territory liberated
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
