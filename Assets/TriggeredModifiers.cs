@@ -101,9 +101,10 @@ public class TriggeredModifiers : GlobalVars
         spwn.SpawnDelayed("last_event", 1f);
     }
 
-    public void game_end()
+    public void up_declare()
     {
-
+        var spwn = FindObjectOfType<EventSpawner>();
+        spwn.SpawnDelayed("indie", 1f);
     }
 
 

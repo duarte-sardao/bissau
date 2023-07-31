@@ -419,6 +419,18 @@ MonoBehaviour:
     m_Key: lib_requirement
     m_Metadata:
       m_Items: []
+  - m_Id: 9289014228492288
+    m_Key: indie_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9289091575652352
+    m_Key: indie_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9289770604109824
+    m_Key: indie_effect
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

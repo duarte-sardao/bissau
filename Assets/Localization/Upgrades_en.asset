@@ -578,6 +578,23 @@ MonoBehaviour:
     m_Localized: 80% of territory liberated
     m_Metadata:
       m_Items: []
+  - m_Id: 9289014228492288
+    m_Localized: Declare Independence!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9289091575652352
+    m_Localized: While de-facto we already behave as an independent government, for
+      now we've been consigned to the role of a military movement. But when the conditions
+      arise, when we've liberated most of our country, we must go forth and declare
+      the independence of Guinea-Bissau. Already many of our allies are ready to
+      recognize us and our ascension to the UN will be extremely embarassing for
+      the Portuguese.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9289770604109824
+    m_Localized: The game ends.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

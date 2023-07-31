@@ -14,6 +14,6 @@ public class LiberationButton : GlobalVars
 
     private void OnEnable()
     {
-        img.fillAmount = g_liberationlevel / 80f;
+        img.fillAmount = g_liberationlevel / g_requiredliblevel;
     }
 }

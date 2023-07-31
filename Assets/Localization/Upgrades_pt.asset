@@ -569,6 +569,23 @@ MonoBehaviour:
     m_Localized: "80% do territ\xF3rio libertado"
     m_Metadata:
       m_Items: []
+  - m_Id: 9289014228492288
+    m_Localized: "Declarar Independ\xEAncia!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9289091575652352
+    m_Localized: "Embora de facto j\xE1 estejamos a comportar-nos como um governo
+      independente, por agora fomos remetidos para o papel de um movimento militar.
+      Mas quando estiverem reunidas as condi\xE7\xF5es, quando tivermos libertado
+      a maior parte do nosso pa\xEDs, devemos avan\xE7ar e declarar a independ\xEAncia
+      da Guin\xE9-Bissau. Muitos dos nossos aliados j\xE1 est\xE3o prontos a reconhecer-nos
+      e a nossa ascens\xE3o \xE0 ONU ser\xE1 extremamente embara\xE7osa para os portugueses."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9289770604109824
+    m_Localized: O jogo acaba.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

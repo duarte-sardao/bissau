@@ -117,6 +117,8 @@ public class UpgradeButton : TriggeredModifiers
 
     bool Purchaseable()
     {
+        if (identifier == "indie" && g_liberationlevel < g_requiredliblevel)
+            return false;
         return g_res.money >= monCost && g_res.politic >= polCost && ReqsFulfilled();
     }
 
