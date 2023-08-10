@@ -735,6 +735,10 @@ PrefabInstance:
       value: guin2
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: guinea_buff
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1634,6 +1638,10 @@ PrefabInstance:
       value: china_guns
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: china_guns
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -2506,6 +2514,10 @@ PrefabInstance:
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: guin_camp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: guinea_camp
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
@@ -3665,6 +3677,10 @@ PrefabInstance:
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: guin_hosp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: guinea_hospital
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
@@ -5025,6 +5041,10 @@ PrefabInstance:
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: socialist_aid
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: foreign_aid
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
@@ -12065,6 +12085,10 @@ PrefabInstance:
       value: cuba
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: cuba
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -18680,6 +18704,10 @@ PrefabInstance:
       value: senegal
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: up_open_senegal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -19194,6 +19222,10 @@ PrefabInstance:
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: yugo_war
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: yugwar
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
@@ -22011,6 +22043,10 @@ PrefabInstance:
       value: sweden
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
+      value: sweden
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: preReqs.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -22934,6 +22970,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
+      value: soviet_guns
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: triggeredMod
       value: soviet_guns
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}

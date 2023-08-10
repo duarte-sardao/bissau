@@ -56,6 +56,7 @@ public class ResourceManager : GlobalVars
             { "SECTORS", 0},
             { "BUILDINGS", 0},
             { "BORDERING", 0},
+            { "AID", 0},
         };
         Dictionary<string, int> mon = new Dictionary<string, int>(pol);
         lastmon = 0;
@@ -81,9 +82,11 @@ public class ResourceManager : GlobalVars
         }
         if (path.NeighboursForeign())
         {
-            mon["BORDERING"] += 5;
-            pol["BORDERING"] += 5;
+            mon["BORDERING"] += g_bordermon;
+            pol["BORDERING"] += g_borderpol;
         }
+        mon["AID"] += g_aidmon;
+        pol["AID"] += g_aidpol;
         polinfo.text = "";
         moninfo.text = "";
         string badpol = "";

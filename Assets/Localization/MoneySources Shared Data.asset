@@ -31,6 +31,10 @@ MonoBehaviour:
     m_Key: BORDERING
     m_Metadata:
       m_Items: []
+  - m_Id: 42471980358115328
+    m_Key: AID
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

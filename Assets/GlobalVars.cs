@@ -57,6 +57,11 @@ public class GlobalVars : MonoBehaviour
     static public int g_sabotage_strength = 4;
     static protected int g_last_sabotage_strength;
 
+    static protected int g_borderpol = 5;
+    static protected int g_bordermon = 5;
+    static protected int g_aidpol = 5;
+    static protected int g_aidmon = 5;
+
     static public ResourceManager g_res;
 
     public int gf_buildcost(bool repair)

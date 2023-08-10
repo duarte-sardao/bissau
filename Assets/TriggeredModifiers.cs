@@ -113,5 +113,64 @@ public class TriggeredModifiers : GlobalVars
         GameObject.Find("senegal_overlay").SetActive(true);
         GameObject.Find("26-Senegal (Ziguinchor)").GetComponent<SectorController>().ControlLevel = -100;
         GameObject.Find("29-Senegal (Mandou)").GetComponent<SectorController>().ControlLevel = -100;
+        g_borderpol += 2;
+        g_bordermon += 2;
+    }
+
+    public void guinea_buff()
+    {
+        g_bordermon += 5;
+        g_borderpol += 5;
+    }
+
+    public void guinea_hospital()
+    {
+        var place = GameObject.Find("27-Guinea (Boké)").GetComponent<SectorController>();
+        place.buildings["hospital"].building = true;
+        place.buildings["hospital"].timebuilding = g_buildtime;
+    }
+
+    public void guinea_camp()
+    {
+        var place = GameObject.Find("27-Guinea (Boké)").GetComponent<SectorController>();
+        place.buildings["camp"].building = true;
+        place.buildings["camp"].timebuilding = g_buildtime;
+    }
+
+    public void foreign_aid()
+    {
+        g_aidmon += 2;
+        g_aidpol += 2;
+    }
+
+    public void sweden()
+    {
+        foreign_aid();
+        gn_heal_mult += 0.1f;
+    }
+
+    public void yugwar()
+    {
+        foreign_aid();
+        foreign_aid();
+    }
+
+    public void soviet_guns()
+    {
+        china_guns();
+        china_guns();
+        china_guns();
+        g_campcost -= 1;
+    }
+
+    public void china_guns()
+    {
+        gn_damage_mult += 0.1f;
+        g_campcost += 2;
+    }
+
+    public void cuba()
+    {
+        gn_damage_mult += 0.05f;
     }
 }
