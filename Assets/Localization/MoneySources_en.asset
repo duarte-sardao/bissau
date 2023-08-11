@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Foreign Aid
     m_Metadata:
       m_Items: []
+  - m_Id: 42845204178739200
+    m_Localized: Permanent Commission
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

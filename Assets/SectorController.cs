@@ -133,8 +133,13 @@ public class SectorController : GlobalVars
                 UpdateControl(-Time.deltaTime * multiplier(base_cap, gn_cap_mult));
             } else
             {
-                var mult = 1;
-                if (buildings["hospital"].built) mult *= 2;
+                var mult = 1f;
+                if (buildings["hospital"].built)
+                {
+                    mult *= g_hospitalbonus;
+                    if (this.foreign)
+                        mult *= 2;
+                }
                 friend.UpdateHealth(Time.deltaTime * multiplier(base_heal, gn_heal_mult) * mult);
             }
         } else if(Occ(enemy))
@@ -209,7 +214,7 @@ public class SectorController : GlobalVars
 
     private void BombUnit()
     {
-        this.friend.UpdateHealth(-0.1f * g_bombintensity);
+        this.friend.UpdateHealth(-0.1f * g_bombintensityunits);
     }
     IEnumerator DestroyBuilding(string key, float delayTime)
     {

@@ -10,6 +10,7 @@ public class GlobalVars : MonoBehaviour
     static public int g_buildingcost = 1;
     static public int g_schoolgain = 4;
     static public int g_farmgain = 5;
+    static public float g_hospitalbonus = 2;
     static public int g_campcost = 10;
     static public float g_buildtime = 10;
     static public int g_costtobuild = 50;
@@ -45,7 +46,9 @@ public class GlobalVars : MonoBehaviour
 
     static public float lev_startbombing = 20f;
     static public float g_bombrate = 30f;
+    static public bool g_protectedunits = false;
     static public int g_bombintensity = 3;
+    static public int g_bombintensityunits = 3;
     static public int g_bombterrormult = 5;
     static public int g_bombunitmult = 2;
     static public int g_bombbuildingmult = 1;
@@ -61,6 +64,7 @@ public class GlobalVars : MonoBehaviour
     static protected int g_bordermon = 5;
     static protected int g_aidpol = 5;
     static protected int g_aidmon = 5;
+    static protected int g_threepol = 0;
 
     static public ResourceManager g_res;
 

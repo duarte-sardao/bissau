@@ -257,7 +257,10 @@ MonoBehaviour:
     m_Localized: 'Air raid rate slightly decreased.
 
       Attacks on zones with
-      friendly units present are much less likely.'
+      friendly units present are much less likely.
+
+      Reduced bombardment damage
+      on units.'
     m_Metadata:
       m_Items: []
   - m_Id: 5798483716956160
@@ -274,7 +277,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6265142202294272
-    m_Localized: Air raid rate further decreased.
+    m_Localized: 'Air raid rate further decreased.
+
+      Reduced bombardment damage
+      on units.'
     m_Metadata:
       m_Items: []
   - m_Id: 6265185995022336
@@ -455,8 +461,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7208048534708224
-    m_Localized: Bombed buildings are damaged, not destroyed, and can be repaired
+    m_Localized: 'Bombed buildings are damaged, not destroyed, and can be repaired
       at half cost.
+
+      Reduced terror-bombing effects.'
     m_Metadata:
       m_Items: []
   - m_Id: 7208180344905728
@@ -474,7 +482,9 @@ MonoBehaviour:
     m_Localized: 'Bombed buildings begin automatically rebuilding for free.
 
       Reduced
-      likelihood of attacks in camps.'
+      likelihood of attacks in camps.
+
+      Reduced terror-bombing effects.'
     m_Metadata:
       m_Items: []
   - m_Id: 7209657452945408

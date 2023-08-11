@@ -57,6 +57,7 @@ public class ResourceManager : GlobalVars
             { "BUILDINGS", 0},
             { "BORDERING", 0},
             { "AID", 0},
+            { "COMM", 0}
         };
         Dictionary<string, int> mon = new Dictionary<string, int>(pol);
         lastmon = 0;
@@ -87,6 +88,7 @@ public class ResourceManager : GlobalVars
         }
         mon["AID"] += g_aidmon;
         pol["AID"] += g_aidpol;
+        pol["COMM"] += g_threepol;
         polinfo.text = "";
         moninfo.text = "";
         string badpol = "";

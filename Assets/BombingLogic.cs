@@ -44,6 +44,9 @@ public class BombingLogic : GlobalVars
 
         foreach(var sect in g_sects)
         {
+            if (g_protectedunits && sect.Occ(sect.friend) && Random.Range(0, 1) > 0.75f) //chance to skip sector if unit is there
+                continue;
+
             if (sect.ControlLevel < 0)
             {
                 terror.Add(sect);

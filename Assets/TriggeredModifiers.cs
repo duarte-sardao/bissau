@@ -173,4 +173,101 @@ public class TriggeredModifiers : GlobalVars
     {
         gn_damage_mult += 0.05f;
     }
+
+    public void antiair()
+    {
+        reducebomb();
+        g_protectedunits = true;
+    }
+
+    public void reducebomb()
+    {
+        g_bombrate += 15f;
+        g_bombintensityunits -= 1;
+    }
+
+    public void motorize()
+    {
+        gn_cap_mult += 0.3f;
+        gn_speed += 0.4f;
+        gn_damage_mult += 0.05f;
+    }
+
+    public void gorilla()
+    {
+        gn_damage_mult -= 0.5f;
+        pt_damage_mult -= 0.55f;
+    }
+
+    public void probing()
+    {
+        gn_damage_mult += 0.1f;
+        pt_speed -= 0.1f;
+        pt_cap_mult -= 0.1f;
+    }
+
+    public void offensive()
+    {
+        gn_damage_mult += 0.5f;
+        pt_damage_mult += 0.55f;
+    }
+
+    public void terrain()
+    {
+        gn_speed += 0.1f;
+        pt_damage_mult -= 0.1f;
+    }
+
+    public void devaid()
+    {
+        g_schoolgain += 2;
+        g_farmgain += 2;
+        g_hospitalbonus += 0.33f;
+    }
+
+    public void cheapbuild()
+    {
+        g_costtobuild -= 20;
+    }
+
+    public void aa()
+    {
+        g_bombintensity -= 1;
+    }
+
+    public void aa2()
+    {
+        aa();
+    }
+
+    public void warehouses()
+    {
+        g_farmgain += 4;
+        pt_cap_mult -= 0.1f;
+    }
+
+    public void politicaledu()
+    {
+        g_schoolgain += 4;
+        gn_cap_mult += 0.1f;
+    }
+
+    public void permacom()
+    {
+        g_sabotage_strength -= 2;
+        g_threepol += 5;
+        Debug.Log("perma");
+    }
+
+    public void elections()
+    {
+        g_sabotage_freq += 60f;
+        g_threepol += 5;
+    }
+
+    public void loyal()
+    {
+        g_sabotage_freq += 60f;
+        pt_cap_mult -= 0.1f;
+    }
 }

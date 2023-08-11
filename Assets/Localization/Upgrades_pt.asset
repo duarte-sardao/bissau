@@ -253,7 +253,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 5798195077537792
     m_Localized: "A taxa de ataques a\xE9reos diminui ligeiramente.\nOs ataques em
-      zonas com unidades amig\xE1veis presentes s\xE3o muito menos prov\xE1veis."
+      zonas com unidades amig\xE1veis presentes s\xE3o muito menos prov\xE1veis.\nDano
+      de bombardementos em unidades reduzidos."
     m_Metadata:
       m_Items: []
   - m_Id: 5798483716956160
@@ -271,7 +272,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6265142202294272
-    m_Localized: "Taxa de ataques a\xE9reos diminuiu ainda mais."
+    m_Localized: "Taxa de ataques a\xE9reos diminuiu ainda mais.\nDano de bombardementos
+      em unidades reduzidos."
     m_Metadata:
       m_Items: []
   - m_Id: 6265185995022336
@@ -452,7 +454,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 7208048534708224
     m_Localized: "Os edif\xEDcios bombardeados s\xE3o danificados, n\xE3o destru\xEDdos,
-      e podem ser reparados a metade do custo."
+      e podem ser reparados a metade do custo.\nRedu\xE7\xE3o de efeito de bombardeamentos
+      de terror."
     m_Metadata:
       m_Items: []
   - m_Id: 7208180344905728
@@ -468,7 +471,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 7209397825527808
     m_Localized: "Edif\xEDcios bombardeados come\xE7am a ser reconstru\xEDdos automaticamente
-      de forma gratuita.\nRedu\xE7\xE3o da probabilidade de ataques em campos."
+      de forma gratuita.\nRedu\xE7\xE3o da probabilidade de ataques em campos.\nRedu\xE7\xE3o
+      de efeito de bombardeamentos de terror."
     m_Metadata:
       m_Items: []
   - m_Id: 7209657452945408

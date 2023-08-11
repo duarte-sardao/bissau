@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: Ajuda Externa
     m_Metadata:
       m_Items: []
+  - m_Id: 42845204178739200
+    m_Localized: "Comiss\xE3o Permanente"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
