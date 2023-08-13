@@ -85,6 +85,7 @@ public class UpgradeButton : TriggeredModifiers
 
         buyButton.gameObject.SetActive(!isBought);
         buyButton.interactable = Purchaseable();
+        buyButton.onClick.RemoveAllListeners();
         buyButton.onClick.AddListener(delegate { Purchase(); });
     }
 

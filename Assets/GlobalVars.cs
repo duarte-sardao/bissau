@@ -49,10 +49,12 @@ public class GlobalVars : MonoBehaviour
     static public bool g_protectedunits = false;
     static public int g_bombintensity = 3;
     static public int g_bombintensityunits = 3;
-    static public int g_bombterrormult = 5;
-    static public int g_bombunitmult = 2;
-    static public int g_bombbuildingmult = 1;
-    static public int g_bombcampmult = 1;
+
+    static public float g_bombterrormult = 5;
+    static public float g_bombunitmult = 2;
+    static public float g_bombbuildingmult = 1;
+    static public float g_bombcampmult = 1;
+
     static public string g_lastbomb = "";
     static public string g_lastbombtype = "";
 

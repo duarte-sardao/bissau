@@ -65,12 +65,12 @@ public class BombingLogic : GlobalVars
         if (camps.Count == 1)
             camps.Clear();
 
-        int terrtarget = terror.Count * g_bombterrormult;
-        int unittarget = units.Count * g_bombunitmult + terrtarget;
-        int camptarget = camps.Count * g_bombcampmult + unittarget;
-        int buildingtarget = buildings.Count * g_bombbuildingmult + camptarget;
+        float terrtarget = terror.Count * g_bombterrormult;
+        float unittarget = units.Count * g_bombunitmult + terrtarget;
+        float camptarget = camps.Count * g_bombcampmult + unittarget;
+        float buildingtarget = buildings.Count * g_bombbuildingmult + camptarget;
 
-        int roll = Random.Range(0, buildingtarget+1);
+        float roll = Random.Range(0f, buildingtarget+1);
         SectorController target;
         string type;
         string evt = "air_building";

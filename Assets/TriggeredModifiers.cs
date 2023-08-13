@@ -7,6 +7,7 @@ public class TriggeredModifiers : GlobalVars
     public void trigger_modifier(string name)
     {
         Invoke(name, 0f);
+        Debug.Log("Triggering: " + name);
     }
 
     public void hearts_and_minds()
@@ -25,10 +26,10 @@ public class TriggeredModifiers : GlobalVars
 
     public void bombing_update()
     {
-        g_bombterrormult = 2;
-        g_bombunitmult = 3;
-        g_bombbuildingmult = 2;
-        g_bombcampmult = 6;
+        g_bombterrormult *= 2/5;
+        g_bombunitmult *= 2/3;
+        g_bombbuildingmult *= 2;
+        g_bombcampmult *= 6;
         Debug.Log("better bombings");
     }
 
@@ -110,7 +111,7 @@ public class TriggeredModifiers : GlobalVars
 
     public void up_open_senegal()
     {
-        GameObject.Find("senegal_overlay").SetActive(true);
+        GameObject.Find("senegal_overlay").GetComponent<SpriteRenderer>().enabled = true;
         GameObject.Find("26-Senegal (Ziguinchor)").GetComponent<SectorController>().ControlLevel = -100;
         GameObject.Find("29-Senegal (Mandou)").GetComponent<SectorController>().ControlLevel = -100;
         g_borderpol += 2;
@@ -238,6 +239,7 @@ public class TriggeredModifiers : GlobalVars
     public void aa2()
     {
         aa();
+        g_bombcampmult *= 2/6;
     }
 
     public void warehouses()
