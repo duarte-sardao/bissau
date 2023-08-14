@@ -614,6 +614,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: aa
       objectReference: {fileID: 0}
@@ -1638,6 +1646,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: china_guns
       objectReference: {fileID: 0}
@@ -2393,6 +2409,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 225
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -4720,6 +4744,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: permacom
       objectReference: {fileID: 0}
@@ -5049,6 +5081,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
@@ -5590,6 +5630,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -8375,6 +8423,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: cheapbuild
       objectReference: {fileID: 0}
@@ -8818,6 +8874,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -10410,6 +10474,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -12109,6 +12181,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: cuba
       objectReference: {fileID: 0}
@@ -12242,6 +12322,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -14091,6 +14179,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -17036,6 +17132,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: terrain
       objectReference: {fileID: 0}
@@ -17789,6 +17893,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
       value: planes
       objectReference: {fileID: 0}
@@ -17917,6 +18029,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -18426,6 +18546,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: probing
       objectReference: {fileID: 0}
@@ -18893,6 +19021,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: loyal
       objectReference: {fileID: 0}
@@ -19274,6 +19410,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
@@ -19752,6 +19896,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
@@ -21246,6 +21398,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: triggeredMod
       value: antiair
       objectReference: {fileID: 0}
@@ -22100,6 +22260,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
@@ -23030,6 +23198,14 @@ PrefabInstance:
     - target: {fileID: 5821937424061255380, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: monCost
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
+      propertyPath: polCost
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5821937424061255381, guid: 0f05b215fb15eb74aaf7bae9efd885ec, type: 3}
       propertyPath: identifier
