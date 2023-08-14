@@ -199,6 +199,82 @@ MonoBehaviour:
     m_Key: CONAKRY_INVADE_BUTTON
     m_Metadata:
       m_Items: []
+  - m_Id: 56647209213452288
+    m_Key: TELL_NO_LIES_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56649492223451136
+    m_Key: TELL_NO_LIES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56649667981565952
+    m_Key: TELL_NO_LIES_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56649854724562944
+    m_Key: MESSAGE_TO_PORTUGAL_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56650628359741440
+    m_Key: MESSAGE_TO_PORTUGAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56650956702441472
+    m_Key: MESSAGE_TO_PORTUGAL_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56651034498392064
+    m_Key: MESSAGE_TO_PORTUGAL_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56653095566794752
+    m_Key: BROUGHT_HISTORY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56653546341228544
+    m_Key: BROUGHT_HISTORY_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56653788767805440
+    m_Key: BROUGHT_HISTORY_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56654137016672256
+    m_Key: BROUGHT_HISTORY_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56655065010626560
+    m_Key: NEW_SOCIETY_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56658164353818624
+    m_Key: NEW_SOCIETY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56658382365351936
+    m_Key: NEW_SOCIETY_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56658597247934464
+    m_Key: NEW_SOCIETY_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56659286472744960
+    m_Key: SPACE_ONE_HEADER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56659441716518912
+    m_Key: SPACE_ONE_DATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56659552660054016
+    m_Key: SPACE_ONE_BUTTON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56659671522435072
+    m_Key: SPACE_ONE
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

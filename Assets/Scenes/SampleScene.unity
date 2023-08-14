@@ -14601,6 +14601,16 @@ MonoBehaviour:
   - name: kill_cabral
     limit: 75
   - name: green_sea
+    limit: 55
+  - name: tell_no_lies
+    limit: 25
+  - name: message_to_portugal
+    limit: 50
+  - name: brought_history
+    limit: 20
+  - name: new_society
+    limit: 70
+  - name: space_one
     limit: 60
   events: {fileID: 158689813}
 --- !u!4 &1321672484
