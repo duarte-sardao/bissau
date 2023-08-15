@@ -308,13 +308,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56650628359741440
-    m_Localized: '"[...] Marcelo Caetano, when he took over from Salazar, could have
+    m_Localized: "In the Voz de Liberdade, a radio hosted in Algiers by Portuguese
+      anti-fascists, Am\xEDlcar Cabral recently spoke directly to the Portuguese
+      people.\n\n\"[...] Marcelo Caetano, when he took over from Salazar, could have
       ended the colonial wars, but did not want to. We are certain that this mission
       will be accomplished by the Portuguese people, by their workers and peasants,
       by their young people, by their progressive and anti-colonialist intellectuals,
       in fact by all those who truly respect and love Portugal and who know that
       to fight against the colonial war is to save Portugal from the suffering, ruin
-      and danger for their own independence which this war creates."'
+      and danger for their own independence which this war creates.\""
     m_Metadata:
       m_Items: []
   - m_Id: 56650956702441472
@@ -343,7 +345,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56653546341228544
-    m_Localized: Cabral at the CONCP Conference
+    m_Localized: Cabral at the CONCP
     m_Metadata:
       m_Items: []
   - m_Id: 56653788767805440
@@ -359,14 +361,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56658164353818624
-    m_Localized: '"[...] And let no one be surprised if we say that we are not proud
-      of the fact that every day, and by virtue of circumstances created or imposed
-      by the Portuguese government, large numbers of young Portuguese men  succumb
-      ingloriously to the fire of our fighters. We are proud, yes, of the national
-      consciousness of our people, of the unity of the people forged on the battlefield,
-      of the simultaneous blossoming of the cultures of the various ethnic groups,
-      of the schools, hospitals and health centres which are functioning in broad
-      daylight despite the bombardments and assaults of the colonialists. [...]"'
+    m_Localized: 'Recently, the leaders of the nationalist movements in the Portuguese
+      colonies collaborated in writing a publication on the achievements and goals
+      of the process of building a new society:
+
+      "[...] And let no one be surprised
+      if we say that we are not proud of the fact that every day, and by virtue of
+      circumstances created or imposed by the Portuguese government, large numbers
+      of young Portuguese men  succumb ingloriously to the fire of our fighters.
+      We are proud, yes, of the national consciousness of our people, of the unity
+      of the people forged on the battlefield, of the simultaneous blossoming of
+      the cultures of the various ethnic groups, of the schools, hospitals and health
+      centres which are functioning in broad daylight despite the bombardments and
+      assaults of the colonialists. [...]"'
     m_Metadata:
       m_Items: []
   - m_Id: 56658382365351936

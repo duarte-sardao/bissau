@@ -1408,6 +1408,11 @@ MonoBehaviour:
     - indie
     - carnation_revolution
     - last_event
+    - tell_no_lies
+    - message_to_portugal
+    - brought_history
+    - new_society
+    - space_one
     m_values:
     - {fileID: 5207441783851843986, guid: 2d8b4ae49525bbb41836c8f057265938, type: 3}
     - {fileID: 6320680104526222103, guid: 68712a65ff3efd74a9024774dc2aa7b9, type: 3}
@@ -1430,6 +1435,11 @@ MonoBehaviour:
     - {fileID: 5207441783851843986, guid: 1a14b2c4989e513419ca6decca7f6b8f, type: 3}
     - {fileID: 5207441783851843986, guid: 30c7b11fada3ce44a98931c730f5387a, type: 3}
     - {fileID: 5207441783851843986, guid: f368af1a6c6c39a49a35ac507a11cee4, type: 3}
+    - {fileID: 5207441783851843986, guid: e9f9c28aba532104594bfcf29d03dd60, type: 3}
+    - {fileID: 5207441783851843986, guid: 0e1c8b962f085964a982c8700de7d6a4, type: 3}
+    - {fileID: 5207441783851843986, guid: bd6939260624d0b4aadab2ee4553ce85, type: 3}
+    - {fileID: 5207441783851843986, guid: bb50c37c01a7c6e498cc662b3ab54587, type: 3}
+    - {fileID: 5207441783851843986, guid: 38ec041bd99e8764d8d2718344b40db0, type: 3}
 --- !u!114 &158689814
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -317,14 +317,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56650628359741440
-    m_Localized: "\"[...] Marcelo Caetano, quando substituiu Salazar, podia ter acabado
-      com as guerras coloniais, mas n\xE3o quis. Estamos certos de que essa miss\xE3o
-      ser\xE1 cumprida pelo povo portugu\xEAs, pelos seus oper\xE1rios e camponeses,
-      pelos seus jovens, pelos seus intelectuais progressistas e anticolonialistas,
-      enfim por todos aqueles que verdadeiramente respeitam e amam Portugal e que
-      sabem que lutar contra a guerra colonial \xE9 salvar Portugal do sofrimento,
-      da ru\xEDna e do perigo para a sua pr\xF3pria independ\xEAncia que essa guerra
-      cria. \""
+    m_Localized: "Na Voz da Liberdade, uma r\xE1dio organizada em Argel pelos antifascistas
+      portugueses, Am\xEDlcar Cabral recentemente falou diretamente ao povo portugu\xEAs.\n\n\"[...]
+      Marcelo Caetano, quando substituiu Salazar, podia ter acabado com as guerras
+      coloniais, mas n\xE3o quis. Estamos certos de que essa miss\xE3o ser\xE1 cumprida
+      pelo povo portugu\xEAs, pelos seus oper\xE1rios e camponeses, pelos seus jovens,
+      pelos seus intelectuais progressistas e anticolonialistas, enfim por todos
+      aqueles que verdadeiramente respeitam e amam Portugal e que sabem que lutar
+      contra a guerra colonial \xE9 salvar Portugal do sofrimento, da ru\xEDna e
+      do perigo para a sua pr\xF3pria independ\xEAncia que essa guerra cria. \""
     m_Metadata:
       m_Items: []
   - m_Id: 56650956702441472
@@ -355,7 +356,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56653546341228544
-    m_Localized: "Cabral na Confer\xEAncia da CONCP"
+    m_Localized: Cabral na CONCP
     m_Metadata:
       m_Items: []
   - m_Id: 56653788767805440
@@ -371,14 +372,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56658164353818624
-    m_Localized: "\"[...] E que ningu\xE9m se espante se ousamos afirmar que n\xE3o
-      nos sentimos orgulhosos pelo facto de em cada dia, e por for\xE7a das circunst\xE2ncias
-      criadas ou impostas pelo governo portugu\xEAs, sucumbirem ingloriosamente grande
-      n\xFAmero de jovens portugueses, sob o fogo dos nossos combatentes. Estamos
-      orgulhosos, sim, da consci\xEAncia nacional das nossas popula\xE7\xF5es, da
-      unidade do povo forjada na l\xFAa, do desabrochar simult\xE2neo das culturas
-      dos diversos grupos \xE9tnicos, das escolas, dos hospitais, dos postos sanit\xE1rios
-      que funcionam em pleno dia apesar dos bombardeamentos e dos assaltos dos colonialistas.
+    m_Localized: "Recentemente, os l\xEDderes dos movimentos nacionalistas das col\xF3nias
+      portuguesas colaboraram na escrita de uma publica\xE7\xE3o sobre as conquistas
+      e objetivos do processo de constru\xE7\xE3o de uma nova sociedade:\n\"[...]
+      E que ningu\xE9m se espante se ousamos afirmar que n\xE3o nos sentimos orgulhosos
+      pelo facto de em cada dia, e por for\xE7a das circunst\xE2ncias criadas ou
+      impostas pelo governo portugu\xEAs, sucumbirem ingloriosamente grande n\xFAmero
+      de jovens portugueses, sob o fogo dos nossos combatentes. Estamos orgulhosos,
+      sim, da consci\xEAncia nacional das nossas popula\xE7\xF5es, da unidade do
+      povo forjada na l\xFAa, do desabrochar simult\xE2neo das culturas dos diversos
+      grupos \xE9tnicos, das escolas, dos hospitais, dos postos sanit\xE1rios que
+      funcionam em pleno dia apesar dos bombardeamentos e dos assaltos dos colonialistas.
       [...]\""
     m_Metadata:
       m_Items: []
