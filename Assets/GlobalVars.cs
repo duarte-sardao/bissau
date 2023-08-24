@@ -28,7 +28,7 @@ public class GlobalVars : MonoBehaviour
 
     static public float base_cap = 10;
     static public float pt_cap_mult = 1f;
-    static public float gn_cap_mult = 199.1f;
+    static public float gn_cap_mult = 1.1f;
 
     public float multiplier(float basev, float mult) { return basev * Mathf.Max(0.1f, mult); }
 
