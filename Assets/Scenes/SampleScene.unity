@@ -2196,7 +2196,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 990424728}
         m_TargetAssemblyTypeName: SideMenu, Assembly-CSharp
-        m_MethodName: build
+        m_MethodName: Build
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4430,7 +4430,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.97159
+  orthographic size: 4.982622
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7917,7 +7917,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 990424728}
         m_TargetAssemblyTypeName: SideMenu, Assembly-CSharp
-        m_MethodName: build
+        m_MethodName: Build
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10600,7 +10600,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 990424728}
         m_TargetAssemblyTypeName: SideMenu, Assembly-CSharp
-        m_MethodName: build
+        m_MethodName: Build
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16161,7 +16161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1438186404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22401,7 +22401,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 990424728}
         m_TargetAssemblyTypeName: SideMenu, Assembly-CSharp
-        m_MethodName: build
+        m_MethodName: Build
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
