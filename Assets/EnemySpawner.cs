@@ -9,6 +9,7 @@ public class EnemySpawner : GlobalVars
     [SerializeField] private GameObject enemyUnit;
     [SerializeField] private List<GameObject> units;
     private bool spawning = false;
+    [SerializeField] private int libLevelforUnit;
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class EnemySpawner : GlobalVars
         var increase = false;
         if (spawning)
             return;
-        var curcap = Mathf.FloorToInt(g_liberationlevel / 15);
+        var curcap = Mathf.FloorToInt(g_liberationlevel / libLevelforUnit);
         if(curcap > g_enemycapacity)
         {
             g_enemycapacity = curcap;

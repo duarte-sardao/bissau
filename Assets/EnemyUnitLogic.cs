@@ -13,6 +13,8 @@ public class EnemyUnitLogic : UnitLogic
         healthTarget = 0f;
         calc = FindObjectOfType<PathCalculator>();
         InvokeRepeating(nameof(CheckMove), 1f, 1f);
+        InitRenderer();
+        lineRenderer.startColor = Color.gray;
     }
 
     private void CheckMove()

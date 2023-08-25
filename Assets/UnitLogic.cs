@@ -16,6 +16,8 @@ public class UnitLogic : GlobalVars
 
     public CampLogic camp;
 
+    protected LineRenderer lineRenderer;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var sect = collision.GetComponent<SectorController>();
@@ -30,10 +32,23 @@ public class UnitLogic : GlobalVars
             foreigncount--;
     }
 
+    protected void InitRenderer()
+    {
+        lineRenderer = gameObject.AddComponent<LineRenderer>();
+        lineRenderer.startWidth = 0.15f;
+        lineRenderer.endWidth = 0.01f;
+        lineRenderer.material = new Material(Shader.Find("Legacy Shaders/Particles/Alpha Blended Premultiply"));
+        lineRenderer.startColor = Color.yellow;
+        lineRenderer.endColor = Color.black;
+        lineRenderer.enabled = false;
+    }
+
     private void Start()
     {
         sector.friend = this;
         guinean = true;
+
+        InitRenderer();
     }
 
     public void Move(Stack<Vector3> p, SectorController target)
@@ -42,8 +57,9 @@ public class UnitLogic : GlobalVars
             return;
         path = p;
         moving = true;
+        lineRenderer.enabled = true;
 
-        if(guinean && target.friend != null && !target.friend.moving)
+        if (guinean && target.friend != null && !target.friend.moving)
         {
             target.friend.Move(ReversePath(), sector);
         } else
@@ -76,6 +92,7 @@ public class UnitLogic : GlobalVars
         if(path.Count < 1)
         {
             moving = false;
+            lineRenderer.enabled = false;
             return;
         }
         var vec = path.Pop();
@@ -96,6 +113,10 @@ public class UnitLogic : GlobalVars
             {
                 GetNextMove();
             }
+
+            lineRenderer.positionCount = 2;
+            lineRenderer.SetPosition(0, this.transform.position + new Vector3(0, 0, 0.5f));
+            lineRenderer.SetPosition(1, next + new Vector3(0, 0, 0.5f));
         }
     }
 
