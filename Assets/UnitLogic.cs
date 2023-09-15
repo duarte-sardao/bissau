@@ -97,13 +97,14 @@ public class UnitLogic : GlobalVars
         }
         var vec = path.Pop();
         next = new Vector3(vec.x, vec.y, this.transform.position.z);
+        //Debug.LogError(next);
     }
 
     private void Update()
     {
         if(moving)
         {
-            if(Vector3.Distance(this.transform.position, next) > 0.01f)
+            if(Vector3.Distance(this.transform.position, next) > 0.1f)
             {
                 var mult = 1f;
                 if (foreigncount > 0) mult = 2f;
