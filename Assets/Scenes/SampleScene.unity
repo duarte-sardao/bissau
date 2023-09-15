@@ -21593,7 +21593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8368938158467184735, guid: 8a9099c0ad370ad469849c6b90b78715, type: 3}
       propertyPath: m_Name
-      value: FarmTooltip
+      value: FarmTooltip(why move?? fix!)
       objectReference: {fileID: 0}
     - target: {fileID: 8368938158467184735, guid: 8a9099c0ad370ad469849c6b90b78715, type: 3}
       propertyPath: m_IsActive
