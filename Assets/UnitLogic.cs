@@ -20,6 +20,8 @@ public class UnitLogic : GlobalVars
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (!collision.CompareTag("sector"))
+            return;
         var sect = collision.GetComponent<SectorController>();
         if (sect.foreign)
             foreigncount++;
@@ -27,6 +29,8 @@ public class UnitLogic : GlobalVars
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        if (!collision.CompareTag("sector"))
+            return;
         var sect = collision.GetComponent<SectorController>();
         if (sect.foreign)
             foreigncount--;
