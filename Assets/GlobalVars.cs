@@ -15,9 +15,9 @@ public class GlobalVars : MonoBehaviour
     static public float g_buildtime = 10;
     static public int g_costtobuild = 50;
 
-    static public float base_damage = 0.03f;
+    static public float base_damage = 0.06f;
     static public float pt_damage_mult = 1f;
-    static public float gn_damage_mult = 1.33f;
+    static public float gn_damage_mult = 1.2f;
 
     static public float base_heal = 0.05f;
     static public float pt_heal_mult = 1f;

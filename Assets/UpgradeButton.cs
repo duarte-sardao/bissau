@@ -120,7 +120,7 @@ public class UpgradeButton : TriggeredModifiers
     {
         if (identifier == "indie" && g_liberationlevel < g_requiredliblevel)
             return false;
-        return g_res.money >= monCost && g_res.politic >= polCost && ReqsFulfilled();
+        return Mathf.Max(g_res.money,0) >= monCost && Mathf.Max(g_res.politic,0) >= polCost && ReqsFulfilled();
     }
 
     void Purchase()

@@ -17,6 +17,8 @@ public class EnemySpawner : GlobalVars
     }
     private void CheckSpawns()
     {
+        Debug.Log("Units:" + units.Count);
+        Debug.Log("Cap:" + g_enemycapacity);
         var increase = false;
         if (spawning)
             return;
@@ -32,13 +34,15 @@ public class EnemySpawner : GlobalVars
                 units.RemoveAt(i);
         }
         //Debug.Log(units.Count < g_enemycapacity);
-        if (units.Count < g_enemycapacity)
-            Invoke(nameof(Spawn), increase? 5f: g_ptunittime);
+        if (!spawning && units.Count < g_enemycapacity)
+        {
+            spawning = true;
+            Invoke(nameof(Spawn), increase ? 5f : g_ptunittime);
+        }
     }
 
     private void Spawn()
     {
-        spawning = true;
         if (bissau.enemy != null)
             Invoke(nameof(Spawn), 1f);
         else
