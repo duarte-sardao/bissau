@@ -7315,6 +7315,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8295742316754857787, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 8295742316754857787, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.07
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c25becce770223479e96c2ac9ffac1c, type: 3}
 --- !u!1001 &736442729
@@ -12715,7 +12723,7 @@ MonoBehaviour:
   money: 0
   lastpol: 0
   lastmon: 0
-  updatetime: 10
+  updatetime: 8
   polval: {fileID: 1810455754}
   polgain: {fileID: 294157737}
   monval: {fileID: 862295780}
