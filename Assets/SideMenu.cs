@@ -65,14 +65,14 @@ public class SideMenu : GlobalVars
         var newx = this.transform.position.x;
         if (open && this.transform.position.x > -1.34f)
         {
-            newx -= Time.deltaTime * 50;
+            newx -= Time.unscaledDeltaTime * 50;
             if(newx <= -1.35f)
             {
                 sidecanvas.enabled = true;
             }
         } else if(!open && this.transform.position.x < 4.75)
         {
-            newx += Time.deltaTime * 50;
+            newx += Time.unscaledDeltaTime * 50;
         }
         this.transform.position = new Vector3(Mathf.Clamp(newx, -1.35f, 4.75f), 0, -1);
         UpdateBuildTimes();

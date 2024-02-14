@@ -37,7 +37,7 @@ public class UpgradeOpenClose : MonoBehaviour, IPointerClickHandler
     public void Close()
     {
         isOpen = false;
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         anim.SetBool("open", false);
         upinfo.SetActive(false);
     }
