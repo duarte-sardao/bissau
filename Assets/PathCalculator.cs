@@ -206,7 +206,7 @@ public class PathCalculator : GlobalVars
             int pos = investigate.Dequeue();
             investigated.Add(pos);
             sect = sectors[pos];
-            if(pos != orpos && sect.sector.ControlLevel >= g_fullcontrolp)
+            if(sect.sector.enemy == null && pos != orpos && sect.sector.ControlLevel >= g_fullcontrolp)
             {
                 var possible = CalculateDistance(origin, sect.sector, false);
                 if (possible.Count > 0)
