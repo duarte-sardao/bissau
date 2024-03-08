@@ -9,14 +9,17 @@ public class SpeedControl : MonoBehaviour
     [SerializeField] private SpriteRenderer gear;
     private int curSpeed = 1;
     private float acctime = 0;
+    private AudioSource clip;
 
     private void Start()
     {
+        clip = GetComponent<AudioSource>();
         UpdateSpeed();
     }
 
     public void AddSpeed()
     {
+        clip.Play();
         if (curSpeed < speeds.Count - 1)
             curSpeed++;
         UpdateSpeed();
@@ -24,6 +27,7 @@ public class SpeedControl : MonoBehaviour
 
     public void RemoveSpeed()
     {
+        clip.Play();
         if (curSpeed > 0)
             curSpeed--;
         UpdateSpeed();
@@ -37,6 +41,7 @@ public class SpeedControl : MonoBehaviour
 
     public void PauseUnPause()
     {
+        clip.Play();
         if (Time.timeScale == 0f)
             UpdateSpeed();
         else

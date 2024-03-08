@@ -28,9 +28,12 @@ public class ResourceManager : GlobalVars
 
     public LocalizedStringTable m_StringTable;
 
+    private AudioSource clip;
+
 
     void Start()
     {
+        clip = GetComponent<AudioSource>();
         UpdateBoard();
         g_res = this;
     }
@@ -40,6 +43,7 @@ public class ResourceManager : GlobalVars
         acctime += Time.deltaTime;
         if(acctime >= updatetime)
         {
+            clip.Play();
             GetInputs();
             acctime = 0f;
         }

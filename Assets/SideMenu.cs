@@ -24,8 +24,11 @@ public class SideMenu : GlobalVars
     [SerializeField] private Image[] buildCheck;
     [SerializeField] private GameObject[] buildDamage;
 
+    private AudioSource clip;
+
     public void Start()
     {
+        clip = GetComponent<AudioSource>();
         sidecanvas.enabled = false;
     }
 
@@ -43,6 +46,8 @@ public class SideMenu : GlobalVars
 
     public void Open(SectorController sector)
     {
+        if(!open)
+            clip.Play();
         if (sector.foreign)
             return;
         if(this.sector != null)
@@ -55,6 +60,7 @@ public class SideMenu : GlobalVars
 
     public void Close()
     {
+        clip.Play();
         open = false;
         sidecanvas.enabled = false;
         sector.SetOverlay(false);
