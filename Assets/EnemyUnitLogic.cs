@@ -8,6 +8,7 @@ public class EnemyUnitLogic : UnitLogic
     private float healthTarget;
     private void Start()
     {
+        clip = GetComponent<AudioSource>();
         sector.enemy = this;
         guinean = false;
         healthTarget = 0f;

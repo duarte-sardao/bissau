@@ -17,6 +17,7 @@ public class UnitLogic : GlobalVars
     public CampLogic camp;
 
     protected LineRenderer lineRenderer;
+    protected AudioSource clip;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -49,6 +50,7 @@ public class UnitLogic : GlobalVars
 
     private void Start()
     {
+        clip = GetComponent<AudioSource>();
         sector.friend = this;
         guinean = true;
 
@@ -74,7 +76,7 @@ public class UnitLogic : GlobalVars
         target.SetUnit(guinean, this);
         sector = target;
 
-
+        clip.Play();
         GetNextMove();
     }
 

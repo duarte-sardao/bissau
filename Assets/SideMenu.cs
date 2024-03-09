@@ -25,10 +25,12 @@ public class SideMenu : GlobalVars
     [SerializeField] private GameObject[] buildDamage;
 
     private AudioSource clip;
+    private AudioSource build_clip;
 
     public void Start()
     {
-        clip = GetComponent<AudioSource>();
+        clip = GetComponents<AudioSource>()[0];
+        build_clip = GetComponents<AudioSource>()[1];
         sidecanvas.enabled = false;
     }
 
@@ -125,5 +127,6 @@ public class SideMenu : GlobalVars
         //money -= gf_buildcost(sector.buildings[building].repairable);
         g_res.ModifyMoney(-gf_buildcost(sector.buildings[building].repairable));
         sector.buildings[building].building = true;
+        build_clip.Play();
     }
 }
