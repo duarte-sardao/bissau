@@ -28,6 +28,8 @@ public class UpgradeButton : TriggeredModifiers
     static Material normalMat;
     static Material greyMat;
 
+    private AudioSource clip;
+
 
     private void Awake()
     {
@@ -37,6 +39,7 @@ public class UpgradeButton : TriggeredModifiers
     }
     void Start()
     {
+        clip = GetComponent<AudioSource>();
         if (normalMat == null)
         {
             normalMat = ourImage.material;
@@ -139,5 +142,7 @@ public class UpgradeButton : TriggeredModifiers
         {
             chld.CheckButtonAvailability();
         }
+
+        clip.Play();
     }
 }
