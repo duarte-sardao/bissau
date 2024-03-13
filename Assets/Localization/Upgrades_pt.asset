@@ -71,8 +71,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4721541240545280
-    m_Localized: "B\xF3nus de recursos significativo enquanto temos uma fronteira
-      com a Guin\xE9.\n\nCapacidade de mover unidades no seu territ\xF3rio."
+    m_Localized: "B\xF3nus de fundos significativo enquanto temos uma fronteira com
+      a Guin\xE9.\n\nCapacidade de mover unidades no seu territ\xF3rio."
     m_Metadata:
       m_Items: []
   - m_Id: 4722738177466368
@@ -89,7 +89,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4723625960628224
     m_Localized: "As zonas senegalesas s\xE3o abertas e tratadas como territ\xF3rio
-      aliado para efeitos de ajuda.\nPequeno aumento de recursos de fronteira aliada."
+      aliado para efeitos de ajuda.\nPequeno aumento de fundos de fronteira aliada."
     m_Metadata:
       m_Items: []
   - m_Id: 4823214705303552
@@ -105,7 +105,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4824393476694016
-    m_Localized: Grande aumento dos recursos recebidos pelo facto de ter uma fronteira
+    m_Localized: Grande aumento dos fundos recebidos pelo facto de ter uma fronteira
       aliada.
     m_Metadata:
       m_Items: []
@@ -152,7 +152,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5174091949498368
-    m_Localized: "Ganho peri\xF3dico de recursos pol\xEDticos e monet\xE1rios."
+    m_Localized: "Ganho peri\xF3dico de recursos monet\xE1rios."
     m_Metadata:
       m_Items: []
   - m_Id: 5174563573817344
@@ -168,7 +168,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5542492555403264
-    m_Localized: "Ganho de recursos peri\xF3dico.\n\nTaxa de cura base de unidades
+    m_Localized: "Ganho de fundos peri\xF3dico.\n\nTaxa de cura base de unidades
       aumentada."
     m_Metadata:
       m_Items: []

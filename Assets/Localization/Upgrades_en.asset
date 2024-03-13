@@ -70,7 +70,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4721541240545280
-    m_Localized: 'Significant resource bonus gained when bordering a Guinean state.
+    m_Localized: 'Significant funds bonus gained when bordering a Guinean state.
 
 
       Ability
@@ -92,7 +92,7 @@ MonoBehaviour:
     m_Localized: 'Senegalese zones are opened and treated as allied territory for
       the purposes of aid.
 
-      Small increase in resources from allied border.'
+      Small increase in funds from allied border.'
     m_Metadata:
       m_Items: []
   - m_Id: 4823214705303552
@@ -107,7 +107,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4824393476694016
-    m_Localized: Large increase in resources received from having an allied frontier.
+    m_Localized: Large increase in funds received from having an allied frontier.
     m_Metadata:
       m_Items: []
   - m_Id: 4824750198054912
@@ -152,7 +152,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5174091949498368
-    m_Localized: Periodic gain of monetary and political resources.
+    m_Localized: Periodic gain of monetary resources.
     m_Metadata:
       m_Items: []
   - m_Id: 5174563573817344
@@ -168,7 +168,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5542492555403264
-    m_Localized: 'Periodic resource gain.
+    m_Localized: 'Periodic funds gain.
 
 
       Base heal rate of units increased.'
@@ -580,7 +580,7 @@ MonoBehaviour:
   - m_Id: 7224820017094656
     m_Localized: 'Further reduced likelihood of sabotage events.
 
-      Reduced porutugese
+      Reduced portugese
       capture rate.'
     m_Metadata:
       m_Items: []

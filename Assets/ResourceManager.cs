@@ -88,10 +88,10 @@ public class ResourceManager : GlobalVars
         if (path.NeighboursForeign())
         {
             mon["BORDERING"] += g_bordermon;
-            pol["BORDERING"] += g_borderpol;
+            //pol["BORDERING"] += g_borderpol;
         }
         mon["AID"] += g_aidmon;
-        pol["AID"] += g_aidpol;
+        //pol["AID"] += g_aidpol;
         pol["COMM"] += g_threepol;
         polinfo.text = "";
         moninfo.text = "";
