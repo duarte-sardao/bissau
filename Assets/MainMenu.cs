@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     public GameObject[] selectors;
     void Start()
     {
+        LocalizationSettings.InitializationOperation.WaitForCompletion();
         SetNewLocale(PlayerPrefs.GetString("lang", "en"));
     }
 
