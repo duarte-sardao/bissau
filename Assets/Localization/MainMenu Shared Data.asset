@@ -23,6 +23,34 @@ MonoBehaviour:
     m_Key: QUIT
     m_Metadata:
       m_Items: []
+  - m_Id: 5084706115514368
+    m_Key: CAP_TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084739447648256
+    m_Key: MOVE_TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084757244080128
+    m_Key: BATTLE_TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084773517979648
+    m_Key: BISSAU_TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084798885130240
+    m_Key: INFO_TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084820649373696
+    m_Key: BUILDINGS_TUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084839880257536
+    m_Key: UPGRADES_TUT
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

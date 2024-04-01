@@ -26,6 +26,50 @@ MonoBehaviour:
     m_Localized: Desertar
     m_Metadata:
       m_Items: []
+  - m_Id: 5084706115514368
+    m_Localized: "O principal objetivo \xE9 libertar o territ\xF3rio colonial. Para
+      isso, desloca as unidades para o territ\xF3rio portugu\xEAs, que ser\xE1 capturado.
+      Com clique e arrasto, podes mover-te."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084739447648256
+    m_Localized: "S\xF3 podes entrar em territ\xF3rio inimigo a partir de territ\xF3rio
+      amigo e podes sempre entrar em territ\xF3rio amigo, como indicado pelas bandeiras.
+      O mesmo se aplica ao inimigo: utiliza este facto em teu benef\xEDcio, construindo
+      em \xE1reas seguras e rodeando as unidades inimigas para as encurralar e destruir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084757244080128
+    m_Localized: "Quando uma unidade amiga e uma inimiga ocupam o mesmo sector, inicia-se
+      uma batalha que impede qualquer captura. Tem cuidado com a tua vida, para que
+      as tuas unidades n\xE3o sejam destru\xEDdas!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084773517979648
+    m_Localized: "O alvo vermelho assinala Bissau, a capital colonial que d\xE1 o
+      nome \xE0 Guin\xE9 Portuguesa. Sendo o centro do regime colonial, est\xE1 altamente
+      fortificada: \xE9 melhor evit\xE1-la, pois a sua captura \xE9 quase imposs\xEDvel."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084798885130240
+    m_Localized: "O canto superior esquerdo cont\xE9m informa\xE7\xF5es sobre os
+      recursos (com detalhes) e o controlo da velocidade do jogo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084820649373696
+    m_Localized: "Quando um sector est\xE1 *completamente* controlado, indicado pela
+      haste dourada, d\xE1 alguns recursos. Estes podem ser melhorados atrav\xE9s
+      da constru\xE7\xE3o de edif\xEDcios. Tem cuidado, pois estes ser\xE3o desativados
+      se perderes o controlo total."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084839880257536
+    m_Localized: "A parte inferior do ecr\xE3 cont\xE9m o menu de upgrades. Muitos
+      das upgrades a\xED presentes ser\xE3o vitais para a batalha. Um bot\xE3o significativamente
+      maior \xE9 lentamente preenchido: quando estiver completamente colorido, controlas
+      terra suficiente para declarar a independ\xEAncia, vencendo o jogo."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

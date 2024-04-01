@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
 {
 
     public GameObject[] selectors;
+    public Animator tutorial;
     void Start()
     {
         LocalizationSettings.InitializationOperation.WaitForCompletion();
@@ -38,4 +39,13 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void OpenCloseTutorial()
+    {
+        tutorial.SetTrigger("MoveAss");
+        tutorial.gameObject.GetComponent<AudioSource>().Play();
+        //tutorial.ResetTrigger("MoveAss");
+    }
+
+
 }

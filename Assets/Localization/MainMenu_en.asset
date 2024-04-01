@@ -26,6 +26,49 @@ MonoBehaviour:
     m_Localized: Desert
     m_Metadata:
       m_Items: []
+  - m_Id: 5084706115514368
+    m_Localized: 'Your main goal is to liberate colonial territory. To do this, you
+      must move your units into Portuguese territory, where they''ll slowly capture
+      it. With click and drag you can move. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084739447648256
+    m_Localized: 'You can only move into enemy territory from friendly territory
+      and you can always move into friendly territory, as indicated by the flags.
+      The same applies to the enemy: use this to your advantage by building in safe
+      areas and surrounding enemy units to trap and destroy them.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084757244080128
+    m_Localized: When both a friendly and an enemy unit occupy the same sector, a
+      battle will start, halting any capture. Watch out for your health, so your
+      units don't get destroyed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084773517979648
+    m_Localized: 'The red target marks Bissau, the colonial capital that gives portuguese
+      Guinea it''s name. As the center of the colonial regime it is highly fortified:
+      it is best to avoid it as capturing is nigh-impossible.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084798885130240
+    m_Localized: The top left has information on resources (mouse-over for detail)
+      and game speed control.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084820649373696
+    m_Localized: When a sector is *fully* controlled, indicated by the golden pole,
+      you gain some resources. These can be enhanced by building buildings. Take
+      care as these will be disabled if full control is lost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5084839880257536
+    m_Localized: 'The bottom of the screen contains the upgrade menu. Many of the
+      upgrades there will be vital for the battle. A significantly larger button
+      will be slowly filled: when it is fully coloured, you control enough land to
+      declare independence, winning the game.'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
