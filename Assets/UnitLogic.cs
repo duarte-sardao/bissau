@@ -139,6 +139,11 @@ public class UnitLogic : GlobalVars
     {
         if (camp != null)
             camp.queued++;
+        if (sector != null)
+            if (guinean)
+                sector.friend = null;
+            else
+                sector.enemy = null;
         Destroy(this.gameObject);
     }
 
