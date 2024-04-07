@@ -14,7 +14,6 @@ public class ResourceManager : GlobalVars
     [SerializeField] private int lastpol;
     [SerializeField] private int lastmon;
 
-    [SerializeField] private float updatetime;
     private float acctime;
 
     [SerializeField] private TMPro.TMP_Text polval;
@@ -41,7 +40,7 @@ public class ResourceManager : GlobalVars
     void Update()
     {
         acctime += Time.deltaTime;
-        if(acctime >= updatetime)
+        if(acctime >= g_resupdatetime)
         {
             clip.Play();
             GetInputs();

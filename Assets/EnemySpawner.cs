@@ -11,9 +11,17 @@ public class EnemySpawner : GlobalVars
     private bool spawning = false;
     [SerializeField] private List<int> libLevelsforUnits;
 
+    private double accTime = 0;
+    private double nextSpawn = 0;
+    private double lastLibLevel;
+
+
+
     private void Start()
     {
         InvokeRepeating(nameof(CheckSpawns), 5f, 5f);
+        nextSpawn = libLevelsforUnits[0] * g_resupdatetime * 2;
+        lastLibLevel = g_liberationlevel;
     }
     private void CheckSpawns()
     {
@@ -22,11 +30,15 @@ public class EnemySpawner : GlobalVars
         var increase = false;
         if (spawning)
             return;
-        if(g_enemycapacity < libLevelsforUnits.Count && g_liberationlevel > libLevelsforUnits[g_enemycapacity])
+        bool captured = g_enemycapacity < libLevelsforUnits.Count && g_liberationlevel > libLevelsforUnits[g_enemycapacity];
+        bool timedout = accTime > nextSpawn;
+        if (captured || timedout)
         {
             g_enemycapacity++;
             events.Spawn("new_unit_cap");
             increase = true;
+            accTime = 0;
+            nextSpawn = libLevelsforUnits[g_enemycapacity] * g_resupdatetime * 2;
         }
         for(int i = 0; i < units.Count; i++)
         {
@@ -39,6 +51,15 @@ public class EnemySpawner : GlobalVars
             spawning = true;
             Invoke(nameof(Spawn), increase ? 5f : g_ptunittime);
         }
+    }
+
+    private void Update()
+    {
+        if(g_ourunits >= g_enemycapacity && g_liberationlevel == lastLibLevel)
+        {
+            accTime += Time.deltaTime;
+        }
+        lastLibLevel = g_liberationlevel;
     }
 
     private void Spawn()

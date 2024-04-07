@@ -17,11 +17,11 @@ public class GlobalVars : MonoBehaviour
 
     static public float base_damage = 0.06f;
     static public float pt_damage_mult = 1f;
-    static public float gn_damage_mult = 1.2f;
+    static public float gn_damage_mult = 1.1f;
 
     static public float base_heal = 0.05f;
     static public float pt_heal_mult = 1f;
-    static public float gn_heal_mult = 1f;
+    static public float gn_heal_mult = 1.05f;
 
     static public float gn_speed = 1;
     static public float pt_speed = 1;
@@ -69,6 +69,9 @@ public class GlobalVars : MonoBehaviour
     static protected int g_threepol = 0;
 
     static public ResourceManager g_res;
+
+    static public int g_ourunits = 0;
+    static public float g_resupdatetime = 8f;
 
     public int gf_buildcost(bool repair)
     {

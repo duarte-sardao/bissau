@@ -13412,7 +13412,6 @@ MonoBehaviour:
   money: 0
   lastpol: 0
   lastmon: 0
-  updatetime: 8
   polval: {fileID: 1810455754}
   polgain: {fileID: 294157737}
   monval: {fileID: 862295780}
@@ -17120,7 +17119,7 @@ MonoBehaviour:
   bissau: {fileID: 1366709412}
   enemyUnit: {fileID: 7489928247315867098, guid: 924316a85f994cd43ba99022e6219837, type: 3}
   units: []
-  libLevelsforUnits: 0a0000001900000028000000320000003c00000041000000460000004b000000
+  libLevelsforUnits: 0a00000019000000280000003700000041000000460000004b000000
 --- !u!4 &1438186405
 Transform:
   m_ObjectHideFlags: 0

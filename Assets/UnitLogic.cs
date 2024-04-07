@@ -53,6 +53,7 @@ public class UnitLogic : GlobalVars
         clip = GetComponent<AudioSource>();
         sector.friend = this;
         guinean = true;
+        g_ourunits++;
 
         InitRenderer();
     }
@@ -141,7 +142,10 @@ public class UnitLogic : GlobalVars
             camp.queued++;
         if (sector != null)
             if (guinean)
+            {
                 sector.friend = null;
+                g_ourunits--;
+            }
             else
                 sector.enemy = null;
         Destroy(this.gameObject);
