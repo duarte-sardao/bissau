@@ -47,5 +47,10 @@ public class MainMenu : MonoBehaviour
         //tutorial.ResetTrigger("MoveAss");
     }
 
+    public void GameBye()
+    {
+        Application.Quit();
+    }
+
 
 }
