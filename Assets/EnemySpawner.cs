@@ -30,9 +30,9 @@ public class EnemySpawner : GlobalVars
         var increase = false;
         if (spawning)
             return;
-        bool captured = g_enemycapacity < libLevelsforUnits.Count && g_liberationlevel > libLevelsforUnits[g_enemycapacity];
+        bool captured =  g_liberationlevel > libLevelsforUnits[g_enemycapacity];
         bool timedout = accTime > nextSpawn;
-        if (captured || timedout)
+        if (g_enemycapacity < libLevelsforUnits.Count && (captured || timedout))
         {
             g_enemycapacity++;
             events.Spawn("new_unit_cap");
