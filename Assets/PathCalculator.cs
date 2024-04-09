@@ -151,14 +151,14 @@ public class PathCalculator : GlobalVars
             if (sector.buildings["farm"].built)
                 newval -= 10;
             if (sector.buildings["camp"].built)
-                newval -= 50;
+                newval -= 30;
             //healthdiff if occupied
             if(sector.friend != null)
             {
                 var dam_imbal = pt_damage_mult / gn_damage_mult;
                 var diff = (sector.friend.health - origin.enemy.health*dam_imbal)*100;
                 if (diff > 0 && diff < -20)
-                    newval += diff * 10;
+                    newval += diff * 20;
                 else
                     newval += diff;
             }
@@ -170,9 +170,9 @@ public class PathCalculator : GlobalVars
             }
             if(newval < bestval)
             {
-                //Debug.Log(newval);
+                
                 var path = CalculateDistance(origin, sector, false);
-                if (path.Count < 1)
+                if (path.Count < 1 || (targ != null && Random.Range(0, 1f) > 0.8f))
                     continue;
                 bestpath = path;
                 bestval = newval;
@@ -213,7 +213,7 @@ public class PathCalculator : GlobalVars
                 {
                     pathforunit = possible;
                     targsector = sect;
-                    if (Safe(pos) && Random.Range(0,1f) > 0.7f)
+                    if (Safe(pos) && Random.Range(0,1f) > 0.25f)
                         break;
                 }
             }
