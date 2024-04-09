@@ -213,7 +213,7 @@ public class PathCalculator : GlobalVars
                 {
                     pathforunit = possible;
                     targsector = sect;
-                    if (Safe(pos))
+                    if (Safe(pos) && Random.Range(0,1f) > 0.7f)
                         break;
                 }
             }

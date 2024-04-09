@@ -36,7 +36,8 @@ MonoBehaviour:
     m_Localized: 'You can only move into enemy territory from friendly territory
       and you can always move into friendly territory, as indicated by the flags.
       The same applies to the enemy: use this to your advantage by building in safe
-      areas and surrounding enemy units to trap and destroy them.'
+      areas and surrounding enemy units to trap and destroy them. Movements can''t
+      be interrupted once started.'
     m_Metadata:
       m_Items: []
   - m_Id: 5084757244080128
