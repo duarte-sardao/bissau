@@ -59,5 +59,7 @@ public class SpeedControl : MonoBehaviour
             else
                 gear.sprite = gearSprites[curSpeed];
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+            PauseUnPause();
     }
 }
