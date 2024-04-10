@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PathCalculator : GlobalVars
@@ -268,6 +269,8 @@ public class PathCalculator : GlobalVars
             }
         }
         g_liberationlevel = level / sects;
+        if (g_liberationlevel == 0)
+            SceneManager.LoadScene("GameLoss");
         //Debug.Log(g_liberationlevel);
     }
 }

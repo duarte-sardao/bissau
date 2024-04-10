@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TriggeredModifiers : GlobalVars
 {
@@ -271,5 +272,10 @@ public class TriggeredModifiers : GlobalVars
     {
         g_sabotage_freq += 60f;
         pt_cap_mult -= 0.1f;
+    }
+
+    public void game_end()
+    {
+        SceneManager.LoadScene("GameEnd");
     }
 }

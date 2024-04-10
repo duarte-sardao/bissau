@@ -70,7 +70,7 @@ public class BombingLogic : GlobalVars
         float camptarget = camps.Count * g_bombcampmult + unittarget;
         float buildingtarget = buildings.Count * g_bombbuildingmult + camptarget;
 
-        float roll = Random.Range(0f, buildingtarget+1);
+        float roll = Random.Range(0f, buildingtarget);
         SectorController target;
         string type;
         string evt = "air_building";
