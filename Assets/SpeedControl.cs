@@ -33,7 +33,7 @@ public class SpeedControl : MonoBehaviour
         UpdateSpeed();
     }
 
-    private void UpdateSpeed()
+    public void UpdateSpeed()
     {
         Time.timeScale = speeds[curSpeed];
         gear.sprite = gearSprites[curSpeed];
