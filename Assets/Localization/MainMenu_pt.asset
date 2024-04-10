@@ -29,15 +29,16 @@ MonoBehaviour:
   - m_Id: 5084706115514368
     m_Localized: "O principal objetivo \xE9 libertar o territ\xF3rio colonial. Para
       isso, desloca as unidades para o territ\xF3rio portugu\xEAs, que ser\xE1 capturado.
-      Com clique e arrasto, podes mover-te."
+      Com clique e arrasto, podes mover-te.\n Depois de come\xE7arem, movimentos
+      n\xE3o podem ser parados."
     m_Metadata:
       m_Items: []
   - m_Id: 5084739447648256
     m_Localized: "S\xF3 podes entrar em territ\xF3rio inimigo a partir de territ\xF3rio
       amigo e podes sempre entrar em territ\xF3rio amigo, como indicado pelas bandeiras.
       O mesmo se aplica ao inimigo: utiliza este facto em teu benef\xEDcio, construindo
-      em \xE1reas seguras e rodeando as unidades inimigas para as encurralar e destruir.
-      Depois de come\xE7arem, movimentos n\xE3o podem ser parados."
+      em \xE1reas seguras e capturando \xE1 volta das unidades inimigas para as encurralar
+      e destruir."
     m_Metadata:
       m_Items: []
   - m_Id: 5084757244080128

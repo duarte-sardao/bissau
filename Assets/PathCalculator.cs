@@ -58,7 +58,7 @@ public class PathCalculator : GlobalVars
 
     public Stack<Vector3> CalculateDistance(SectorController origin, SectorController target, bool guinean)
     {
-        if (target.ControlLevel > 100 || origin == target)
+        if (target.ControlLevel > 100 || origin == target || (target.GetUnit(guinean) != null && target.GetUnit(guinean).moving == true))
             return new Stack<Vector3>();
         int orpos = 0, tarpos = 0;
         for (int i = 0; i < sectors.Length; i++)

@@ -27,17 +27,16 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5084706115514368
-    m_Localized: 'Your main goal is to liberate colonial territory. To do this, you
-      must move your units into Portuguese territory, where they''ll slowly capture
-      it. With click and drag you can move. '
+    m_Localized: Your main goal is to liberate colonial territory. To do this, you
+      must move your units into Portuguese territory, where they'll slowly capture
+      it. With click and drag you can move. Movements can't be interrupted once started.
     m_Metadata:
       m_Items: []
   - m_Id: 5084739447648256
     m_Localized: 'You can only move into enemy territory from friendly territory
       and you can always move into friendly territory, as indicated by the flags.
       The same applies to the enemy: use this to your advantage by building in safe
-      areas and surrounding enemy units to trap and destroy them. Movements can''t
-      be interrupted once started.'
+      areas and capturing around enemy units to trap and destroy them.'
     m_Metadata:
       m_Items: []
   - m_Id: 5084757244080128

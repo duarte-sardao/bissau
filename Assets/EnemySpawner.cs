@@ -34,11 +34,11 @@ public class EnemySpawner : GlobalVars
         bool timedout = accTime > nextSpawn;
         if (g_enemycapacity < libLevelsforUnits.Count && (captured || timedout))
         {
+            nextSpawn = libLevelsforUnits[g_enemycapacity] * g_resupdatetime * 2;
             g_enemycapacity++;
             events.Spawn("new_unit_cap");
             increase = true;
             accTime = 0;
-            nextSpawn = libLevelsforUnits[g_enemycapacity] * g_resupdatetime * 2;
         }
         for(int i = 0; i < units.Count; i++)
         {
