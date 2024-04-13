@@ -72,6 +72,12 @@ MonoBehaviour:
       terra suficiente para declarar a independ\xEAncia, vencendo o jogo."
     m_Metadata:
       m_Items: []
+  - m_Id: 9422972826513408
+    m_Localized: "As \xFAltimas fortalezas de apoio revolucion\xE1rio foram esmagadas.\nO
+      partido est\xE1 em desordem.\nA luta continua, mas o regime colonial reafirmou
+      a sua autoridade, pelo futuro pr\xF3ximo."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

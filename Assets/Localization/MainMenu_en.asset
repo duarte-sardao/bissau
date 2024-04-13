@@ -69,6 +69,18 @@ MonoBehaviour:
       declare independence, winning the game.'
     m_Metadata:
       m_Items: []
+  - m_Id: 9422972826513408
+    m_Localized: 'The last strongholds of revolutionary support have been stamped
+      out.
+
+      The party is in disarray.
+
+      The struggle continues, but the
+      colonial regime has reasserted its authority for the near future
+
+'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
