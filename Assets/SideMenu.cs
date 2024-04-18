@@ -48,13 +48,13 @@ public class SideMenu : GlobalVars
 
     public void Open(SectorController sector)
     {
-        if(!open)
-            clip.Play();
         if (sector.foreign)
             return;
         if(this.sector != null)
             this.sector.SetOverlay(false);
         this.sector = sector;
+        if (!open)
+            clip.Play();
         open = true;
         SetupUI();
         sector.SetOverlay(true);
