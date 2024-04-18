@@ -71,7 +71,7 @@ public class SideMenu : GlobalVars
     private void Update()
     {
         var newx = this.transform.position.x;
-        if (open && this.transform.position.x > -1.34f)
+        if (open && this.transform.position.x > -1.35f)
         {
             newx -= Time.unscaledDeltaTime * 50;
             if(newx <= -1.35f)
