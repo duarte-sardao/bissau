@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Localization.Settings;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : MenuButtons
 {
 
     public GameObject[] selectors;
@@ -35,21 +35,11 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.SetString("lang", language);
     }
 
-    public void LoadScene(string scene)
-    {
-        SceneManager.LoadScene(scene);
-    }
-
     public void OpenCloseTutorial()
     {
         tutorial.SetTrigger("MoveAss");
         tutorial.gameObject.GetComponent<AudioSource>().Play();
         //tutorial.ResetTrigger("MoveAss");
-    }
-
-    public void GameBye()
-    {
-        Application.Quit();
     }
 
 

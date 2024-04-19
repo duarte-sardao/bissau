@@ -81,6 +81,58 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 11468447608041472
+    m_Localized: 'What followed Guinea-Bissau''s declaration of independence wasn''t
+      the utopic, self-governing society as envisioned, but continued turmoil, coups,
+      poverty and undevelopment.
+
+
+      The more cynical (or racist) might ask:
+      what was the point? Are they better off? Was the struggle worth it? Of course
+      it was worth it. There are immense challenges with post-colonial statehood,
+      both internal and external. And while neo-colonialism remains a facet of our
+      world and imperialism seems almost inescapable, humanity should cherish anti-colonial
+      struggles: those won, lost and ongoing. Because regardless of what the future
+      may still lie Guinea-Bissau, they looked an inhuman regime in the eyes, a regime
+      that denied their very humanity and through force of arms forced it to recognize
+      it. No one can take away the greatness of that feat.
+
+
+      So the struggle
+      for a better world continues but we shouldn''t let this breed cynicism or desperation:
+      it took centuries of struggle against opressive feudalism and monarchism to
+      reach what we call modern democracies. And it may be many more before Liberty,
+      Equality and Fraternity are fully realized, for everyone.
+
+
+      As Cabral
+      said, we should tell no lies and claim no easy victories. It won''t be easy,
+      but inspired by the struggles of those who came before us, such as the heroic
+      people of Guinea, we can move forward and fight for a world where all men are
+      brothers.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11469753517174784
+    m_Localized: "In making this I read the following:\n\n- Portugal: Fifty years
+      of dictatorship\n- Portuguese Africa and the West\n- Guinea-Bissau: Politics,
+      economics, and society (Marxist regimes series)\n- The Liberation War in Guinea-Bissau
+      Reconsidered\n\nI'd reccommend those interested to give these a look. Also
+      watch the movie Mortu Nega, available on Youtube, as well as the writings of
+      Am\xEDlcar Cabral."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11470253738258432
+    m_Localized: Victory!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11471993552334848
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11472011617202176
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

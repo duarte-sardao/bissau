@@ -78,6 +78,50 @@ MonoBehaviour:
       a sua autoridade, pelo futuro pr\xF3ximo."
     m_Metadata:
       m_Items: []
+  - m_Id: 11468447608041472
+    m_Localized: "O que se seguiu \xE0 declara\xE7\xE3o de independ\xEAncia da Guin\xE9-Bissau
+      n\xE3o foi a sociedade ut\xF3pica e egalit\xE1ria como se planeava, mas sim
+      turbul\xEAncia cont\xEDnua, golpes de estado, pobreza e o subdesenvolvimento.\n\nOs
+      mais c\xEDnicos (ou racistas) poder\xE3o perguntar: qual foi o objetivo? Eles
+      est\xE3o numa melhor posi\xE7ao? A luta valeu a pena? Claro que valeu a pena.
+      Existem imensos desafios inerentes a um Estado p\xF3s-colonial, tantos internos
+      como externos. E embora o neocolonialismo continue a ser uma faceta do nosso
+      mundo e o imperialismo pare\xE7a quase inescap\xE1vel, a humanidade deve valorizar
+      as lutas anticoloniais: as que sucederam, as perdidas e as que est\xE3o em
+      curso. Porque independentemente de qual seja o futuro da Guin\xE9-Bissau, eles
+      olharam nos olhos um regime desumano, um regime que negou a sua pr\xF3pria
+      humanidade e pela for\xE7a das armas for\xE7aram-no a reconhec\xEA-la. Ningu\xE9m
+      pode tirar a grandeza desse feito.\n\nPortanto, a luta por um mundo melhor
+      continua, mas n\xE3o devemos permitir que isso gere cinismo ou desespero: foram
+      necess\xE1rios s\xE9culos de luta contra o feudalismo e o monarquismo opressivos
+      para alcan\xE7ar o que chamamos de democracias modernas. E poder\xE3o ser necess\xE1rios
+      muitos mais antes que a Liberdade, a Igualdade e a Fraternidade sejam plenamente
+      realizadas, para todos.\n\nComo disse Cabral, n\xE3o devemos mentir e n\xE3o
+      reivindicar vit\xF3rias f\xE1ceis. N\xE3o ser\xE1 f\xE1cil, mas inspirado nas
+      lutas daqueles que vieram antes de n\xF3s, como o povo her\xF3ico da Guin\xE9,
+      podemos avan\xE7ar e lutar por um mundo onde todos os homens sejam irm\xE3os."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11469753517174784
+    m_Localized: "No desenvolvimento li o seguinte:\n\n- Portugal: Fifty years of
+      dictatorship\n- Portuguese Africa and the West\n- Guinea-Bissau: Politics,
+      economics, and society (Marxist regimes series)\n- The Liberation War in Guinea-Bissau
+      Reconsidered\n\nRecomendaria aqueles interessados a darem uma olhadela. Tamb\xE9m
+      vale a pena ver o filme Mortu Nega, e os escritos de Am\xEDlcar Cabral."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11470253738258432
+    m_Localized: "Vit\xF3ria!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11471993552334848
+    m_Localized: "Recome\xE7ar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11472011617202176
+    m_Localized: Sair
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

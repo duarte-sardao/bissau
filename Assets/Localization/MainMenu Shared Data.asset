@@ -55,6 +55,26 @@ MonoBehaviour:
     m_Key: LOSS
     m_Metadata:
       m_Items: []
+  - m_Id: 11468447608041472
+    m_Key: WIN_YAP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11469753517174784
+    m_Key: WIN_RECC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11470253738258432
+    m_Key: WINWIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11471993552334848
+    m_Key: END_RESTART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11472011617202176
+    m_Key: END_QUIT
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
