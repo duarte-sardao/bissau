@@ -141,8 +141,8 @@ public class TriggeredModifiers : GlobalVars
 
     public void foreign_aid()
     {
-        g_aidmon += 2;
-        g_aidpol += 2;
+        g_aidmon += 3;
+        g_aidpol += 3;
     }
 
     public void sweden()
@@ -162,7 +162,7 @@ public class TriggeredModifiers : GlobalVars
         china_guns();
         china_guns();
         china_guns();
-        g_campcost -= 1;
+        g_campcost -= 2;
     }
 
     public void china_guns()
